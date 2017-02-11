@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home
+title: Linhub.IO
 tagline:
 ---
 {% include JB/setup %}
