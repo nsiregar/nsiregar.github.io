@@ -83,7 +83,7 @@ JB :
   #
   comments :
     provider : disqus
-    disqus :
+    disqus : linhub.io
       short_name : jekyllbootstrap
     livefyre :
       site_id : 123
