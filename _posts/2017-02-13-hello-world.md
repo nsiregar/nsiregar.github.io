@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hello World"
-description: ""
+description: "first post"
 category: 
 tags: []
 ---
