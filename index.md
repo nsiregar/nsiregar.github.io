@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Linhub.IO
+title: linhubio
 ---
 {% include JB/setup %}
 
