@@ -31,8 +31,8 @@ df <- read.xlsx("nama berkas",
                 sheetIndex = 1)
 ```  
 
-**catatan** perlu menambahkan indeks atau nama _sheet_ pada penggunaan fungsi ini. Contoh diatas menggunakan indeks pertama dari berkas Excel yang di_import_.
-Bila data yang akan di_import_ cukup besar, bisa menggunakan fungsi `read.xlsx2()`:  
+**catatan** perlu menambahkan indeks atau nama _sheet_ pada penggunaan fungsi ini. Contoh diatas menggunakan indeks pertama dari berkas Excel yang di _import_.
+Bila data yang akan di _import_ cukup besar, bisa menggunakan fungsi `read.xlsx2()`:  
 
 ```
 df <- read.xlsx2("nama berkas",
