@@ -4,10 +4,10 @@
   </h1>
   
   {% unless page.tags == empty %}
-    <a class="tag_box">
+    <ul class="tag_box inline">
     {% assign tags_list = page.tags %}
     {% include JB/tags_list %}
-    </a>
+    </ul>
   {% endunless %} 
 </div>
 
