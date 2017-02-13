@@ -28,6 +28,6 @@ berikut adalah beberapa distribusi yang cukup ringan untuk berjalan diatas RAM 2
     Distribusi ini merupakan distribusi independen yang dikembangkan oleh para relawan, dengan rekomendasi minimum :  
     CPU: EM64T CPU  
     RAM: 96 MB -> ini sepertinya akan bertambah hingga 1 GB dengan pemasangan paket lainnya  
-    [Download Void Linux]() 
+    [Download Void Linux](http://www.voidlinux.eu/download/) 
 
 Nah dengan distribusi tersebut dengan RAM 2GB masih tetap eksis dan kekinian. Jadi, masih 2GB Pak Haji?
