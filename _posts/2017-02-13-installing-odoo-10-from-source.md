@@ -32,7 +32,7 @@ Some users may skipping `less` installation instruction from odoo installation t
 
 `Could not execute command lessc`
 
-To fix these error follow these step
+To fix these error follow these steps
 
 `$ sudo apt-get install nodejs`  
 `$ sudo apt-get install npm`  
@@ -41,7 +41,7 @@ To fix these error follow these step
 `$ sudo ln -s /usr/local/bin/lessc /usr/bin/lessc`  
 `$ sudo ln -s /usr/bin/nodejs /usr/bin/node`  
 
-After the fix you 3 options to do:  
+After the fix you have 3 options to do:  
 1. Delete and create new database  
 2. Install a module (e.g blog, website)  
 3. Manually compile your `.less` files
