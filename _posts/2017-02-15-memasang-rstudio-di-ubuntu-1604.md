@@ -34,4 +34,4 @@ Lanjutkan dengan memasang berkas `.deb` RStudio dengan perintah
 `$ sudo dpkg -i rstudio-1.0.136-amd64.deb`  
 
 Berikut adalah tampilan RStudio di Ubuntu 16.04 saya  
-[[!RStudio]({{ site.baseurl }}/img/rstudio-ubuntu.png)]({{ site.baseurl }}/img/rstudio-ubuntu.png)
+[![RStudio]({{ site.baseurl }}/img/rstudio-ubuntu.png)]({{ site.baseurl }}/img/rstudio-ubuntu.png)
