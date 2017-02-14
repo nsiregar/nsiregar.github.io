@@ -1,6 +1,6 @@
 ---
 layout: page
-title: linhubio
+title: Home
 ---
 {% include JB/setup %}
 
