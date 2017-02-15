@@ -18,14 +18,15 @@ body,
 html {
   font-size: 14px;
   line-height: 1.25rem;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  color: #888;
+  background-color: #FDF6E3;
+  }
 
 body * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  color: #888;
-  background-color: #FDF6E3;
 }
 /*
 .container > footer p {
