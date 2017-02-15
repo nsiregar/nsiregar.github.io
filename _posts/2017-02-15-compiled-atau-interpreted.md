@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Compiled atau Interpreted?"
-description: ""
+description: "Pemilihan bahasa pemrograman terkompilasi atau terinterpretasi"
 category: 
-tags: []
+tags: [bahasa, interpreter, compiler]
 ---
 {% include JB/setup %}
 
