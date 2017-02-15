@@ -13,9 +13,9 @@ title: Home
 <ul class="posts">
   {% for post in site.posts %}
     <li style="cursor: pointer;">
-      <div>
+      <div style="margin: 0;">
         <a href="{{ BASE_PATH }}{{ post.url }}" style="margin: 0;">{{ post.title }}</a>
-        <p style="margin: 0;">{{ post.content | strip_html | truncatewords:75}}</p>
+        <p style="margin: 0;">{{ post.content | truncatewords:20}}</p>
       </div>
       <span style="margin: 0;">{{ post.date | date_to_string }}</span>
     </li>
