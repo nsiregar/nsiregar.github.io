@@ -133,3 +133,8 @@ body * {
   list-style-type: none;
   margin: 0;
   padding: 0; }
+
+.navbar-default {
+  background-color: #93A1A1;
+  border-color: #EEE8D5;
+}
