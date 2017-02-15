@@ -15,7 +15,7 @@ title: Home
     <li style="cursor: pointer;">
       <div>
         <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-        {{ post.content | strip_html | truncatewords:75}}
+        <p>{{ post.content | strip_html | truncatewords:75}}</p>
       </div>
       <span>{{ post.date | date_to_string }}</span>
     </li>
