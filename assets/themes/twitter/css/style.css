@@ -90,6 +90,10 @@ html, body {
   width: 80%;
 }
 
+.posts li * {
+    margin: .5rem 0;
+}
+
 .posts li span {
     float: right;
     color: #ccc;
