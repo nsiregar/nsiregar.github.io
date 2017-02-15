@@ -1,3 +1,9 @@
+
+.clearfix:after, footer:after, .posts li:after {
+  content: "";
+  display: table;
+  clear: both; }
+  
 /* Override some defaults */
 @-ms-viewport{width:device-width}
 @-o-viewport{width:device-width}
