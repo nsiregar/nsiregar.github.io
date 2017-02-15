@@ -96,10 +96,8 @@ body * {
 .posts li {
   border-bottom: 1px solid #eee;
   position: relative;
-  padding-top: 5px;
-  padding-bottom: 120px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 5rem;
+  cursor: pointer;
   transition: 250ms; }
   .posts li:hover {
     background: #eee; }

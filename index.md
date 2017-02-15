@@ -5,7 +5,7 @@ title: Home
 {% include JB/setup %}
 <ul class="posts">
   {% for post in site.posts %}
-    <li style="cursor: pointer;">
+    <li>
       <div>
         <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
         <p>{{ post.content | strip_html | truncatewords:20}}</p>
