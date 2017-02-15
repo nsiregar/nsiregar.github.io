@@ -14,7 +14,7 @@ Beberapa saat lalu saat mulai belajar tentang [R](https://www.r-project.org/abou
 
 Disini saya menggunakan [RStudio Desktop 64-bit](https://download1.rstudio.org/rstudio-1.0.136-amd64.deb) berikut adalah proses instalasi RStudio di Ubuntu 16.04.  
 
-## Memasang R-Base  
+### Memasang R-Base  
 > ini opsional jika belum memasang R  
 
 Sunting berkas `/etc/apt/sources.list` untuk menambahkan repo R dengan perintah  
@@ -28,10 +28,10 @@ Dan seperti biasa lanjutkan dengan perintah `apt`
 `$ sudo apt update`  
 `$ sudo apt install r-base r-base-dev`  
 
-## Memasang RStudio
+### Memasang RStudio
 Lanjutkan dengan memasang berkas `.deb` RStudio dengan perintah  
 `$ wget https://download1.rstudio.org/rstudio-1.0.136-amd64.deb`  
 `$ sudo dpkg -i rstudio-1.0.136-amd64.deb`  
 
 Berikut adalah tampilan RStudio di Ubuntu 16.04 saya  
-[![RStudio]({{ site.baseurl }}/img/rstudio-ubuntu.png =250x)]({{ site.baseurl }}/img/rstudio-ubuntu.png)
+<img src="{{ site.baseurl }}/img/rstudio-ubuntu.png" class="img-responsive" alt="Responsive image">
