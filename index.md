@@ -14,10 +14,10 @@ title: Home
   {% for post in site.posts %}
     <li style="cursor: pointer;">
       <div>
-        <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-        <p>{{ post.content | strip_html | truncatewords:75}}</p>
+        <a href="{{ BASE_PATH }}{{ post.url }}" style="margin: 0;">{{ post.title }}</a>
+        <p style="margin: 0;">{{ post.content | strip_html | truncatewords:75}}</p>
       </div>
-      <span>{{ post.date | date_to_string }}</span>
+      <span style="margin: 0;">{{ post.date | date_to_string }}</span>
     </li>
   {% endfor %}
 </ul>
