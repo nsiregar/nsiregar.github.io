@@ -96,7 +96,10 @@ body * {
 .posts li {
   border-bottom: 1px solid #eee;
   position: relative;
-  padding: 2rem;
+  padding-top: 10px;
+  padding-bottom: 66px;
+  padding-left: 10px;
+  padding-right: 10px;
   transition: 250ms; }
   .posts li:hover {
     background: #eee; }
