@@ -16,10 +16,6 @@ title: Home
       <div>
         <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
         <p>{{ post.content | strip_html | truncatewords:20}}</p>
-        {% if post.tags.size > 0 %}
-        Tag:
-          {{ post.tags | sort | join: ", " }}
-        {% endif %}
       </div>
       <span>{{ post.date | date_to_string }}</span>
     </li>
