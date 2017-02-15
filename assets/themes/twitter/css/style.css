@@ -95,8 +95,11 @@ html, body {
     color: #ccc;
 }
 
-.posts li * {
-  margin: 0 0;
+.posts li {
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding: 2rem;
+    transition: 250ms;
 }
 
 .list-unstyled, nav ul, .posts {
