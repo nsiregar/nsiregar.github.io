@@ -19,9 +19,13 @@ html {
   font-size: 14px;
   line-height: 1.25rem;
   -webkit-font-smoothing: antialiased;
+
+  }
+
+body {
   color: #888;
   background-color: #FDF6E3;
-  }
+}
 
 body * {
   -webkit-box-sizing: border-box;
