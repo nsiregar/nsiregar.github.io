@@ -109,6 +109,7 @@ body * {
   .posts li * {
     margin: .5rem 0; }
   .posts li div {
+    padding: 5px;
     float: left;
     width: 80%; }
     @media screen and (max-width: 768px) {
