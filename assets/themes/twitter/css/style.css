@@ -91,7 +91,7 @@ body * {
 	color:#FFF;
 }
 
-.posts a {
+.posts {
   text-transform: capitalize; }
 .posts li {
   border-bottom: 1px solid #eee;
