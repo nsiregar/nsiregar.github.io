@@ -19,8 +19,8 @@ body * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  color: #888; }
-
+  /*color: #888; }*/
+}
 /*
 .container > footer p {
   text-align: center; /* center align it with the container 
