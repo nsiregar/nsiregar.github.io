@@ -15,9 +15,6 @@ title: Home
     <li>
       <div>
         <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-        <p>
-            {{ post.content | truncatewords:15}}
-        </p>
       </div>
       <span>{{ post.date | date_to_string }}</span>
     </li>
