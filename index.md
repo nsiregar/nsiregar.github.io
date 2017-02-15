@@ -11,7 +11,7 @@ title: Home
 </ul>-->
 
 <ul class="posts">
-    {% for post in site.posts limit 4 %}
+  {% for post in site.posts %}
     <li>
       <div>
         <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
@@ -21,5 +21,5 @@ title: Home
       </div>
       <span>{{ post.date | date_to_string }}</span>
     </li>
-    {% endfor %}
+  {% endfor %}
 </ul>
