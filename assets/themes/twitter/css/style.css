@@ -96,8 +96,8 @@ body * {
 .posts li {
   border-bottom: 1px solid #eee;
   position: relative;
-  padding-top: 10px;
-  padding-bottom: 66px;
+  padding-top: 5px;
+  padding-bottom: 120px;
   padding-left: 10px;
   padding-right: 10px;
   transition: 250ms; }
