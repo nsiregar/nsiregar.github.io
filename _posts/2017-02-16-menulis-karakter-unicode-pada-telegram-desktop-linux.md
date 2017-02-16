@@ -23,4 +23,4 @@ Maka akan muncul dialog seperti berikut
 Pada bagian *command* isi dengan kode berikut  
 `env QT_IM_MODULE=ibus /path/to/Telegram --%u`  
 
-Voila ... sekarang kita bisa menggunakan kombinasi `CTRL`, `SHIFT`, dan `U` untuk menginput karakter unicode.  
+Voila ... sekarang kita bisa menggunakan kombinasi `CTRL`, `SHIFT`, dan `U` untuk menginput karakter unicode dengan menjalankan Telegram via shortcut yang kita buat.   
