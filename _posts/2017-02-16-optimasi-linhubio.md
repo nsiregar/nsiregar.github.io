@@ -24,7 +24,7 @@ Situs ini juga memiliki nilai yang cukup tinggi untuk _Mobile Friendliness_
 <img src="{{ site.baseurl }}/img/afternewbie.png" class="img-responsive" alt="situs ari">  
 
 ### [SitusAli](https://situsali.com)  
-Ini yang membuat saya lebih ter_kedjoet_ ternyata ga setinggi yang saya duga  
+Ini yang membuat saya lebih ter _kedjoet_ ternyata ga setinggi yang saya duga  
 
 <img src="{{ site.baseurl }}/img/situsali.png" class="img-responsive" alt="situs ali">  
 
