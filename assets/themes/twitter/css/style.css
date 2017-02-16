@@ -143,3 +143,5 @@ body * {
   background-color: #93A1A1;
   border-color: #EEE8D5;
 }
+
+.container, .span16 {max-width: 100% !important}
