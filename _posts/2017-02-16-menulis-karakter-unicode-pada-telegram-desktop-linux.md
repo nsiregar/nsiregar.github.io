@@ -24,6 +24,7 @@ Pada bagian *command* isi dengan kode berikut
 `env QT_IM_MODULE=ibus /path/to/Telegram --%u`  
 
 > Update baru  
+
 Jadi teman barusan bilang "Kenapa ga bikin tutor buat launcher-nya aja?", untuk membuat launcher kamu perlu membuat berkas _Telegram.desktop_ dengan _permission_ untuk _execute_. Isi 
 berkas tersebut dengan kode berikut  
 ```
