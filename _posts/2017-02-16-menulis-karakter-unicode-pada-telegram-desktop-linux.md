@@ -23,4 +23,20 @@ Maka akan muncul dialog seperti berikut
 Pada bagian *command* isi dengan kode berikut  
 `env QT_IM_MODULE=ibus /path/to/Telegram --%u`  
 
+> Update baru  
+Jadi teman barusan bilang "Kenapa ga bikin tutor buat launcher-nya aja?", untuk membuat launcher kamu perlu membuat berkas _Telegram.desktop_ dengan _permission_ untuk _execute_. Isi 
+berkas tersebut dengan kode berikut  
+```
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[en_US]=/path/to/icon.ico
+Name[en_US]=Telegram
+Exec=env QT_IM_MODULE=ibus /path/to/Telegram --%u
+Name=Telegram
+Icon=/path/to/icon.ico
+```
+
 Voila ... sekarang kita bisa menggunakan kombinasi `CTRL`, `SHIFT`, dan `U` untuk menginput karakter unicode dengan menjalankan Telegram via shortcut yang kita buat.   
