@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Optimasi Linhub.IO   part 2"
-description: ""
+description: "Think With Google Optimization"
 category: 
-tags: []
+tags: [css, google, optimization]
 ---
 {% include JB/setup %}  
 Masih lanjut dari artikel [optimasi](https://linhub.io/2017/02/16/optimasi-linhubio) sebelumnya, dimana saya melihat skor teman di [blognya](https://nsetyo.com) dengan skor  
