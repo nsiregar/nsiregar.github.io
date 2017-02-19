@@ -6,7 +6,7 @@ category:
 tags: [do, vps, monitoring]
 ---
 {% include JB/setup %}  
-Sekitar tanggall 15 Februari 2017 lalu saya mendapat surel dari DigitalOcean, mengenai undangan untuk mencoba fitur beta mereka tentang monitoring server kita.  
+Sekitar tanggal 15 Februari 2017 lalu saya mendapat surel dari DigitalOcean, mengenai undangan untuk mencoba fitur beta mereka tentang monitoring server kita.  
 
 <img src="{{ site.baseurl }}/img/digitalocean-monitor.gif" class="img-responsive" alt="digitalocean-monitor">  
 
