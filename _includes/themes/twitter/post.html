@@ -1,12 +1,14 @@
 <header>
-  <h1>{{ page.title }}</h1>
-    <p>{{ page.date | date_to_long_string }}</p>
-  {% unless page.tags == empty %}
-    <ul class="tag_box inline">
-    {% assign tags_list = page.tags %}
-    {% include JB/tags_list %}
-    </ul>
-  {% endunless %}
+    <hgroup>
+    <h1>{{ page.title }}</h1>
+      <p>{{ page.date | date_to_long_string }}</p>
+    {% unless page.tags == empty %}
+      <ul class="tag_box inline">
+      {% assign tags_list = page.tags %}
+      {% include JB/tags_list %}
+      </ul>
+    {% endunless %}
+    </hgroup>
 </header>
 
 <div class="row">
