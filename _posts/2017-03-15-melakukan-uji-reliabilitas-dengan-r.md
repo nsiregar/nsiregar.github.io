@@ -36,19 +36,19 @@ Seorang member dari grup telegram *Pegelinux* membuat sebuah penelitian dengan m
 
 Kuesioner dibagikan kepada 10 responden, dan didapatkan hasil sebagai berikut  
 
-| Responden | Kuesioner Score |   |   |   |   |   |   |   |   |    |
-|-----------|-----------------|---|---|---|---|---|---|---|---|----|
-|           | 1               | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
-| 1         | 4               | 4 | 3 | 4 | 4 | 3 | 3 | 3 | 3 | 3  |
-| 2         | 4               | 3 | 3 | 4 | 3 | 3 | 3 | 3 | 3 | 3  |
-| 3         | 2               | 2 | 1 | 3 | 2 | 2 | 3 | 1 | 2 | 3  |
-| 4         | 3               | 4 | 4 | 3 | 3 | 3 | 4 | 3 | 3 | 4  |
-| 5         | 3               | 4 | 3 | 3 | 3 | 4 | 3 | 4 | 4 | 3  |
-| 6         | 3               | 2 | 4 | 4 | 3 | 4 | 4 | 3 | 4 | 4  |
-| 7         | 2               | 3 | 3 | 4 | 4 | 4 | 3 | 4 | 2 | 3  |
-| 8         | 1               | 2 | 2 | 1 | 2 | 2 | 1 | 3 | 2 | 2  |
-| 9         | 2               | 2 | 3 | 3 | 4 | 2 | 1 | 1 | 4 | 4  |
-| 10        | 3               | 3 | 3 | 4 | 4 | 4 | 4 | 4 | 3 | 3  |  
+| Responden |   |   |   |   |   |   |   |   |   |    |
+|-----------|---|---|---|---|---|---|---|---|---|----|
+|           | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| 1         | 4 | 4 | 3 | 4 | 4 | 3 | 3 | 3 | 3 | 3  |
+| 2         | 4 | 3 | 3 | 4 | 3 | 3 | 3 | 3 | 3 | 3  |
+| 3         | 2 | 2 | 1 | 3 | 2 | 2 | 3 | 1 | 2 | 3  |
+| 4         | 3 | 4 | 4 | 3 | 3 | 3 | 4 | 3 | 3 | 4  |
+| 5         | 3 | 4 | 3 | 3 | 3 | 4 | 3 | 4 | 4 | 3  |
+| 6         | 3 | 2 | 4 | 4 | 3 | 4 | 4 | 3 | 4 | 4  |
+| 7         | 2 | 3 | 3 | 4 | 4 | 4 | 3 | 4 | 2 | 3  |
+| 8         | 1 | 2 | 2 | 1 | 2 | 2 | 1 | 3 | 2 | 2  |
+| 9         | 2 | 2 | 3 | 3 | 4 | 2 | 1 | 1 | 4 | 4  |
+| 10        | 3 | 3 | 3 | 4 | 4 | 4 | 4 | 4 | 3 | 3  |  
 
 Input data ke R dengan menggunakan perintah  
 
@@ -64,7 +64,7 @@ Untuk melakukan analisis reliabilitas kita akan menggunakan fungsi `alpha` dari 
     install.packages("psych")  
     library(psych)  
 
-> catatan `ggplot2` juga memiliki fungsi `alpha` jika kamu juga menggunakan `ggplot` kamu bisa memanggil fungsi `alpha` dengan `psych::alpha()`
+> catatan `ggplot2` juga memiliki fungsi `alpha` jika kamu juga menggunakan `ggplot2` kamu bisa memanggil fungsi `alpha` dengan `psych::alpha()`
 
 Lakukan analisis dengan perintah berikut  
 
