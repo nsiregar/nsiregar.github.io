@@ -7,7 +7,7 @@ tags: [r, statistic]
 ---
 {% include JB/setup %}
 
-Jadi udah beberapa hari ini tidak melakukan _update post_, sebelumnya ada ide tentang menulis artikel perangkat lunak namun jadi buntu karena belum berhasil meng-_anu_-kannya. Sekarang karena lagi asyik bermain dengan data maka saya mau menulis tentang *uji reliabilitas*. Buat yang belum tahu tentang uji reliabilitas ini adalah uji yang dilakukan setelah uji validitas, umumnya uji ini sering menggunakan rumus  
+Jadi udah beberapa hari ini tidak melakukan _update post_, sebelumnya ada ide tentang menulis artikel perangkat lunak namun jadi buntu karena belum berhasil meng _anu_ kannya. Sekarang karena lagi asyik bermain dengan data maka saya mau menulis tentang *uji reliabilitas*. Buat yang belum tahu tentang uji reliabilitas ini adalah uji yang dilakukan setelah uji validitas, umumnya uji ini sering menggunakan rumus  
 - Alpha Cronbach  
 - Spearman Brown  
 - Kristoff  
