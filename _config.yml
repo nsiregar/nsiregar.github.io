@@ -1,6 +1,6 @@
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:year/:month/:day/:title 
+# permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: rouge
@@ -10,6 +10,8 @@ kramdown:
   input: GFM
   hard_wrap: false
 
+paginate: 5
+paginate_path: "/blog/page:num/"
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
@@ -32,7 +34,7 @@ author :
 #
 production_url : http://nsiregar.github.io
 
-gems: ["jekyll-sitemap"]
+gems: ["jekyll-sitemap", "jekyll-paginate"]
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
