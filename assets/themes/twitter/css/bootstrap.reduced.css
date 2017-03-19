@@ -3,8 +3,7 @@ hr,img{border:0}button,h1,pre code{color:inherit}a,pre code{background-color:tra
 table {
   width: 100%;
   margin: 2rem 0;
-  border-collapse: collapse;
-  box-shadow: 0 0 20px #ccc; }
+  border-collapse: collapse;}
   table pre {
     width: 100%;
     margin: 0;
