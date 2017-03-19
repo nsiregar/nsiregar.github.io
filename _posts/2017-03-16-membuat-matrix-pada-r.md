@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Membuat Matrix pada R"
-description: ""
+description: "Membuat matrix dengan menggunakan software R"
 category: r
 tags: [r, matrix]
 ---
