@@ -4,7 +4,7 @@ title: Home
 ---
 {% include JB/setup %}
 <ul class="posts">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
     <li>
       <div>
         <h3><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3>
