@@ -2,7 +2,7 @@
 layout: post
 title: "Tips dalam R"
 description: "Tips kdalam R"
-category: r
+category: R
 tags: [r, tips]
 ---
 {% include JB/setup %}

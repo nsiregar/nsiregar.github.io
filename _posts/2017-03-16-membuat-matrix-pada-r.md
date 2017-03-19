@@ -2,7 +2,7 @@
 layout: post
 title: "Membuat Matrix pada R"
 description: "Membuat matrix dengan menggunakan software R"
-category: r
+category: R
 tags: [r, matrix]
 ---
 {% include JB/setup %}

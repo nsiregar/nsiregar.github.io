@@ -2,7 +2,7 @@
 layout: post
 title: "Melakukan Uji Reliabilitas dengan R"
 description: "Uji Reliabilitas dengan R"
-category: r
+category: R
 tags: [r, statistic]
 ---
 {% include JB/setup %}

@@ -2,7 +2,7 @@
 layout: post
 title: "Memasang RStudio di Ubuntu 16.04"
 description: "Memasang RStudio di Ubuntu"
-category: r
+category: R
 tags: [r, rstudio]
 ---
 {% include JB/setup %}
