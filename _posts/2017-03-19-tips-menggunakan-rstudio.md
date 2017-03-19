@@ -3,7 +3,7 @@ layout: post
 title: "Tips Menggunakan RStudio"
 description: "Tips Menggunakan RStudio"
 category: R
-tags: [r, rstudio tips]
+tags: [r, rstudio, tips]
 ---
 {% include JB/setup %}
 
