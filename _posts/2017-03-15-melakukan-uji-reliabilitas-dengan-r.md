@@ -48,7 +48,7 @@ Kuesioner dibagikan kepada 10 responden, dan didapatkan hasil sebagai berikut
 | 7         | 2 | 3 | 3 | 4 | 4 | 4 | 3 | 4 | 2 | 3  |
 | 8         | 1 | 2 | 2 | 1 | 2 | 2 | 1 | 3 | 2 | 2  |
 | 9         | 2 | 2 | 3 | 3 | 4 | 2 | 1 | 1 | 4 | 4  |
-| 10        | 3 | 3 | 3 | 4 | 4 | 4 | 4 | 4 | 3 | 3  |  
+| 10        | 3 | 3 | 3 | 4 | 4 | 4 | 4 | 4 | 3 | 3  |
 
 Input data ke R dengan menggunakan perintah  
 
