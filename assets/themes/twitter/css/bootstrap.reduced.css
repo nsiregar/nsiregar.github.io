@@ -4,8 +4,6 @@ table {
   width: 100%;
   margin: 2rem 0;
   border-collapse: collapse;
-  -webkit-box-shadow: 0 0 20px #ccc;
-  -moz-box-shadow: 0 0 20px #ccc;
   box-shadow: 0 0 20px #ccc; }
   table pre {
     width: 100%;
