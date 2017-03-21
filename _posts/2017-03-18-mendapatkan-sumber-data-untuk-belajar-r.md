@@ -7,6 +7,8 @@ tags: [r, data, source, dataset]
 ---
 {% include JB/setup %}
 
+> Update 20 Maret 2017 - tambahan sumber dataset
+
 Ketika pertama kali mempelajari R biasanya kita akan bingung tentang data apa yang akan kita gunakan. Jika bekerja sebagai data analyst atau data scientist mungkin tidak terlalu sulit mendapatkannya lalu bagaimana nasib yang belom bekerja?. Tidak perlu gundah gulana memikirkan hal tersebut, di dalam R tersedia berbagai macam dataset yang bisa kita gunakan untuk belajar.
 
 Untuk menampilkan seluruh dataset bawaan R dapat menggunakan fungsi `data()`
@@ -29,5 +31,8 @@ Untuk menggunakan data dari dataset R gunakan perintah
 Dengan menggunakan `?mtcars` maka akan menampilkan bantuan terkait dataset tersebut
 
 <img src="{{ site.baseurl }}/img/r-mtcars-help.png" class="img-responsive" alt="r mtcars">
+
+### Menggunakan Data dari Internet
+Ada beberapa situs yang menyediakan dataset untuk belajar R, salah satunya adalah [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/index.html). Di situs tersebut disediakan cukup banyak salah satu contoh adalah dataset [Gas sensors for home activity monitoring Data Set](http://archive.ics.uci.edu/ml/datasets/Gas+sensors+for+home+activity+monitoring). Silahkan gunakan pencarian untuk dataset yang ingin dipelajari.
 
 Silahkan coba menggunakan dataset bawaan dari R untuk memulai belajar R.
