@@ -10,7 +10,7 @@ tags: [r, pareto, statistic]
 Beberapa saat lalu saya mendapat tugas negara untuk membuat presentasi dengan menampilkan analisis pareto, karena sedang belajar dengan R maka saya mencari beberapa petunjuk tentang membuat analisis pareto menggunakan R. Jika kamu belum tahu tentang analisis pareto, adalah tehnik yang biasa digunakan dalam fase Pengukuran dalam _Six Sigma_. Prinsip dari pareto sendiri cukup sederhana dimana _effort_ paling besar(80%) umumnya bergantung pada titik kunci yang terbatas(20%), karena itu biasa disebut aturan 80/20. Umumnya menentukan titik kunci ini menggunakan diagram Pareto.  
 
 
-### Mengenal Grafik Pareto
+### Mengenal Diagram Pareto
 Pada umumnya grafik pareto digunakan untuk 
 
 - Menentukan _defect_ paling umum dalam sebuah proses  
@@ -19,7 +19,7 @@ Pada umumnya grafik pareto digunakan untuk
 Seperti yang telah disampaikan sebelumnya, dengan menggunakan grafi pareto maka akan mempermudah dalam menentukan _effort_ yang vital dan juga _effort_ yang trivial. 
 
 
-### Menyusun Data Grafik Pareto
+### Menyusun Data Diagram Pareto
 Misalkan anda memiliki data sebagi berikut  
 
 <img src="{{ site.baseurl }}/img/defect-list.png" class="img-responsive" alt="Daftar Defect">
@@ -69,7 +69,7 @@ Untuk melihat isi dari `vector` dan `dataframe`
     Arc Strike Cracking               8
 
 
-### Menghasilkan Grafik Pareto
+### Menghasilkan Diagram Pareto
 Untuk menghasilkan grafik pareto dari `MINITAB` bisa dilakukan dengan cara `Stat > Quality Tools > Pareto Chart` maka akan menghasilkan grafik seperti berikut
 
 <img src="{{ site.baseurl }}/img/pareto-chart.png" class="img-responsive" alt="Grafik Pareto">
@@ -83,7 +83,7 @@ Dengan menggunakan fungsi `pareto.chart()` dari librari `qcc` maka akan menghasi
 Dari grafik diatas dapat kita simpulkan bahwa diperlukan _improvement_ pada area `Cold Cracking`, `Re-Heat Cracking`, dan `Hot Cracking`.
 
 
-### Batasan penggunaan Grafik Pareto
+### Batasan penggunaan Diagram Pareto
 Meskipun cukup mudah dibuat dan dibaca namun grafik pareto memiliki beberapa batasan antara lain:
 
 - Diperlukan data yang reliabel, data yang dikumpulkan secara singkat untuk membuat grafik pareto akan membimbing pada kesimpulan yang salah.  
