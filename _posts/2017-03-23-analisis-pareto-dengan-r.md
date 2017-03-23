@@ -20,7 +20,7 @@ Seperti yang telah disampaikan sebelumnya, dengan menggunakan grafi pareto maka 
 
 
 ### Menyusun Data Grafik Pareto
-Misalkan anda memiliki data sebagi berikut
+Misalkan anda memiliki data sebagi berikut  
 
 <img src="{{ site.baseurl }}/img/defect-list.png" class="img-responsive" alt="Daftar Defect">
 
