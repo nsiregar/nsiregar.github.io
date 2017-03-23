@@ -22,7 +22,7 @@ Seperti yang telah disampaikan sebelumnya, dengan menggunakan grafi pareto maka 
 ### Menyusun Data Diagram Pareto
 Misalkan anda memiliki data sebagi berikut  
 
-<img src="{{ site.baseurl }}/img/defect-list.png" class="img-responsive" alt="Daftar Defect">
+<img src="{{ site.baseurl }}/img/defect.png" class="img-responsive" alt="Daftar Defect">
 
 Jika menggunakan `MINITAB` maka anda dapat memasukkan data langsung kedalam `worksheet`, jika menggunakan `R` maka anda perlu membuat `vector` berisi data defect
 
