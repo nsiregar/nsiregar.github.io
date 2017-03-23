@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Optimasi Linhub.IO  part 2"
+title: "Optimasi Linhub.IO   part 2"
 subtitle: ""
 description: "Think With Google Optimization"
 category: 
