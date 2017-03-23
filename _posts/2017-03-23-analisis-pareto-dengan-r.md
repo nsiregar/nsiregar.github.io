@@ -12,12 +12,12 @@ Beberapa saat lalu saya mendapat tugas negara untuk membuat presentasi dengan me
 
 
 ### Mengenal Diagram Pareto
-Pada umumnya grafik pareto digunakan untuk 
+Pada umumnya diagram pareto digunakan untuk 
 
 - Menentukan _defect_ paling umum dalam sebuah proses  
 - Mengidentifikasi _improvement_ dengan potensi keuntungan terbesar
 
-Seperti yang telah disampaikan sebelumnya, dengan menggunakan grafi pareto maka akan mempermudah dalam menentukan _effort_ yang vital dan juga _effort_ yang trivial. 
+Seperti yang telah disampaikan sebelumnya, dengan menggunakan diagram pareto maka akan mempermudah dalam menentukan _effort_ yang vital dan juga _effort_ yang trivial. 
 
 
 ### Menyusun Data Diagram Pareto
@@ -71,17 +71,17 @@ Untuk melihat isi dari `vector` dan `dataframe`
 
 
 ### Menghasilkan Diagram Pareto
-Untuk menghasilkan grafik pareto dari `MINITAB` bisa dilakukan dengan cara `Stat > Quality Tools > Pareto Chart` maka akan menghasilkan grafik seperti berikut
+Untuk menghasilkan diagram pareto dari `MINITAB` bisa dilakukan dengan cara `Stat > Quality Tools > Pareto Chart` maka akan menghasilkan diagram seperti berikut
 
 <img src="{{ site.baseurl }}/img/pareto-chart.png" class="img-responsive" alt="Grafik Pareto">
 
-> Untuk menghasilkan grafik pareto dari R maka perlu menggunakan paket `qcc`, pasang dengan menggunakan `install.packages("qcc")`
+> Untuk menghasilkan diagram pareto dari R maka perlu menggunakan paket `qcc`, pasang dengan menggunakan `install.packages("qcc")`
 
-Dengan menggunakan fungsi `pareto.chart()` dari librari `qcc` maka akan menghasilkan grafik pareto sebagai berikut
+Dengan menggunakan fungsi `pareto.chart()` dari librari `qcc` maka akan menghasilkan diagram pareto sebagai berikut
 
 <img src="{{ site.baseurl }}/img/pareto-chart-r.png" class="img-responsive" alt="Grafik Pareto R">
 
-Dari grafik diatas dapat kita simpulkan bahwa diperlukan _improvement_ pada area `Cold Cracking`, `Re-Heat Cracking`, dan `Hot Cracking`.
+Dari diagram diatas dapat kita simpulkan bahwa diperlukan _improvement_ pada area `Cold Cracking`, `Re-Heat Cracking`, dan `Hot Cracking`.
 
 
 ### Batasan penggunaan Diagram Pareto
