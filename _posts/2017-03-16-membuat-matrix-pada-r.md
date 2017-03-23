@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Membuat Matrix pada R"
+subtitle: ""
 description: "Membuat matrix dengan menggunakan software R"
 category: R
 tags: [r, matrix]

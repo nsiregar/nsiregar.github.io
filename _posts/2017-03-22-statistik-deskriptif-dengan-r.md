@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Statistik Deskriptif dengan R"
+subtitle: ""
 description: "Cara Melakukan Uji Statistik Deskriptif dengan Menggunakan R"
 category: R 
 tags: [r, statistic, decriptive]

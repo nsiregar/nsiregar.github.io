@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Analisis Weibull pada Data Produksi Perusahaan Manufacturing"
+subtitle: ""
 description: "Penggunaan analisa weibull pada data produksi perusahaan manufaturing"
 category: Intro
 tags: [statistic, weibull, intro]

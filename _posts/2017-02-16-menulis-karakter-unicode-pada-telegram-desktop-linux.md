@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Menulis Karakter Unicode pada Telegram Desktop Linux"
+subtitle: ""
 description: "Input Unicode Character to Telegram Desktop"
 category: Telegram
 tags: [telegram, qt, ibus]

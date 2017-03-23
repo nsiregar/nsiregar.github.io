@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "DigitalOcean Monitoring Beta"
+subtitle: ""
 description: "DigitalOcean Monitoring Beta"
 category: 
 tags: [do, vps, monitoring]

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Tips dalam R"
+subtitle: ""
 description: "Tips kdalam R"
 category: R
 tags: [r, tips]

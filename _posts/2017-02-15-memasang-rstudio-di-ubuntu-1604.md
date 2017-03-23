@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Memasang RStudio di Ubuntu 16.04"
+subtitle: ""
 description: "Memasang RStudio di Ubuntu"
 category: R
 tags: [r, rstudio]

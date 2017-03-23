@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Installing Odoo 10 from Source"
+subtitle: ""
 description: "Odoo installation"
 category: Python
 tags: [python, odoo]

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Import Excel Data to R"
+subtitle: ""
 description: ""
 category: 
 tags: [r, excel, data]

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Melakukan Uji Reliabilitas dengan R"
+subtitle: ""
 description: "Uji Reliabilitas dengan R"
 category: R
 tags: [r, statistic]

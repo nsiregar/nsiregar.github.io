@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Analisis Pareto dengan R"
+subtitle: ""
 description: "Analisa data kecacatan dengan menggunakan Grafik Pareto"
 category: R
 tags: [r, pareto, statistic]
