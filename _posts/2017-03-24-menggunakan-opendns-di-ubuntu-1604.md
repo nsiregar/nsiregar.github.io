@@ -8,7 +8,7 @@ tags: [dns, ubuntu, telkomsel, opendns]
 ---
 {% include JB/setup %}
 
-Beberapa saat lalu saya membaca artikel teman saya Ali mengenai penggunaan DNSCryt di [sini](https://situsali.com/mengakses-situs-terblokir-dengan-dnscrypt-di-arch-linux/), akhirnya saya penasaran ingin mencoba. Namun alih-alih ingin menggunakan DNSCrypt saya cuma ingin mengubah DNS bawaan dari Telkomsel ke OpenDNS, operator yang saya gunakan Telkomsel. Mulailah saya membaca petunjuk tentang bagaimana [menggunakan OpenDNS di Ubuntu](https://support.opendns.com/hc/en-us/articles/228007087-Ubuntu), namun sungguh tak dinyana dengan hanya mengikuti petunjuk tersebut tidak bisa mnegubah DNS Telkomsel menjadi DNS OpenDNS.
+Beberapa saat lalu saya membaca artikel teman saya Ali mengenai penggunaan DNSCryt di [sini](https://situsali.com/mengakses-situs-terblokir-dengan-dnscrypt-di-arch-linux/), akhirnya saya penasaran ingin mencoba. Namun alih-alih ingin menggunakan DNSCrypt saya cuma ingin mengubah DNS bawaan dari Telkomsel ke OpenDNS, operator yang saya gunakan Telkomsel. Mulailah saya membaca petunjuk tentang bagaimana [menggunakan OpenDNS di Ubuntu](https://support.opendns.com/hc/en-us/articles/228007087-Ubuntu), namun sungguh tak dinyana dengan hanya mengikuti petunjuk tersebut tidak bisa mnegubah DNS Telkomsel menjadi DNS OpenDNS. Ketika melakukan pengecekan di [https://www.opendns.com/welcome/](https://www.opendns.com/welcome/) hasilnya
 
 <img src="{{ site.baseurl }}/img/opendns-fail.png" class="img-responsive" alt="OpenDNS Fail">
 
@@ -34,9 +34,9 @@ Untuk mengatasi masalah tersebut berikut beberapa hal yang perlu dilakukan :
     server=208.67.222.222#5353
     server=208.67.220.220#5353
     ```
-    Hal ini bermaksud untuk menggunakan IP OpenDNS dengan _custom port_, karena _port default_ 53 tidak bisa digunakan pada Telkomsel.
+    Hal ini bermaksud untuk menggunakan IP OpenDNS dengan _custom port_ 5353 dengan simbol `#`, karena _port default_ 53 tidak bisa digunakan pada Telkomsel.
 
-Dengan menggunakan cara tersebut maka saya berhasil menggunakan OpenDNS 
+Dengan menggunakan cara tersebut maka saya berhasil menggunakan OpenDNS, berikut adalah hasil pengecekan di [https://www.opendns.com/welcome/](https://www.opendns.com/welcome/)
 
 <img src="{{ site.baseurl }}/img/opendns-success.png" class="img-responsive" alt="OpenDNS Success">
 
