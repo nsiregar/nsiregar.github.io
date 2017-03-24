@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Optimasi Linhub.IO   part 2"
-subtitle: ""
+title: "Optimasi Linhub.IO"
+subtitle: "Part 2"
 description: "Think With Google Optimization"
 category: 
 tags: [css, google, optimization]
