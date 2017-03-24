@@ -40,3 +40,14 @@ Dengan menggunakan cara tersebut maka saya berhasil menggunakan OpenDNS, berikut
 
 <img src="{{ site.baseurl }}/img/opendns-success.png" class="img-responsive" alt="OpenDNS Success">
 
+> Update 
+
+Selain menggunakan IP dari OpenDNS
+
+    208.67.222.222
+    208.67.220.220
+
+Kita juga bisa menggunakan IP dari [DNS.Watch](https://dns.watch)
+
+    84.200.69.80
+    84.200.70.40
