@@ -40,7 +40,7 @@ Dengan menggunakan cara tersebut maka saya berhasil menggunakan OpenDNS, berikut
 
 <img src="{{ site.baseurl }}/img/opendns-success.png" class="img-responsive" alt="OpenDNS Success">
 
-> Update 
+> Update tambahan IP DNS dari DNS.Watch, ketika saya coba belum berhasil menggunakan metode diatas untuk mengubah DNS Telkomsel
 
 Selain menggunakan IP dari OpenDNS
 
