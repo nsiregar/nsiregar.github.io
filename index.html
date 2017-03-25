@@ -23,7 +23,7 @@ title: Home
   {% else %}
     <li class="previous disabled"><a>&larr; Previous</a></li>
   {% endif %}
-  <li>Page: {{ paginator.page }} of {{ paginator.total_pages }}</li>
+  <li><a href="">Page: {{ paginator.page }} of {{ paginator.total_pages }}</a></li>
   {% if paginator.next_page %}
     <li class="next"><a href="{{ paginator.next_page_path }}">Next &rarr;</a></li>
   {% else %}
