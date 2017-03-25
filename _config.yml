@@ -141,3 +141,9 @@ JB :
   
 paginate: 6
 paginate_path: "/blog/page:num/"
+
+# compress html with jekyll-html-compress
+compress_html:
+  clippings: all
+  comments:  ["<!-- ", " -->"]
+  endings:   all
