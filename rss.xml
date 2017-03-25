@@ -10,7 +10,7 @@ title : RSS Feed
         <description>{{ site.title | xml_escape }} - {{ site.author.name | xml_escape }}</description>
         <link>{{ site.production_url }}</link>
         <atom:link href="{{ site.production_url }}{{ site.JB.rss_path }}" rel="self" type="application/rss+xml" />
-        <lastBuildDate>{{ site.time | <date_></date_>to_rfc822 }}</lastBuildDate>
+        <lastBuildDate>{{ site.time | to_rfc822 }}</lastBuildDate>
         <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
         <ttl>60</ttl>
 
