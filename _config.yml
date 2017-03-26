@@ -147,3 +147,6 @@ compress_html:
   clippings: all
   comments:  ["<!-- ", " -->"]
   endings:   all
+
+# page excerpt
+excerpt_separator: ""
