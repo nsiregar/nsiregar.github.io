@@ -12,7 +12,7 @@
       <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}">
       <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}">
       <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}">
-    {% elsif page.description or page.excerpt == '' %}
+    {% elsif page.description %}
       <meta name="description" content="{{ page.description }}">
       <meta property="og:description" content="{{ page.description }}">
       <meta name="twitter:description" content="{{ page.description }}">

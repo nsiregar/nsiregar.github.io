@@ -149,4 +149,4 @@ compress_html:
   endings:   all
 
 # page excerpt
-excerpt_separator: ""
+excerpt_separator: nil
