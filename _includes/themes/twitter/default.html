@@ -8,11 +8,7 @@
     <link rel="shortcut icon" type="image/x-con" href="{{ site.baseurl }}/favicon.ico">
     <link rel="icon" type="image/x-con" href="{{ site.baseurl }}/favicon.ico">
     <title>linhub [dot] io - {{ page.title }}</title>
-    {% if page.excerpt %}
-      <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}">
-      <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}">
-      <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}">
-    {% elsif page.description %}
+    {% if page.description %}
       <meta name="description" content="{{ page.description }}">
       <meta property="og:description" content="{{ page.description }}">
       <meta name="twitter:description" content="{{ page.description }}">
