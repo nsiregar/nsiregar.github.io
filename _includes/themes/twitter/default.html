@@ -9,9 +9,9 @@
     <link rel="icon" type="image/x-con" href="{{ site.baseurl }}/favicon.ico">
     <title>linhub [dot] io - {{ page.title }}</title>
     {% if page.description %}
-      <meta name="description" content="{{ page.description }}">
-      <meta property="og:description" content="{{ page.description }}">
-      <meta name="twitter:description" content="{{ page.description }}">
+      <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ page.description }}{% endif %}">
+      <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ page.description }}{% endif %}">
+      <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ page.description }}{% endif %}">
     {% else %}
       <meta name="description" content="Personal Blog of Ngalim Siregar">
       <meta property="og:description" content="Personal Blog of Ngalim Siregar">
