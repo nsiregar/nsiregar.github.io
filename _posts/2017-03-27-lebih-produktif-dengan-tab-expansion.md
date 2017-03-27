@@ -24,13 +24,13 @@ Pada gambar diatas, bila kita ingin mengetik `ls -l fail2ban.log.4.gz` menggunak
 
 Fitur tersebut memberikan keuntungan antara lain:
 
-- Memperpendek pengetikan
+- Memperpendek pengetikan  
     Bayangkan jika harus mengetik `ls -l fail2ban.log.4.gz` dengan total 23 _keystroke_, dengan _tab expansion_ hanya perlu 9 _keystroke_ dengan 2 kali `[TAB]`
 
-- Mengurangi Kesalahan
+- Mengurangi Kesalahan  
     _Tab Expansion_ membantu mengurangi kesalahan ketika harus mengetik nama direktori atau berkas yang cukup panjang
 
-- Sebagai Pemeriksa Kesalahan
+- Sebagai Pemeriksa Kesalahan  
     Jika _tab expansion_ tidak _expand_ ada kemungkinan kesalahan pada awalan yang digunakan
 
 Hal lain yang perlu diingat pada _shell_ interaktif seperti _Bash_ dan _Command Prompt Windows_, mereka memiliki _command history_, namun pada _Bash_ lebih mendukung lingkungan interaktif untuk menyimpan, mengubah, dan mencari perintah yang pernah kita gunakan. _Command History_ dapat digunakan dengan menggunakan `[UP Arrow]` dan `[DOWN Arrow]` pada _shell_ interaktif.
