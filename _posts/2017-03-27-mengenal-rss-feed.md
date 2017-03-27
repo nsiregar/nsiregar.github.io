@@ -47,10 +47,8 @@ title : RSS Feed
                 {% endfor %}
         </item>
 {% endfor %}
-
 </channel>
 </rss>
-
 {% endraw %}{% endhighlight %}
 
 Semua _variable_ yang ada dalam berkas tersebut didefinisikan dalam `_config.yml`. _Tag_ yang wajib ada pada sebuah RSS Feed antara lain:
