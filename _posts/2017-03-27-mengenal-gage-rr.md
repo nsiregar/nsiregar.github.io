@@ -4,7 +4,7 @@ title: "Mengenal Gage R&R"
 subtitle: "Repeatable and Reproducible Measurement"
 description: "Mengenal Gage R&R sebagai alat analisa untuk sistem pengukuran kinerja"
 category: SixSigma
-tags: [statistics, repeatable, reproducible, gage, measurement]
+tags: [statistic, repeatable, reproducible, gage, measurement]
 ---
 {% include JB/setup %}
 
