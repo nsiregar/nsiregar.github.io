@@ -19,33 +19,33 @@ Pada kesempatan ini kita akan membahas cara kedua, yaitu menggunakan Liquid. Seb
 Untuk membuat RSS Feed menggunakan Liquid, pertama-tama kita perlu membuat berkas `rss.xml` atau `feed.xml` pada direktori utama jekyll. Berikut adalah contoh isi `rss.xml` untuk [linhub.io](https://linhub.io/) yang berisi :
 
 {% raw %}
----
-layout: null
-title : RSS Feed
----
+        ---
+        layout: null
+        title : RSS Feed
+        ---
 
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-        <title>{{ site.title | xml_escape }}</title>
-        <description>{{ site.title | xml_escape }} - {{ site.author.name | xml_escape }}</description>
-        <link>{{ site.production_url }}</link>
-        <atom:link href="{{ site.production_url }}{{ site.JB.rss_path }}" rel="self" type="application/rss+xml" />
-        <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-        <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-        <ttl>60</ttl>
+        <?xml version="1.0" encoding="UTF-8" ?>
+        <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+        <channel>
+                <title>{{ site.title | xml_escape }}</title>
+                <description>{{ site.title | xml_escape }} - {{ site.author.name | xml_escape }}</description>
+                <link>{{ site.production_url }}</link>
+                <atom:link href="{{ site.production_url }}{{ site.JB.rss_path }}" rel="self" type="application/rss+xml" />
+                <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+                <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+                <ttl>60</ttl>
 
-{% for post in site.posts limit:20 %}
-        <item>
-                <title>{{ post.title | xml_escape }}</title>
-                <description>{{ post.content | xml_escape }}</description>
-                <link>{{ site.production_url }}{{ post.url | uri_escape }}</link>
-                <guid>{{ site.production_url }}{{ post.id }}</guid>
-                <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-                {% for cat in post.categories %}
-                        <category>{{ cat | xml_escape }}</category>
-                {% endfor %}
-        </item>
+        {% for post in site.posts limit:20 %}
+                <item>
+                        <title>{{ post.title | xml_escape }}</title>
+                        <description>{{ post.content | xml_escape }}</description>
+                        <link>{{ site.production_url }}{{ post.url | uri_escape }}</link>
+                        <guid>{{ site.production_url }}{{ post.id }}</guid>
+                        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+                        {% for cat in post.categories %}
+                                <category>{{ cat | xml_escape }}</category>
+                        {% endfor %}
+                </item>
 {% endfor %}
 
 </channel>
