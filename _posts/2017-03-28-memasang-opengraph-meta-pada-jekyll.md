@@ -24,6 +24,8 @@ Untuk menambahkan meta OpenGraph rubah `_layouts/default.html` dengan menambahka
 
 - `og:title` - Judul
 
+- `og:description` - Deskripsi dari laman
+
 - `og:type` - Tipe konten, bisa berupa video, musik, atau artikel
 
 - `og:image` - URL untuk gambar
@@ -34,18 +36,17 @@ Berikut adalah contoh penggunaan OpenGraph pada [linhub](https://linhub.io/) yan
 
 {% highlight html %}{% raw %}
 
+    {% if page.title %}
+      <meta property="og:title" content="linhub [dot] io - {{ page.title }}">
+    {% else %}
+      <meta property="og:title" content="linhub [dot] io">
+    {% endif %}
     {% if page.excerpt %}
       <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}">
     {% elsif page.description %}
       <meta property="og:description" content="{{ page.description }}">
     {% else %}
       <meta property="og:description" content="Personal Blog of Ngalim Siregar">
-    {% endif %}
-
-    {% if page.title %}
-      <meta property="og:title" content="linhub [dot] io - {{ page.title }}">
-    {% else %}
-      <meta property="og:title" content="linhub [dot] io">
     {% endif %}
     <meta property="og:url" content="{{ page.url | prepend: site.baseurl }}">
     <meta property="og:image" content="{{ site.baseurl }}/img/profile.jpg">
