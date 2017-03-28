@@ -20,15 +20,15 @@ Ketika menggunakan Jekyll dengan Github Pages, laman web kita tidak secara otoma
     <meta name="description" content="deskripsi" />
 {% endhighlight %}
 
-Untuk menambahkan meta OpenGraph rubah `_layouts/default.html` dengan menambahkan meta OpenGraph, meta ini memiliki beberapa tag antara lain:
+Untuk menambahkan meta OpenGraph rubah `_layouts/default.html` dengan menambahkan meta OpenGraph, meta ini memiliki beberapa _property_ antara lain:
 
-- `<og:title>` - Judul
+- `og:title` - Judul
 
-- `<og:type>` - Tipe konten, bisa berupa video, musik, atau artikel
+- `og:type` - Tipe konten, bisa berupa video, musik, atau artikel
 
-- `<og:image>` - URL untuk gambar
+- `og:image` - URL untuk gambar
 
-- `<og:url>` - URL dari laman
+- `og:url` - URL dari laman
 
 Berikut adalah contoh penggunaan OpenGraph pada [linhub](https://linhub.io/) yang digabungkan dengan Liquid
 
