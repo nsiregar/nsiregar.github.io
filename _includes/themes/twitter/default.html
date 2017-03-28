@@ -29,13 +29,13 @@
       <meta property="og:title" content="linhub [dot] io">
       <meta name="twitter:title" content="linhub [dot] io">
     {% endif %}
-    <meta property="og:url" content="{{ page.url }}">
+    <meta property="og:url" content="{{ page.url | prepend: site.baseurl }}">
     <meta property="og:image" content="{{ site.baseurl }}/img/profile.jpg">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:image" content="{{ site.baseurl }}/img/profile.jpg">
     <meta property="twitter:creator" content="@siregarbox">
-    <link rel="canonical" href="{{ page.url }}">
+    <link rel="canonical" href="{{ page.url | prepend: site.baseurl }}">
     <link href="{{ ASSET_PATH }}/css/bootstrap.reduced.css" rel="stylesheet">
     <link rel="alternate" type="application/rss+xml" title="linhub" href="{{ site.baseurl }}/rss.xml">
   </head>
