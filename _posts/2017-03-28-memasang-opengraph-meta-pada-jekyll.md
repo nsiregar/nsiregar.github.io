@@ -10,7 +10,7 @@ tags: [opengraph, meta, web, jekyll]
 
 Bagi yang sering menggunakan aplikasi _messaging_ seperti Telegram, Facebook Messenger, WhatsApp dan sebagainya pasti menyadari ketika membagikan sebuah link maka secara otomatis preview dari link tersebut ditampilkan.
 
-gambar
+<img src="{{ site.baseurl }}/img/opengraph.png" class="img-responsive" alt="Opengraph">
 
 Ketika menggunakan Jekyll dengan Github Pages, laman web kita tidak secara otomatis menampilkan preview tersebut. Hal ini dikarenakan meta untuk OpenGraph belum kita atur. Bentuk umum meta HTML seperti berikut
 
