@@ -36,6 +36,12 @@ Untuk mengatasi masalah tersebut berikut beberapa hal yang perlu dilakukan :
     ```
     Hal ini bermaksud untuk menggunakan IP OpenDNS dengan _custom port_ 5353 dengan simbol `#`, karena _port default_ 53 tidak bisa digunakan pada Telkomsel.
 
+3. Jika tidak ingin menggunakan berkas `/etc/resolv.conf` tambahkan baris berikut untuk pengaturan no 2 diatas
+    ```
+    no-resolv
+    no-pool
+    ```
+
 Dengan menggunakan cara tersebut maka saya berhasil menggunakan OpenDNS, berikut adalah hasil pengecekan di [https://www.opendns.com/welcome/](https://www.opendns.com/welcome/)
 
 <img src="{{ site.baseurl }}/img/opendns-success.png" class="img-responsive" alt="OpenDNS Success">
