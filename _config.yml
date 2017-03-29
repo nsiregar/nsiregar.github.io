@@ -32,7 +32,8 @@ author :
 #
 production_url : https://linhub.io
 
-gems: [jekyll-sitemap, jekyll-paginate]
+# remove jekyll-sitemap
+gems: [jekyll-paginate]
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -153,3 +154,10 @@ excerpt_separator: nil
 
 # baseURL
 baseurl: https://linhub.io
+
+# sitemap configurations
+sitemap:
+  lastmod: 
+  priority: 0.5
+  changefreq: monthly
+  exclude: 'no'
