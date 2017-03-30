@@ -45,6 +45,6 @@ Untuk menguji maka lakukan pemasangan paket `firebase-tools` dengan cara
 
 Selamat mencoba ...
 
-> Update 30 Maret
+> Update 30 Maret 2017
 
 Artikel alternatif : [https://nsetyo.id/post/npm-install-user-dir/](https://nsetyo.id/post/npm-install-user-dir/)
