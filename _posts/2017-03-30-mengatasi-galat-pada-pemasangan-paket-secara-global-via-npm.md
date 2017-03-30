@@ -44,3 +44,7 @@ Untuk menguji maka lakukan pemasangan paket `firebase-tools` dengan cara
     $ npm install -g firebase-tools
 
 Selamat mencoba ...
+
+> Update 30 Maret
+
+Artikel alternatif : https://nsetyo.id/post/npm-install-user-dir/
