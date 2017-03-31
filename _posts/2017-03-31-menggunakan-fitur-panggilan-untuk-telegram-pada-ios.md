@@ -18,11 +18,11 @@ Sebenarnya fitur ini dapat digunakan dengan membuka kontak, dan memilih tombol _
 
 Namun saya ingin sebuah pintasan yang memudahkan sebagaimana pada tampilan aplikasi sejenis lainnya. Fitur ini sudah disediakan di Telegram iOS, untuk mengaktifkannya lakukan langkah berikut
 
-1. Masuk ke menu `Settings -> Recent Calls` maka akan menampilkan menu berikut
+Masuk ke menu `Settings -> Recent Calls` maka akan menampilkan menu berikut
 
 <img src="{{ site.baseurl }}/img/2-call-ios.jpg" class="img-responsive" alt="ios telegram">
 
-2. Aktifkan `Show Calls Tab` untuk menampilkan _tab_ panggilan pada menu utama
+Aktifkan `Show Calls Tab` untuk menampilkan _tab_ panggilan pada menu utama
 
 <img src="{{ site.baseurl }}/img/3-call-ios.jpg" class="img-responsive" alt="ios telegram">
 
