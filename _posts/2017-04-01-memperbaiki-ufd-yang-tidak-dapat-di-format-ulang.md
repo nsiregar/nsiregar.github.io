@@ -43,3 +43,5 @@ Setelah itu ketik perintah
     DISKPART> CLEAN
 
 Perintah tersebut akan menghapus semua partisi dan volume dari disk yang kita pilih. Setelah itu buka kembali `Computer Management -> Storage -> Disk Management`, maka UFD yang dimaksud akan ditampilkan sebagai `EMPTY`. Dengan ini kita dapat melakukan operasi untuk membuat partisi dan _format_ ulang UFD.
+
+Btw saya masih bimbang untuk menggunakan Debian atau Ubuntu ... Ah Sudahlah ...
