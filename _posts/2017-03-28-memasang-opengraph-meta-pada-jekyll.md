@@ -20,7 +20,7 @@ Ketika menggunakan Jekyll dengan Github Pages, laman web kita tidak secara otoma
     <meta name="description" content="deskripsi" />
 {% endhighlight %}
 
-Untuk menambahkan meta OpenGraph rubah `_layouts/default.html` dengan menambahkan meta OpenGraph, meta ini memiliki beberapa _property_ antara lain:
+Untuk menambahkan meta OpenGraph rubah `_layouts/default.html` dengan menambahkan meta OpenGraph diantara bagian `<head>` dan `</head>`, meta ini memiliki beberapa _property_ antara lain:
 
 - `og:title` - Judul
 
