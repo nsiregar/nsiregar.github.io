@@ -12,8 +12,8 @@ Jadi beberapa saat yang lalu lagi maen-maen sama anak-anak Pegelinux, karena dap
 
 Untuk proyek ini saya ingin repo berada di github, namun deployment ke Google Firebase. Karena keperluan tersebut saya menggunakan [Travis-CI](https://travis-ci.org) untuk melakukan deployment ke Google Firebase. Langkah yang saya lakukan adalah
 
-### Membuat repo project di github
-Karena ini adalah project baru maka saya membuat sebuah repo baru dengan nama `baca.situsali.ga` pada akun github saya, project keseluruhan dapat dilihat di [sini](https://github.com/nsiregar/baca.situsali.ga).
+### Membuat repo project di github dan Firebase project
+Karena ini adalah project baru maka saya membuat sebuah repo baru dengan nama `baca.situsali.ga` pada akun github saya, project keseluruhan dapat dilihat di [sini](https://github.com/nsiregar/baca.situsali.ga). Selain membuat repo saya juga membuat firebase project melalui [firebase console](https://console.firebase.google.com/).
 
 ### Clone repo ke lokal dan melakukan `firebase init` untuk inisialisasi project Firebase
 Untuk mengisi project dengan berkas yang kita perlukan saya melakukan _clone_ pada repo dengan perintah
@@ -25,7 +25,7 @@ Kemudian melakukan `firebase init` pada direktori proyek
     C:\project> cd .\baca.situsali.ga\
     C:\project\baca.situsali.ga> firebase init
 
-Untuk konfigurasi Firebase ketika inisialisasi proyek akan saya bahas di lain waktu. Pada project ini saya hanya membuat dua buah berkas `index.html` dan juga `style.css`, kedua berkas ini berada pada folder `public`. Lakukan _commit_ setelah inisialisasi proyek.
+Ketika inisiasi maka akan ditanyakan proyek akan disambungkan dengan firebase project yang mana, pilih yang kita buat pada langkah awal. Pada project ini saya hanya membuat dua buah berkas `index.html` dan juga `style.css`, kedua berkas ini berada pada folder `public`. Lakukan _commit_ setelah inisialisasi proyek.
 
 ### Menambahkan `.travis.yml` pada repo
 Untuk dapat melakukan deployment dari Github ke Google Firebase, hal yang perlu kita ketahui adalah
