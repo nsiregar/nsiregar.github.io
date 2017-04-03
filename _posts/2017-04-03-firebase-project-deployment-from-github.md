@@ -2,7 +2,7 @@
 layout: post
 title: "Firebase Project Deployment from Github"
 subtitle: "Menggunakan Travis CI untuk Deploy Firebase Project"
-description: ""
+description: "Firebase project deployment dengan travis ci via github"
 category: Firebase
 tags: [firebase, travis, continuous integration]
 ---
