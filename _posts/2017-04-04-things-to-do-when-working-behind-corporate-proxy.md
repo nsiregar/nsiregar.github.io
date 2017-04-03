@@ -24,6 +24,10 @@ Selain mengubah proxy saya juga mengubah _shell_ default dari `cmd.exe` ke Windo
         "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
     }
 
+Dengan ini maka ketika menekan `CTRL +\`` maka menjadikan powershell sebagai default shell kita
+
+<img src="{{ site.baseurl }}/img/powershell-vscode.png" class="img-responsive" alt="Powershell">
+
 ## Setup Proxy untuk Node.js `npm`
 Selain Visual Studio Code saya juga menggunakan Node.js dan paket managernya `npm`, untuk menggunakan `npm` agar dapat bekerja dengan proxy ketik perintah berikut
 
