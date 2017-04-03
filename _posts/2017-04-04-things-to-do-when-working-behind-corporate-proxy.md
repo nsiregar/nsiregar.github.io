@@ -24,7 +24,7 @@ Selain mengubah proxy saya juga mengubah _shell_ default dari `cmd.exe` ke Windo
         "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
     }
 
-Dengan ini maka ketika menekan `CTRL + Tilde` maka menjadikan powershell sebagai default shell kita
+Dengan ini maka ketika menekan `CTRL + Backtick` maka menjadikan powershell sebagai default shell kita
 
 <img src="{{ site.baseurl }}/img/powershell-vscode.png" class="img-responsive" alt="Powershell">
 
