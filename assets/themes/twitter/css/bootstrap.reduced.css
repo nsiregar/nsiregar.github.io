@@ -703,17 +703,17 @@ header img {
     border-radius: 50%;
     background-clip: padding-box;
     vertical-align: middle;
-    -webkit-box-shadow: 0 0 20px #333;
-    -moz-box-shadow: 0 0 20px #333;
-    box-shadow: 0 0 20px #333;
+    -webkit-box-shadow: 0 0 20px #E2F5F8;
+    -moz-box-shadow: 0 0 20px #E2F5F8;
+    box-shadow: 0 0 20px #E2F5F8;
     margin-bottom: 1rem;
     transition: 5s
 }
 
 header img:hover {
-    -webkit-box-shadow: 0 0 100px #E2F5F8;
-    -moz-box-shadow: 0 0 100px #E2F5F8;
-    box-shadow: 0 0 100px #E2F5F8
+    -webkit-box-shadow: 0 0 100px #0366D6;
+    -moz-box-shadow: 0 0 100px #0366D6;
+    box-shadow: 0 0 100px #0366D6
 }
 
 header hgroup h1,
