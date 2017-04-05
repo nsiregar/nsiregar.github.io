@@ -16,7 +16,7 @@ Karena masih menggunakan Windows 10 dan saya berniat mencoba instalasi Travis-CI
     Docker adalah sebuah platform containerization yang memudahkan pengembang dalam melakukan deployment perangkat lunak. Untuk menjalankan Travis-CI secara lokal saya mengunduh [Docker](https://www.docker.com/) Community Edition.
 
 2. [Quay.IO](https://quay.io)  
-    Menggunakan _image_ dari [quay.io](https://quay.io/organization/travisci), terdapat banyak pilihan _image_ dari quay.io di sini saya akan menggunakan bahasa node.js jalankan perintah berikut pada PowerShell  
+    Menggunakan _image_ dari [quay.io](https://quay.io/organization/travisci), terdapat banyak pilihan _image_ dari quay.io di sini saya akan menggunakan bahasa node.js jalankan perintah berikut pada PowerShell
     ```
     PS D:\ngalim\blog> docker run -it quay.io/travisci/travis-node-js /bin/bash
     ```
