@@ -20,7 +20,7 @@ Karena masih menggunakan Windows 10 dan saya berniat mencoba instalasi Travis-CI
     ```
     PS D:\ngalim\blog> docker run -it quay.io/travisci/travis-node-js /bin/bash
     ```
-    PS: _image_ yang akan diunduh cukup besar, jika memakai layanan dengan kuota terbatas pastikan sudah siap secara lahir batin.
+    **PS: _image_ yang akan diunduh cukup besar, jika memakai layanan dengan kuota terbatas pastikan sudah siap secara lahir batin.**
 
     Setelah _image_ Travis-CI berhasil diunduh, silahkan berganti ke _user_ travis dengan
     ```
