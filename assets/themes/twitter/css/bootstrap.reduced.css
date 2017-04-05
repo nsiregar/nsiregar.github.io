@@ -721,6 +721,10 @@ header hgroup h5 {
     margin: 0
 }
 
+header hgroup h1 {
+    color: #0366D6
+}
+
 header hgroup h5 {
     color: #888
 }
