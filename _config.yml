@@ -2,7 +2,7 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "vendor"]
 highlighter: rouge
 markdown: kramdown
 
@@ -153,7 +153,7 @@ compress_html:
 excerpt_separator: nil
 
 # baseURL
-# url: https://linhub.io
+url: https://linhub.io
 
 # sitemap configurations
 sitemap:
@@ -161,5 +161,3 @@ sitemap:
   priority: 0.5
   changefreq: monthly
   exclude: 'no'
-
-exclude: [vendor]
