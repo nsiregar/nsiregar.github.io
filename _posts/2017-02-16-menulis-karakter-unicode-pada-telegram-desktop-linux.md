@@ -19,7 +19,7 @@ Lalu buat shortcut desktop dengan perintah
 `$ gnome-desktop-item-edit --create-new ~/Desktop`  
 
 Maka akan muncul dialog seperti berikut  
-<img src="{{ site.baseurl }}/img/newlauncher.png" class="img-responsive" alt="newlauncher">  
+<img src="{{ site.url }}/img/newlauncher.png" class="img-responsive" alt="newlauncher">  
 
 Pada bagian *command* isi dengan kode berikut  
 `env QT_IM_MODULE=ibus /path/to/Telegram --%u`  

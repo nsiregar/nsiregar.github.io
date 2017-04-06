@@ -13,14 +13,14 @@ Sering kali ketika sedang menghadapi persoalan pada program yang berjalan diatas
 ### Menggunakan `man`
 Dengan menggunakan `man` maka akan memberikan bantuan berupa dokumentasi, konfigurasi, dan lainnya untuk program yang kita jalankan. Perintah ini cukup membantu ketika kita sedang tidak terhubung dengan internet.
 
-<img src="{{ site.baseurl }}/img/man-shutdown.png" class="img-responsive" alt="Shutdown man">
+<img src="{{ site.url }}/img/man-shutdown.png" class="img-responsive" alt="Shutdown man">
 
 Keluaran dari `man` cukup mirip dengan `less`, dan yang lebih _mengedjoetkan_ kita bisa menggunakan perintah `$ man man` untuk mengetahui lebih detail tentang `man`.
 
 ### Menggunakan `apropos`
 Namanya manusia selalu diliputi oleh penyakit lupa, ketika kita sedang lupa nama program untuk keperluan tertentu kita dapat menggunakan perintah `apropos`. Sebagai contoh jika anda lupa perintah yang berkaitan dengan jaringan, anda dapat mengetik perintah `$ apropos network`.
 
-<img src="{{ site.baseurl }}/img/apropos-network.png" class="img-responsive" alt="Network apropos">
+<img src="{{ site.url }}/img/apropos-network.png" class="img-responsive" alt="Network apropos">
 
 Perintah `apropos` cukup simple, dimana program tersebut mencari pada hasil `man` yang sesuai dengan kata pencarian yang diberikan.
 

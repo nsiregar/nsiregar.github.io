@@ -41,5 +41,5 @@ Dengan menggunakan fungsi `cause.and.effect()` kita dapat membuat Diagram Ishika
 
 Potongan kode diatas akan menghasilkan diagram sebagai berikut
 
-<img src="{{ site.baseurl }}/img/ishikawa.png" class="img-responsive" alt="Diagram Ishikawa">
+<img src="{{ site.url }}/img/ishikawa.png" class="img-responsive" alt="Diagram Ishikawa">
 

@@ -26,7 +26,7 @@ Untuk memasang EmojiOne Picker menggunakan PPA, buka Terminal (`CTRL + ALT + T`)
 Lalu jalankan _applet_ dengan mencari **EmojiOne** pada Unity Dash (lebih mudah menggunakan `ALT + F2` lalu ketik `emojione-picker`).
 Berikut adalah tampilan EmojiOne Picker pada Ubuntu 16.04 yang saya gunakan
 
-<img src="{{ site.baseurl }}/img/emojione-picker.gif" class="img-responsive" alt="EmojiOne Picker">
+<img src="{{ site.url }}/img/emojione-picker.gif" class="img-responsive" alt="EmojiOne Picker">
 
 Jika anda ingin mencoba menggunakan _standalone installer_, berikut adalah langkah yang harus ditempuh
 

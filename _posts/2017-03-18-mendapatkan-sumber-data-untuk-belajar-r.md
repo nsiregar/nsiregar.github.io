@@ -14,7 +14,7 @@ Ketika pertama kali mempelajari R biasanya kita akan bingung tentang data apa ya
 
 Untuk menampilkan seluruh dataset bawaan R dapat menggunakan fungsi `data()`
 
-<img src="{{ site.baseurl }}/img/r-dataset.png" class="img-responsive" alt="r dataset">
+<img src="{{ site.url }}/img/r-dataset.png" class="img-responsive" alt="r dataset">
 
 #### Menggunakan Data dari Dataset R
 Untuk menggunakan data dari dataset R gunakan perintah
@@ -31,7 +31,7 @@ Untuk menggunakan data dari dataset R gunakan perintah
 
 Dengan menggunakan `?mtcars` maka akan menampilkan bantuan terkait dataset tersebut
 
-<img src="{{ site.baseurl }}/img/r-mtcars-help.png" class="img-responsive" alt="r mtcars">
+<img src="{{ site.url }}/img/r-mtcars-help.png" class="img-responsive" alt="r mtcars">
 
 ### Menggunakan Data dari Internet
 Ada beberapa situs yang menyediakan dataset untuk belajar R, salah satunya adalah [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/index.html). Di situs tersebut disediakan cukup banyak salah satu contoh adalah dataset [Gas sensors for home activity monitoring Data Set](http://archive.ics.uci.edu/ml/datasets/Gas+sensors+for+home+activity+monitoring). Silahkan gunakan pencarian untuk dataset yang ingin dipelajari.

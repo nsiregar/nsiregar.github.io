@@ -10,7 +10,7 @@ tags: [gobi, thinkpad, modem]
 
 Beberapa hari lalu saya mendapat modem Sierra Gobi 3000 untuk dipasang pada laptop kesayangan bentuknya kurang lebih seperti ini
 
-<img src="{{ site.baseurl }}/img/modem-gobi.jpg" class="img-responsive" alt="Modem Gobi">
+<img src="{{ site.url }}/img/modem-gobi.jpg" class="img-responsive" alt="Modem Gobi">
 
 Dengan begitu semangat saya langsung coba pasang, dan ketika boot ke Ubuntu 16.04 jreng .. jreng .. . Modem sih kedetek tapi ya gitu sinyalnya kok CDMA, baca-baca dan juga curhat ama anak-anak Pegelinux katanya musti diaktivasi pakai Windows. Kan Thinkpad ini ga ada Windowsnya gimana dong ...
 
@@ -18,7 +18,7 @@ Saya tidak menyerah begitu saja, saya mencoba tutorial di internet mengenai baga
 
 Setelah memasang driver yang diperlukan untuk Sierra Gobi 3000, alangkah terkedjoetnya saya bahwa Windows lebih mudah dalam mengubah status `CDMA` ke `GSM`. Bahkan di Windows 10 juga ada aplikasi untuk membaca sms yang masuk tanpa harus menambah program. 
 
-<img src="{{ site.baseurl }}/img/sms-win10.jpg" class="img-responsive" alt="Messaging App">
+<img src="{{ site.url }}/img/sms-win10.jpg" class="img-responsive" alt="Messaging App">
 
 Hufft ...
 

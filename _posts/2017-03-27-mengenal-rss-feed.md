@@ -65,7 +65,7 @@ Lalu bagaimana agar _aggregator_ secara otomatis mendeteksi RSS Feed kita, hal i
 
 Dengan begitu RSS Feed kita dapat diakses oleh _aggregator_ RSS. Ada beberapa tag yang dapat digunakan dalam membuat berkas `.xml` ini, silahkan gunakan referensi [ini](https://www.make-rss-feeds.com/rss-tags.htm) sebagai acuan. Pada tulisan Pak Haji Mimin di [sini](https://rizaumami.github.io/2017/03/27/my-favourite-firefox-plugins/) disebutkan mengenai [Bamboo Feed Reader](https://addons.mozilla.org/en-US/firefox/addon/bamboo-feed-reader/) sebagai favorit beliau untuk _Feed Reader_, namun saya lebih memilih [NewsFox](https://newsfox.mozdev.org/) sebagai _Feed Reader_ hal ini dikarenakan tampilan dari NewsFox yang mirip dengan _mail client_.
 
-<img src="{{ site.baseurl }}/img/newsfox-rss.png" class="img-responsive" alt="NewsFox">
+<img src="{{ site.url }}/img/newsfox-rss.png" class="img-responsive" alt="NewsFox">
 
 Selain itu [NewsFox](https://newsfox.mozdev.org/), juga dapat mengkategorikan artikel sesuai yang dipetakan oleh pemilik situs dengan meta `<category>`.
 

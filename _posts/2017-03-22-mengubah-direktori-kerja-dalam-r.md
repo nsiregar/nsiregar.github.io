@@ -10,7 +10,7 @@ tags: [r, tips, rstudio]
 
 Sebagaimana yang kita ketahui, ketika menjalankan RStudio pertama kali maka direktori kerja kita akan menggunakan `/home/username`. Hal ini dapat kita rubah dengan cara mengganti nilai dari `default working directory` melalui `Tools -> Global Options -> Default Working Directory`.
 
-<img src="{{ site.baseurl }}/img/default-dir.png" class="img-responsive" alt="default dir">
+<img src="{{ site.url }}/img/default-dir.png" class="img-responsive" alt="default dir">
 
 Dengan melakukan hal tersebut maka ketika menjalankan RStudio direktori kerja kita akan menggunakan yang telah kita cantumkan.
 
