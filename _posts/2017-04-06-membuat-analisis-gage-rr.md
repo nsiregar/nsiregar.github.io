@@ -3,7 +3,7 @@ layout: post
 title: "Membuat Analisis Gage R&R"
 subtitle: "Analisis Gage R&R dengan R"
 description: "Membuat analisa gage r&r dengan menggunakan R"
-category: SizSigma
+category: SixSigma
 tags: [r, statistic, gage]
 ---
 {% include JB/setup %}
