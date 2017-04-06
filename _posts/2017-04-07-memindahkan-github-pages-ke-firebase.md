@@ -52,7 +52,7 @@ Selanjutnya buat _script_ untuk melakukan _build_ pada Jekyll
     #!/usr/bin/env bash
     set -e # halt script on error
 
-    bundle exec jekyll build
+    bundle exec jekyll build -d _site/my/baseurl
     bundle exec htmlproofer ./_site --only-4xx --check-favicon --check-html
 
 Jangan lupa menambahkan `html-proofer` pada berkas `Gemfile` dengan
