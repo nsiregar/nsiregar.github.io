@@ -5,7 +5,7 @@
 
   (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = '{{ ASSET_PATH | prepend: site.url }}/js/ga.js';
+    ga.src = '{{ ASSET_PATH }}/js/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
