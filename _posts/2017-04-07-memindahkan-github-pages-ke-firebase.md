@@ -12,7 +12,7 @@ Jadi semalam teman-teman di Pegelinux sedang ramai membicarakan masalah `static 
 
 Kurang lebih cara yang akan kita lakukan sama dengan artikel [Firebase Project Deployment from Github](https://linhub.io/firebase/2017/04/03/firebase-project-deployment-from-github), namun ada beberapa perubahan pada `.travis.yml`. 
 
-> Penting!!! jekyll menggunakan folder `_site` ketika melakukab build, gunakan folder tersebut sebagai _public directory_ dari proyek Firebase kita.
+> Penting!!! jekyll menggunakan folder `_site` ketika melakukan build, gunakan folder tersebut sebagai _public directory_ dari proyek Firebase kita.
 
 Buat berkas `.travis.yml` dengan isi sebagai berikut
 
@@ -59,7 +59,7 @@ Jangan lupa menambahkan `html-proofer` pada berkas `Gemfile` dengan
 
     gem "html-proofer"
 
-Ujicoba _deploy_ dengan `git push` seperti biasa.
+Ujicoba _deploy_ dengan `git push` seperti biasa. Setelah berhasil dapat dilanjutkan dengan menghubungkan domain sebelumnya ke google firebase.
 
 
 Sumber :
