@@ -14,6 +14,7 @@ Jika pada artikel [sebelumnya] kita telah berkenalan dengan Gage R&R dan kegunaa
     Jika belum memasang paket SixSigma lakukan dengan perintah `install.packages("SixSigma")`
 
 2. Buat data frame sebagai berikut untuk contoh analisa
+
     | Voltmeter | Baterai | Uji ke-n | Voltase |
     |-----------|---------|----------|---------|
     | 1 | 1 | 1 | 1.4727 |
