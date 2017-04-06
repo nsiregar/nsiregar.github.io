@@ -53,7 +53,7 @@ Selanjutnya buat _script_ untuk melakukan _build_ pada Jekyll
     set -e # halt script on error
 
     bundle exec jekyll build
-    bundle exec htmlproofer ./_site
+    bundle exec htmlproofer ./_site --disable-external
 
 Jangan lupa menambahkan `html-proofer` pada berkas `Gemfile` dengan
 
