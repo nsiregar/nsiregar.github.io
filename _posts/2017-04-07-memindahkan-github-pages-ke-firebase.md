@@ -53,10 +53,14 @@ Selanjutnya buat _script_ untuk melakukan _build_ pada Jekyll
     set -e # halt script on error
 
     bundle exec jekyll build
-    bundle exec htmlproofer ./_site --disable-external
+    bundle exec htmlproofer ./_site --only-4xx --check-favicon --check-html
 
 Jangan lupa menambahkan `html-proofer` pada berkas `Gemfile` dengan
 
     gem "html-proofer"
 
 Ujicoba _deploy_ dengan `git push` seperti biasa.
+
+
+Sumber :
+ <https://jekyllrb.com/docs/continuous-integration/travis-ci/>
