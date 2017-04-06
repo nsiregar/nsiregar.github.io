@@ -8,7 +8,7 @@ tags: [r, statistic, gage]
 ---
 {% include JB/setup %}
 
-Jika pada artikel [sebelumnya] kita telah berkenalan dengan Gage R&R dan kegunaannya maka kali ini kita akan mencoba membuat analisa Gage R&R dengan menggunakan R. Sebagai contoh kasus, pada sebuah perusahaan baterai Sang Manager ingin melakukan improvement pada lini produksinya. Perusahaan ini menghasilkan dua tipe baterai Sebelum melanjutkan proses berikutnya pastikan kamu sudah
+Jika pada artikel [sebelumnya](https://linhub.io/sixsigma/2017/03/27/mengenal-gage-rr) kita telah berkenalan dengan Gage R&R dan kegunaannya maka kali ini kita akan mencoba membuat analisa Gage R&R dengan menggunakan R. Sebagai contoh kasus, pada sebuah perusahaan baterai Sang Manager ingin melakukan improvement pada lini produksinya. Perusahaan ini menghasilkan dua tipe baterai Sebelum melanjutkan proses berikutnya pastikan kamu sudah
 
 1. Memasang paket SixSigma
     Jika belum memasang paket SixSigma lakukan dengan perintah `install.packages("SixSigma")`
