@@ -64,3 +64,5 @@ Ujicoba _deploy_ dengan `git push` seperti biasa. Setelah berhasil dapat dilanju
 
 Sumber :
  <https://jekyllrb.com/docs/continuous-integration/travis-ci/>
+
+ > Update: ujicoba ini belum berhasil karena pengaturan _url_ pada `_config.yml` saya yang masih bermasalah. Namun secara umum proses diatas dapat dilakukan pada situs statis jekyll.
