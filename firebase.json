@@ -26,6 +26,12 @@
         "key" : "Cache-Control",
         "value" : "max-age=2592000"
       } ]
+    }, {
+      "source" : "**",
+      "headers" : [ {
+        "key" : "Connection",
+        "value" : "keep-alive"
+      } ]
     } ]
   }
 }
