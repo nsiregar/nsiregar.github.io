@@ -5,11 +5,6 @@
 defaults:
   -   
     scope:
-      type: pages
-    values:
-      permalink: /:path/:basename:output_ext
-  -   
-    scope:
       type: posts
     values:
       permalink: /:categories/:year/:month/:day/:title/
