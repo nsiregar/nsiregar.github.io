@@ -12,7 +12,7 @@
       "source" : "**/*.@(jpg|jpeg|gif|png)",
       "headers" : [ {
         "key" : "Cache-Control",
-        "value" : "max-age=7200"
+        "value" : "max-age=31536000"
       } ]
       }, {
       "source" : "404.html",
@@ -21,10 +21,10 @@
         "value" : "max-age=300"
       } ]
     }, {
-      "source" : "**/*.@(css|js)",
+      "source" : "**/*.@(css|js|ico)",
       "headers" : [ {
         "key" : "Cache-Control",
-        "value" : "max-age=7200"
+        "value" : "max-age=2592000"
       } ]
     } ]
   }
