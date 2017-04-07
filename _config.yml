@@ -169,6 +169,3 @@ sitemap:
   priority: 0.5
   changefreq: monthly
   exclude: 'no'
-
-# set to incremental
-incremental: true
