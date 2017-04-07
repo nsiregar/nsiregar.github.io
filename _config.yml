@@ -12,7 +12,7 @@ defaults:
     scope:
       type: posts
     values:
-      permalink: pretty
+      permalink: /:categories/:year/:month/:day/:title/
       post_dirs: false
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "vendor"]
