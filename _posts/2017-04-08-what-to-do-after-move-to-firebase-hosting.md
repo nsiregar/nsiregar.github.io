@@ -16,7 +16,7 @@ Akhirnya semalam pindahan [linhub](https://linhub.io/) untuk menggunakan hosting
     <img src="{{ site.url }}/img/firebase-delete-deploy.png" class="img-responsive" alt="Firebase Delete Deploy">
 
 2. Layanan Travis-CI Menggunakan Zona Waktu Berbeda
-    Perihal ini menyebabkan ketika saya melakukan build untuk [linhub](https://linhub.io/) tidak menampilkan _post_ yang saya buat di zona waktu saya (GMT +9), hal ini dapat diakali dengan menambahkan `future: true` pada berkas `_config.yml`
+    Perihal ini menyebabkan ketika saya melakukan build untuk [linhub](https://linhub.io/) tidak menampilkan _post_ yang saya buat di zona waktu saya (GMT +9), hal ini dapat diakali dengan menambahkan `future: true` pada berkas `_config.yml`.
 
 3. Firebase tidak mengatur `Cache-Control` untuk berkas statis
     Seperti yang kita ketahui, sangat penting untuk mengatur _resource_ yang bisa kita `cache` agar mengurangi waktu ketika _user_ membuka halaman [linhub](https://linhub.io). Untuk itu saya melakukan beberapa pengaturan melalui `firebase.json` menjadi seperti berikut
