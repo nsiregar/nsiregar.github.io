@@ -1,6 +1,6 @@
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
-# permalink: /:categories/:year/:month/:day/:title 
+permalink: /:categories/:year/:month/:day/:title 
 permalink: pretty
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "vendor"]
@@ -164,4 +164,4 @@ sitemap:
   exclude: 'no'
 
 # set to incremental
-incremental: true
+# incremental: true
