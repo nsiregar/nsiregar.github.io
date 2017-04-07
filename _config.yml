@@ -176,4 +176,4 @@ sitemap:
   exclude: 'no'
 
 # set to incremental
-# incremental: true
+incremental: true
