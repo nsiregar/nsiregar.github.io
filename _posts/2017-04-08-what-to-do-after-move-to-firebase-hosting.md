@@ -17,6 +17,7 @@ Akhirnya semalam pindahan [linhub](https://linhub.io/) untuk menggunakan hosting
 
 2. Layanan Travis-CI Menggunakan Zona Waktu Berbeda  
     Perihal ini menyebabkan ketika saya melakukan build untuk [linhub](https://linhub.io/) tidak menampilkan _post_ yang saya buat di zona waktu saya (GMT +9), hal ini dapat diakali dengan menambahkan `future: true` pada berkas `_config.yml`. Serta menambah baris berikut pada `.travis.yml`
+    
     ```
     before_script:
         - export TZ=Asia/Jayapura
