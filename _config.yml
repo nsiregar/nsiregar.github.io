@@ -13,6 +13,7 @@ defaults:
       type: posts
     values:
       permalink: pretty
+      post_dirs: false
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "vendor"]
 highlighter: rouge
