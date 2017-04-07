@@ -1,6 +1,12 @@
 {
   "hosting": {
     "public": "_site",
+    "ignore": [
+      "firebase.json",
+      "Gemfile",
+      "Gemfile.lock",
+      "History.markdown"
+    ],
     "rewrites": [],
     "headers": [ {
       "source" : "**/*.@(eot|otf|ttf|ttc|woff|font.css)",
