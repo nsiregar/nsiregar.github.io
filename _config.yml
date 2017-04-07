@@ -1,7 +1,18 @@
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:year/:month/:day/:title 
-permalink: pretty
+# permalink: /:categories/:year/:month/:day/:title 
+# permalink: pretty
+defaults:
+  -   
+    scope:
+      type: pages
+    values:
+      permalink: /:path/:basename:output_ext
+  -   
+    scope:
+      type: posts
+    values:
+      permalink: pretty
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "vendor"]
 highlighter: rouge
