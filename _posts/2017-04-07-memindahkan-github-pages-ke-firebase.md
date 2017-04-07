@@ -47,7 +47,7 @@ Buat berkas `.travis.yml` dengan isi sebagai berikut
 
     sudo: false
 
-Selanjutnya buat _script_ untuk melakukan _build_ pada Jekyll
+Selanjutnya buat _script_ untuk melakukan _build_ pada Jekyll, beri nama `cibuild` dan letakkan pada folder `script` pada repo anda dengan isi
 
     #!/usr/bin/env bash
     set -e # halt script on error
