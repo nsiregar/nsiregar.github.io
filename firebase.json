@@ -29,8 +29,14 @@
     }, {
       "source" : "**",
       "headers" : [ {
-        "key" : "Connection",
-        "value" : "keep-alive"
+        "key" : "X-Frame-Options",
+        "value" : "SAMEORIGIN"
+      } ]
+    }, {
+      "source" : "**",
+      "headers" : [ {
+        "key" : "X-Content-Type-Options",
+        "value" : "nosniff"
       } ]
     } ]
   }
