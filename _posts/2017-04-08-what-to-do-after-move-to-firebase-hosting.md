@@ -4,7 +4,7 @@ title: "What To Do After Move to Firebase Hosting"
 subtitle: "Mengatur Firebase untuk Lebih Baik"
 description: "Mengatur Firebase Hosting untuk Layanan yang lebih baik"
 category: Firebase
-tags: [firebase, jekyll, web]
+tags: [firebase, jekyll, web, travis]
 ---
 {% include JB/setup %}
 
