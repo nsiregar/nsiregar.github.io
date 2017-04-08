@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mempercepat Prose Build di Travis CI"
+title: "Mempercepat Proses Build di Travis CI"
 subtitle: "Menggunakan Fitur Caching pada Travis CI"
 description: "Menggunakan fitur caching untuk mempercepat proses build pada Travis CI"
 category: TravisCI
