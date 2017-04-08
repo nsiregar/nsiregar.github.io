@@ -24,7 +24,7 @@ Akhirnya semalam pindahan [linhub](https://linhub.io/) untuk menggunakan hosting
         - date
     ```
 
-3. **Firebase tidak mengatur `Cache-Control` untuk berkas statis secara otomati**  
+3. **Firebase tidak mengatur `Cache-Control` untuk berkas statis secara otomatis**  
     Seperti yang kita ketahui, sangat penting untuk mengatur _resource_ yang bisa kita `cache` agar mengurangi waktu ketika _user_ membuka halaman [linhub](https://linhub.io). Untuk itu saya melakukan beberapa pengaturan melalui `firebase.json` menjadi seperti berikut
 
     ```

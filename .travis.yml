@@ -1,10 +1,11 @@
 language: node_js
-node_js: '7.8.0'
+node_js: 
+  - "7"
 
 cache:
   - bundler: true
+  - firebase-tools: true
   - directories:
-    - node_modules
     - _site
 
 before_install:
