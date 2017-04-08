@@ -5,6 +5,8 @@ cache:
   - bundler: true
   - directories:
     - _site
+    - $HOME/.rvm
+    - $HOME/.nvm
 
 before_install:
   - rvm install 2.1
