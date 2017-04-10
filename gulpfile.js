@@ -94,6 +94,7 @@ gulp.task('deploy', function(callback) {
         'optimize-image',
         'optimize-css',
         'optimize-js',
+        'optimize-html',
         callback
     );
 });
