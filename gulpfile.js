@@ -21,7 +21,7 @@ var gulp = require('gulp'),
 gulp.task('jekyll', function() {
     return gulp.src('index.html', { read: false })
         .pipe(shell([
-            'bundle exec JEKYLL_ENV=production jekyll build'
+            'JEKYLL_ENV=production bundle exec jekyll build'
         ]));
 });
     
