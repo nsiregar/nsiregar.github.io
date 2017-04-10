@@ -25,7 +25,7 @@ gulp.task('jekyll', function() {
 gulp.task('html-proofer', function() {
     return gulp.src('_site/**/*.html')
         .pipe(shell([
-            'bundle exec htmlproofer --disable-external'
+            'bundle exec htmlproofer ./_site --disable-external'
         ]));
 });
 
