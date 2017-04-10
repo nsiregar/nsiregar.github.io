@@ -19,15 +19,12 @@ install:
 
 before_script:
   - export TZ=Asia/Jayapura
-  - date
   - npm install gulp gulp-shell gulp-minify-html gulp-clean-css gulp-autoprefixer gulp-uncss gulp-download
   - npm install gulp-imagemin imagemin-pngquant imagemin-jpegtran imagemin-gifsicle gulp-minify
   - npm install gulp-replace fs gulp-concat gulp-uglify run-sequence gulp-rename gulp-minify-inline
-  - npm install gulp-pixrem
+  - npm install gulp-pixrem algoliasearch
 
-script: 
-  - gulp deploy
-  - ls ./_site/assets/themes/twitter/js/
+script: gulp deploy
 
 after_success:
   - firebase deploy --token $FIREBASE_TOKEN

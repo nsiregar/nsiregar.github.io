@@ -17,7 +17,11 @@ var gulp = require('gulp'),
     minify = require('gulp-minify'),
     runSequence = require('run-sequence'),
     rename = require('gulp-rename'),
-    pixrem = require('gulp-pixrem');
+    pixrem = require('gulp-pixrem'),
+    algoliasearch = require('algoliasearch'),
+    algoliaAPPID = process.env.ALGOLIA_APPLICATION_ID,
+    algoliaAPIKEY = process.env.ALGOLIA_API_KEY,
+    algoliaINDEX = process.env.ALGOLIA_INDEX;
 
 gulp.task('jekyll', function() {
     return gulp.src('index.html', { read: false })
@@ -87,6 +91,19 @@ gulp.task('optimize-html', function() {
         }))
         .pipe(gulp.dest('_site/'));
 
+});
+
+gulp.task('algolia-index', function() {
+    return gulp.src('_site/algolia.json')
+        .pipe(algoliasearch(algoliaAPPID, algoliaAPIKEY)
+            .initIndex(algoliaINDEX)
+                .saveObjects(function(err, obj) {
+                    if(err) {
+                        console.error(err);
+                    }
+                })
+        )
+        .pipe(gulp.dest('_site/'));
 });
 
 gulp.task('deploy', function(callback) {
