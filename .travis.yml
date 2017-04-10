@@ -4,7 +4,6 @@ node_js: '7.8.0'
 cache:
   - bundler: true
   - directories:
-    - _site
     - $HOME/.rvm
     - $HOME/.nvm
     - node_modules

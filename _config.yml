@@ -171,4 +171,3 @@ sitemap:
   exclude: 'no'
 
 future: true
-incremental: true
