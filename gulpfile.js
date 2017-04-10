@@ -64,7 +64,7 @@ gulp.task('optimize-css', function() {
             html: ['_site/**/*.html'],
             ignore: []
         }))
-        .pipe(cleanCSS({keepBreaks: false}))
+        .pipe(cleanCSS())
         .pipe(gulp.dest('_src/assets/themes/twitter/css/'));
 });
 
