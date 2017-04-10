@@ -5,7 +5,8 @@
       "firebase.json",
       "Gemfile",
       "Gemfile.lock",
-      "History.markdown"
+      "History.markdown",
+      "node_modules"
     ],
     "rewrites": [],
     "headers": [ {

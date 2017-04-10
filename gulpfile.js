@@ -72,6 +72,7 @@ gulp.task('optimize-css', function() {
 gulp.task('optimize-js', function() {
     return gulp.src('_site/assets/themes/twitter/js/*.js')
         .pipe(concat('bundle.js'))
+        .pipe(gulp.dest('_site/assets/themes/twitter/js/'))
         .pipe(rename('bundle.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest('_site/assets/themes/twitter/js/'));
