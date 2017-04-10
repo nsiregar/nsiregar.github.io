@@ -56,7 +56,8 @@ gulp.task('optimize-image', function() {
 });
 
 gulp.task('optimize-css', function() {
-    return gulp.src('_src/assets/themes/twitter/css/main.css')
+    return gulp.src('_src/assets/themes/twitter/css/*.css')
+        .pipe(concat('bundle.css'))
         .pipe(autoprefixer())
         .pipe(uncss({
             html: ['_site/**/*.html'],
@@ -71,7 +72,7 @@ gulp.task('optimize-css', function() {
 
 gulp.task('optimize-js', function() {
     return gulp.src('_site/assets/themes/twitter/js/*.js')
-        .pipe(concat('main.js'))
+        .pipe(concat('bundle.js'))
         .pipe(rename({
             suffix: '.min'
         }))
@@ -85,7 +86,7 @@ gulp.task('optimize-html', function() {
             quotes: true
         }))
         .pipe(replace(/<link href=\"\/assets\/themes\/twitter\/css\/main.css\"[^>]*>/, function(s) {
-			var style = fs.readFileSync('_site/assets/themes/twitter/css/main.min.css', 'utf8');
+			var style = fs.readFileSync('_site/assets/themes/twitter/css/bundle.min.css', 'utf8');
 			return '<style>\n' + style + '\n</style>';
         }))
         .pipe(gulp.dest('_site/'));
