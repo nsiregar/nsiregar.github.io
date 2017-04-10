@@ -33,11 +33,13 @@ gulp.task('html-proofer', function() {
 
 gulp.task('fetch-analytics', function() {
     return download('https://www.google-analytics.com/analytics.js')
+        .pipe(rename('analytics.js'))
         .pipe(gulp.dest('_site/assets/themes/twitter/js/'));
 });
 
 gulp.task('fetch-pageads', function() {
     return download('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js')
+        .pipe(rename('adsbygoogle.js'))
         .pipe(gulp.dest('_site/assets/themes/twitter/js/'));
 });
 
