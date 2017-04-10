@@ -1,6 +1,7 @@
 var gulp = require('gulp'),
     shell = require('gulp-shell'),
     minifyHTML = require('gulp-minify-html'),
+    minifyInline = require('gulp-minify-inline'),
     cleanCSS = require('gulp-clean-css'),
     autoprefixer = require('gulp-autoprefixer'),
     uncss = require('gulp-uncss'),
@@ -87,6 +88,7 @@ gulp.task('optimize-html', function() {
         .pipe(minifyHTML({
             quotes: true
         }))
+        .pipe(minifyInline())
         .pipe(replace(/<link href=\"\/assets\/themes\/twitter\/css\/main.css\"[^>]*>/, function(s) {
 			var style = fs.readFileSync('_site/assets/themes/twitter/css/bundle.min.css', 'utf8');
 			return '<style>\n' + style + '\n</style>';
