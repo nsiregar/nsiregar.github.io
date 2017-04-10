@@ -1,7 +1,7 @@
 var gulp = require('gulp'),
     shell = require('gulp-shell'),
     minifyHTML = require('gulp-minify-html'),
-    minifyCSS = require('gulp-clean-css'),
+    cleanCSS = require('gulp-clean-css'),
     autoprefixer = require('gulp-autoprefixer'),
     uncss = require('gulp-uncss'),
     download = require('gulp-download'),
@@ -13,7 +13,8 @@ var gulp = require('gulp'),
     fs = require('fs'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
-    runSequence = require('run-sequence');
+    runSequence = require('run-sequence'),
+    rename = require('gulp-rename');
 
 gulp.task('jekyll', function() {
     return gulp.src('index.html', { read: false })
@@ -56,19 +57,24 @@ gulp.task('optimize-image', function() {
 
 gulp.task('optimize-css', function() {
     return gulp.src('_src/assets/themes/twitter/css/main.css')
-        .pipe(minifyCSS())
         .pipe(autoprefixer())
         .pipe(uncss({
             html: ['_site/**/*.html'],
             ignore: []
         }))
-        .pipe(minifyCSS({keepBreaks: false}))
+        .pipe(cleanCSS({keepBreaks: false}))
+        .pipe(rename({
+            suffix: '.min'
+        }))
         .pipe(gulp.dest('_src/assets/themes/twitter/css/'));
 });
 
 gulp.task('optimize-js', function() {
     return gulp.src('_site/assets/themes/twitter/js/*.js')
-        .pipe(concat('main.min.js'))
+        .pipe(concat('main.js'))
+        .pipe(rename({
+            suffix: '.min'
+        }))
         .pipe(uglify())
         .pipe(gulp.dest('_site/assets/themes/twitter/js/'));
 });
@@ -79,7 +85,7 @@ gulp.task('optimize-html', function() {
             quotes: true
         }))
         .pipe(replace(/<link href=\"\/assets\/themes\/twitter\/css\/main.css\"[^>]*>/, function(s) {
-			var style = fs.readFileSync('_site/assets/themes/twitter/css/main.css', 'utf8');
+			var style = fs.readFileSync('_site/assets/themes/twitter/css/main.min.css', 'utf8');
 			return '<style>\n' + style + '\n</style>';
         }))
         .pipe(gulp.dest('_site/'));
@@ -91,11 +97,11 @@ gulp.task('deploy', function(callback) {
         'fetch-analytics',
         'fetch-pageads',
         'jekyll',
-        'html-proofer',
         'optimize-image',
         'optimize-css',
         'optimize-js',
         'optimize-html',
+        'html-proofer',
         callback
     );
 });
