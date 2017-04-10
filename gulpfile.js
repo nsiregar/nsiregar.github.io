@@ -95,11 +95,11 @@ gulp.task('optimize-html', function() {
 
 gulp.task('algolia-index', function() {
     return gulp.src('_site/algolia.json')
-        .pipe(algoliasearch(algoliaAPPID, algoliaAPIKEY)
-            .initIndex(algoliaINDEX)
-                .saveObjects(JSON.stringify('algolia.json'), function(err, content) {
-                    console.log(content);
-                }))
+        .pipe(algoliasearch(algoliaAPPID, algoliaAPIKEY))
+        .pipe(initIndex(algoliaINDEX))
+        .pipe(saveObjects('algolia.json', function(err, content) {
+            console.log(content);
+        }))
         .pipe(gulp.dest('_site/'));
 });
 
