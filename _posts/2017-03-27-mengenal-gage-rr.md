@@ -36,7 +36,7 @@ Ada dua jenis tipe studi Gage R&R yang umum digunakan yaitu:
     - Pengamatan dalam pengerjaan komponen dilakukan dengan metode yang sama
     - mis. 3 operator, 4 komponen, 5 pengerjaan maka ada 3x4x5 = 60 pengamatan
 
-<img src="{{ site.url }}/img/gage-rr-std.png" class="img-responsive" alt="Gage R dan R">
+<img src="{{ site.baseurl }}/img/gage-rr-std.png" class="img-responsive" alt="Gage R dan R">
 
 - Nested Gage R&R
     - Jika metode diatas tidak bisa dilakukan, dikarenakan operator tidak dapat mengerjakan semua komponen

@@ -10,8 +10,8 @@
     <title>linhub [dot] io - {{ page.title }}</title>
     {% if page.excerpt %}
       <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 30 }}">
-      <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 30 }}">
-      <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 30 }}">
+      <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 50 }}">
+      <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 50 }}">
     {% elsif page.description %}
       <meta name="description" content="{{ page.description }}">
       <meta property="og:description" content="{{ page.description }}">
@@ -80,8 +80,7 @@
   </div>
 </footer>
     {% include JB/analytics %}
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
+    <script async>
       (adsbygoogle = window.adsbygoogle || []).push({
         google_ad_client: "ca-pub-2544661724087657",
         enable_page_level_ads: true

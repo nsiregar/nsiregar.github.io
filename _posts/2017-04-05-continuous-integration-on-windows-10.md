@@ -27,7 +27,7 @@ Karena masih menggunakan Windows 10 dan saya berniat mencoba instalasi Travis-CI
     su - travis
     ```
 
-    <img src="{{ site.url }}/img/travis-ci-local.png" class="img-responsive" alt="Travis CI">
+    <img src="{{ site.baseurl }}/img/travis-ci-local.png" class="img-responsive" alt="Travis CI">
 
 3. Setelah Docker dan Travis-CI terpasang anda dapat melakukan  
     a. _Cloning_ repo dari Github  

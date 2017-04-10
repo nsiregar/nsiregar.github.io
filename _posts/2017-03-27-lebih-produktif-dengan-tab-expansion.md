@@ -14,7 +14,7 @@ _Tab Expansion_ sendiri adalah sebuah fitur _autocomplete_ pada _shell_ interakt
 
 Namun ada sedikit perbedaan antara _tab expansion_ pada _Command Prompt Windows_ dengan _Bash_, jika menggunakan _Bash_ ketika menekan `[TAB]` dan ada beberapa kandidat yang memiliki awalan `na` maka _Bash_ akan menampilkan daftar berkas yang sesuai, kemudian kita bisa menambahkan karakter untuk kemudian menekan `[TAB]` maka _tab expansion_ akan melakukan tugasnya.
 
-<img src="{{ site.url }}/img/tab-expansion-1.png" class="img-responsive" alt="ls command">
+<img src="{{ site.baseurl }}/img/tab-expansion-1.png" class="img-responsive" alt="ls command">
 
 Pada gambar diatas, bila kita ingin mengetik `ls -l fail2ban.log.4.gz` menggunakan _tab expansion_ maka ada 2 langkah mudah untuk dilakukan
 

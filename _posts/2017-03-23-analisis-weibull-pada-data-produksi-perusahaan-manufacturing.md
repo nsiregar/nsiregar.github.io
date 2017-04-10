@@ -23,4 +23,4 @@ Analysis Weibull adalah salah satu alat yang bisa digunakan untuk menyusun data 
 
 Biaya yang dikeluarkan akibat kegagalan proses seringkali melebihi biaya dari kegagalan masing-masing _equipment_, Dengan menggunakan grafik weibull maka akan membantu _engineer_, _process owner_, serta _management_ untuk menentukan terkait permasalahan reliabilitas atau produksi.
 
-<img src="{{ site.url }}/img/weibullp.gif" class="img-responsive" alt="weibull plot">
+<img src="{{ site.baseurl }}/img/weibullp.gif" class="img-responsive" alt="weibull plot">

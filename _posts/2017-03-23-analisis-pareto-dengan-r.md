@@ -23,7 +23,7 @@ Seperti yang telah disampaikan sebelumnya, dengan menggunakan diagram pareto mak
 ### Menyusun Data Diagram Pareto
 Misalkan anda memiliki data sebagi berikut  
 
-<img src="{{ site.url }}/img/defect.png" class="img-responsive" alt="Daftar Defect">
+<img src="{{ site.baseurl }}/img/defect.png" class="img-responsive" alt="Daftar Defect">
 
 Jika menggunakan `MINITAB` maka anda dapat memasukkan data langsung kedalam `worksheet`, jika menggunakan `R` maka anda perlu membuat `vector` berisi data defect
 
@@ -73,13 +73,13 @@ Untuk melihat isi dari `vector` dan `dataframe`
 ### Menghasilkan Diagram Pareto
 Untuk menghasilkan diagram pareto dari `MINITAB` bisa dilakukan dengan cara `Stat > Quality Tools > Pareto Chart` maka akan menghasilkan diagram seperti berikut
 
-<img src="{{ site.url }}/img/pareto-chart.png" class="img-responsive" alt="Grafik Pareto">
+<img src="{{ site.baseurl }}/img/pareto-chart.png" class="img-responsive" alt="Grafik Pareto">
 
 > Untuk menghasilkan diagram pareto dari R maka perlu menggunakan paket `qcc`, pasang dengan menggunakan `install.packages("qcc")`
 
 Dengan menggunakan fungsi `pareto.chart()` dari librari `qcc` maka akan menghasilkan diagram pareto sebagai berikut
 
-<img src="{{ site.url }}/img/pareto-chart-r.png" class="img-responsive" alt="Grafik Pareto R">
+<img src="{{ site.baseurl }}/img/pareto-chart-r.png" class="img-responsive" alt="Grafik Pareto R">
 
 Dari diagram diatas dapat kita simpulkan bahwa diperlukan _improvement_ pada area `Cold Cracking`, `Re-Heat Cracking`, dan `Hot Cracking`.
 

@@ -58,7 +58,7 @@ Input data ke R dengan menggunakan perintah
 
 maka akan tampil *R Data Editor* seperti berikut  
 
-<img src="{{ site.url }}/img/r-data-editor.png" class="img-responsive" alt="r data editor">  
+<img src="{{ site.baseurl }}/img/r-data-editor.png" class="img-responsive" alt="r data editor">  
 
 Untuk melakukan analisis reliabilitas kita akan menggunakan fungsi `alpha` dari library `psych`, jika kamu belum memilikinya silahkan install dengan perintah  
 

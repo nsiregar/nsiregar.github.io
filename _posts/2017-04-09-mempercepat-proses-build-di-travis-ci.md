@@ -10,7 +10,7 @@ tags: []
 
 Seperti yang sudah saya tulis sebelumnya, [linhub](https://linhub.io/) telah menggunakan CI dengan memanfaatkan layanan dari Travis-CI. Ketika pertama kali menggunakan layanan ini proses _build_ untuk berkas statis terasa begitu lama, dimana memerlukan waktu sekitar **2 menit**. Dengan 2 menit kita bisa melakukan hal-hal lain daripada hanya duduk bengong menunggu hasil build.
 
-<img src="{{ site.url }}/img/caching-travis.png" class="img-responsive" alt="Caching Travis">
+<img src="{{ site.baseurl }}/img/caching-travis.png" class="img-responsive" alt="Caching Travis">
 
 Untuk mencoba mengurangi waktu ini, saya melakukan metode _caching_ pada berkas-berkas yang sering digunakan
 
@@ -26,9 +26,9 @@ Selain itu saya juga menambahkan parameter `incremental: true` pada `_config.yml
 ### Caching pada direktori `.rvm` dan `.nvm`
 Ketika melakukan perintah `rvm install` dan `npm install` memerlukan waktu sekitar 14 detik untuk masing-masing perintah
 
-<img src="{{ site.url }}/img/rvm-install.png" class="img-responsive" alt="rvm">
+<img src="{{ site.baseurl }}/img/rvm-install.png" class="img-responsive" alt="rvm">
 
-<img src="{{ site.url }}/img/npm-install.png" class="img-responsive" alt="nvm">
+<img src="{{ site.baseurl }}/img/npm-install.png" class="img-responsive" alt="nvm">
 
 Karena itu saya menambahkan baris
 
@@ -45,6 +45,6 @@ Ketika menggunakan opsi `sudo: false` pada `.travis.yml` maka akan memerintahkan
 
 Setelah melakukan proses diatas maka berikut adalah waktu untuk proses build yang diperlukan
 
-<img src="{{ site.url }}/img/final-travisoptimization.png" class="img-responsive" alt="Final Travis">
+<img src="{{ site.baseurl }}/img/final-travisoptimization.png" class="img-responsive" alt="Final Travis">
 
 **Ah Elaaah .. ga berasa juga bedanya ....**

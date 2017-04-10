@@ -18,7 +18,7 @@ Terjadi galat dikarenakan isu _permissions_, hal ini membingungkan saya karena s
 
 Pada Ubuntu 16.04 saya menampilkan hasil sebagai berikut
 
-<img src="{{ site.url }}/img/npm-dir.png" class="img-responsive" alt="NPM Direktori">
+<img src="{{ site.baseurl }}/img/npm-dir.png" class="img-responsive" alt="NPM Direktori">
 
 Dikarenakan saya tidak ingin menambah kerumitan, maka cara yang bisa dilakukan adalah dengan mengubah direktori pemasangan paket ke direktori lain. Hal ini dapat dilakukan dengan
 

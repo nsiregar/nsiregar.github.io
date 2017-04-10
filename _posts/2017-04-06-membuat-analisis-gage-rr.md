@@ -101,6 +101,6 @@ Perintah diatas akan menghasilkan keluaran
 
 Dan juga diagram seperti berikut
 
-<img src="{{ site.url }}/img/gage-rr-battery.png" class="img-responsive" alt="Gage R&R">
+<img src="{{ site.baseurl }}/img/gage-rr-battery.png" class="img-responsive" alt="Gage R&R">
 
 Diagram diatas menunjukkan beberapa hal yang bisa diamati sebelum mengambil keputusan untuk melakukan _improvement_, pada artikel selanjutnya saya akan menulis tentang menerjemahkan diagram Gage R&R untuk mengambil keputusan.

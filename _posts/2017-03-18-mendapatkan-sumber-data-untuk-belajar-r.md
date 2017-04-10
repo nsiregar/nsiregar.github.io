@@ -14,7 +14,7 @@ Ketika pertama kali mempelajari R biasanya kita akan bingung tentang data apa ya
 
 Untuk menampilkan seluruh dataset bawaan R dapat menggunakan fungsi `data()`
 
-<img src="{{ site.url }}/img/r-dataset.png" class="img-responsive" alt="r dataset">
+<img src="{{ site.baseurl }}/img/r-dataset.png" class="img-responsive" alt="r dataset">
 
 #### Menggunakan Data dari Dataset R
 Untuk menggunakan data dari dataset R gunakan perintah

@@ -10,7 +10,7 @@ tags: [dns, ubuntu, telkomsel, opendns]
 
 Beberapa saat lalu saya membaca artikel teman saya Ali mengenai penggunaan DNSCryt di [sini](https://situsali.com/mengakses-situs-terblokir-dengan-dnscrypt-di-arch-linux/), akhirnya saya penasaran ingin mencoba. Namun alih-alih ingin menggunakan DNSCrypt saya cuma ingin mengubah DNS bawaan dari Telkomsel ke OpenDNS, operator yang saya gunakan Telkomsel. Mulailah saya membaca petunjuk tentang bagaimana [menggunakan OpenDNS di Ubuntu](https://support.opendns.com/hc/en-us/articles/228007087-Ubuntu), namun sungguh tak dinyana dengan hanya mengikuti petunjuk tersebut tidak bisa mnegubah DNS Telkomsel menjadi DNS OpenDNS. Ketika melakukan pengecekan di [https://www.opendns.com/welcome/](https://www.opendns.com/welcome/) hasilnya
 
-<img src="{{ site.url }}/img/opendns-fail.png" class="img-responsive" alt="OpenDNS Fail">
+<img src="{{ site.baseurl }}/img/opendns-fail.png" class="img-responsive" alt="OpenDNS Fail">
 
 Akhirnya saya pun berkonsultasi dengan beberapa teman di grup Telegram untuk memecahkan masalah ini, dan berikut kesimpulannya :
 
@@ -44,7 +44,7 @@ Untuk mengatasi masalah tersebut berikut beberapa hal yang perlu dilakukan :
 
 Dengan menggunakan cara tersebut maka saya berhasil menggunakan OpenDNS, berikut adalah hasil pengecekan di [https://www.opendns.com/welcome/](https://www.opendns.com/welcome/)
 
-<img src="{{ site.url }}/img/opendns-success.png" class="img-responsive" alt="OpenDNS Success">
+<img src="{{ site.baseurl }}/img/opendns-success.png" class="img-responsive" alt="OpenDNS Success">
 
 > Update tambahan IP DNS dari DNS.Watch, ketika saya coba belum berhasil menggunakan metode diatas untuk mengubah DNS Telkomsel
 

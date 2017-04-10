@@ -13,7 +13,7 @@ Akhirnya semalam pindahan [linhub](https://linhub.io/) untuk menggunakan hosting
 1. **Layanan `Spark` hanya menyediakan 1 GB Storage**  
     Hal ini mengejutkan saya karena batasannya hanya 1 GB, ketika melakukan perintah `bundle exec jekyll build ./_site` akan menghasilkan berkas sebesar 11 MB. Jika saya menjalankan _Challenge ODOA_ dimana sehari diperlukan satu artikel maka dalam 1 bulan akan meghabiskan _storage_ kurang lebih 300 MB, itu jika tidak ada kesalahan seperti typo atau tulisan yang kurang jelas. Untuk mengatasi ini Firebase memberikan opsi bagi kita untuk menghapus berkas yang sebelumnya kita _deploy_. Cukup pilih menu di tombol kanan daftar deploy dan pilih _Delete_, saya hanya menyediakan 3 berkas _deployment_ untuk berjaga-jaga.
 
-    <img src="{{ site.url }}/img/firebase-delete-deploy.png" class="img-responsive" alt="Firebase Delete Deploy">
+    <img src="{{ site.baseurl }}/img/firebase-delete-deploy.png" class="img-responsive" alt="Firebase Delete Deploy">
 
 2. **Layanan Travis-CI Menggunakan Zona Waktu Berbeda**  
     Perihal ini menyebabkan ketika saya melakukan build untuk [linhub](https://linhub.io/) tidak menampilkan _post_ yang saya buat di zona waktu saya (GMT +9), hal ini dapat diakali dengan menambahkan `future: true` pada berkas `_config.yml`. Serta menambah baris berikut pada `.travis.yml`

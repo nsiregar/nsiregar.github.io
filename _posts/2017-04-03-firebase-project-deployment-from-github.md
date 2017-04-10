@@ -40,7 +40,7 @@ Untuk dapat melakukan deployment dari Github ke Google Firebase, hal yang perlu 
 
 Setelah mengetahui tiga hal tersebut maka kita bisa membuat _Environment Variable_ pada halaman _Settings_ di Travis-CI repo yang kita integrasikan. Buat _variable_ dengan nama `FIREBASE_TOKEN` dan isi dengan token yang digenerate oleh perintah `firebase login:ci`, penting **Jangan nyalakan `Display value in build log`** untuk keamanan.
 
-<img src="{{ site.url }}/img/firebase-env.png" class="img-responsive" alt="Environment Variables">
+<img src="{{ site.baseurl }}/img/firebase-env.png" class="img-responsive" alt="Environment Variables">
 
 Setelah mendefinisikan _environment variables_ kita akan membuat berkas `.travis.yml` pada repo kita, berikut adalah contoh `.travis.yml` yang saya gunakan.
 
@@ -63,7 +63,7 @@ Untuk melakukan test deployment silahkan lakukan perintah
 
 Setelah selesai maka pada _Job Log_ pada Travis CI akan menampilkan
 
-<img src="{{ site.url }}/img/firebase-deploy.png" class="img-responsive" alt="Firebase Deploy">
+<img src="{{ site.baseurl }}/img/firebase-deploy.png" class="img-responsive" alt="Firebase Deploy">
 
 Dengan begitu Google Firebase sudah menjalankan hosting untuk static files kita.
 
