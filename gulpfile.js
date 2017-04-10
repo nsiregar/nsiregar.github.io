@@ -97,7 +97,7 @@ gulp.task('algolia-index', function() {
     return gulp.src('_site/algolia.json')
         .pipe(algoliasearch(algoliaAPPID, algoliaAPIKEY)
             .initIndex(algoliaINDEX)
-                .saveObjects(function(err, obj) {
+                .saveObjects('algolia.json', function(err, obj) {
                     if(err) {
                         console.error(err);
                     }
