@@ -26,8 +26,8 @@ before_script:
   - npm install gulp-replace fs gulp-concat gulp-uglify run-sequence gulp-rename gulp-minify
 
 script: 
-  - ls ./_site/assets/themes/twitter/js/
   - gulp deploy
+  - ls ./_site/assets/themes/twitter/js/
 
 after_success:
   - firebase deploy --token $FIREBASE_TOKEN
