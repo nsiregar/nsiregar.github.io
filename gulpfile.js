@@ -91,7 +91,7 @@ gulp.task('deploy', function(callback) {
         'fetch-pageads',
         'jekyll',
         'html-proofer',
-        'optimize-images',
+        'optimize-image',
         'optimize-css',
         'optimize-js',
         callback
