@@ -41,6 +41,11 @@ gulp.task('fetch-pageads', function() {
         .pipe(gulp.dest('_site/assets/themes/twitter/js/'));
 });
 
+gulp.task('fetch-capub', function() {
+    return download('https://pagead2.googlesyndication.com/pub-config/r20160913/ca-pub-2544661724087657.js')
+        .pipe(gulp.dest('_site/assets/themes/twitter/js/'))
+})
+
 gulp.task('optimize-image', function() {
     return gulp.src([
         '_site/img/*.jpg',
@@ -70,9 +75,8 @@ gulp.task('optimize-css', function() {
 });
 
 gulp.task('optimize-js', function() {
-    return gulp.src('_site/assets/themes/twitter/js/*.*')
+    return gulp.src('_site/**/*.js')
         .pipe(concat('bundle.js'))
-        .pipe(gulp.dest('_site/assets/themes/twitter/js/'))
         .pipe(rename('bundle.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest('_site/assets/themes/twitter/js/'));
@@ -95,6 +99,7 @@ gulp.task('deploy', function(callback) {
     runSequence(
         'fetch-analytics',
         'fetch-pageads',
+        'fetch-capub',
         'jekyll',
         'optimize-image',
         'optimize-css',

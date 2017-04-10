@@ -25,7 +25,9 @@ before_script:
   - npm install gulp-imagemin imagemin-pngquant imagemin-jpegtran imagemin-gifsicle
   - npm install gulp-replace fs gulp-concat gulp-uglify run-sequence gulp-rename gulp-minify
 
-script: gulp deploy
+script: 
+  - ls ./_site/assets/themes/twitter/js/
+  - gulp deploy
 
 after_success:
   - firebase deploy --token $FIREBASE_TOKEN
