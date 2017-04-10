@@ -58,24 +58,20 @@ gulp.task('optimize-image', function() {
 gulp.task('optimize-css', function() {
     return gulp.src('_src/assets/themes/twitter/css/*.css')
         .pipe(concat('bundle.css'))
+        .pipe(rename('bundle.min.css'))
         .pipe(autoprefixer())
         .pipe(uncss({
             html: ['_site/**/*.html'],
             ignore: []
         }))
         .pipe(cleanCSS({keepBreaks: false}))
-        .pipe(rename({
-            suffix: '.min'
-        }))
         .pipe(gulp.dest('_src/assets/themes/twitter/css/'));
 });
 
 gulp.task('optimize-js', function() {
     return gulp.src('_site/assets/themes/twitter/js/*.js')
         .pipe(concat('bundle.js'))
-        .pipe(rename({
-            suffix: '.min'
-        }))
+        .pipe(rename('bundle.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest('_site/assets/themes/twitter/js/'));
 });
