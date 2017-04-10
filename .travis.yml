@@ -23,6 +23,7 @@ before_script:
   - npm install gulp gulp-shell gulp-minify-html gulp-clean-css gulp-autoprefixer gulp-uncss gulp-download
   - npm install gulp-imagemin imagemin-pngquant imagemin-jpegtran imagemin-gifsicle gulp-minify
   - npm install gulp-replace fs gulp-concat gulp-uglify run-sequence gulp-rename gulp-minify-inline
+  - npm install gulp-postcss postcss-px-to-em
 
 script: 
   - gulp deploy

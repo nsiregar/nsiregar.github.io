@@ -16,7 +16,9 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     minify = require('gulp-minify'),
     runSequence = require('run-sequence'),
-    rename = require('gulp-rename');
+    rename = require('gulp-rename'),
+    postcss = require('gulp-postcss'),
+    pxtoem = require('postcss-px-to-em');
 
 gulp.task('jekyll', function() {
     return gulp.src('index.html', { read: false })
@@ -61,6 +63,7 @@ gulp.task('optimize-css', function() {
             html: ['_site/**/*.html'],
             ignore: []
         }))
+        .pipe(postcss([pxtoem]))
         .pipe(cleanCSS())
         .pipe(gulp.dest('_site/assets/themes/twitter/css/'));
 });
