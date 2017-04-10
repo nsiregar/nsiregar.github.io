@@ -55,7 +55,7 @@ gulp.task('optimize-image', function() {
 });
 
 gulp.task('optimize-css', function() {
-    return gulp.src('_src/assets/themes/twitter/css/bootstrap.reduced.css')
+    return gulp.src('_src/assets/themes/twitter/css/main.css')
         .pipe(autoprefixer())
         .pipe(uncss({
             html: ['_site/**/*.html'],
@@ -67,7 +67,7 @@ gulp.task('optimize-css', function() {
 
 gulp.task('optimize-js', function() {
     return gulp.src('_site/assets/themes/twitter/js/*.js')
-        .pipe(concat('jquery.min.js'))
+        .pipe(concat('main.js'))
         .pipe(uglify())
         .pipe(gulp.dest('_site/assets/themes/twitter/js/'));
 });
@@ -77,8 +77,8 @@ gulp.task('optimize-html', function() {
         .pipe(minifyHTML({
             quotes: true
         }))
-        .pipe(replace(/<link href=\"\/assets\/themes\/twitter\/css\/bootstrap.reduced.css\"[^>]*>/, function(s) {
-			var style = fs.readFileSync('_site/assets/themes/twitter/css/bootstrap.reduced.css', 'utf8');
+        .pipe(replace(/<link href=\"\/assets\/themes\/twitter\/css\/main.css\"[^>]*>/, function(s) {
+			var style = fs.readFileSync('_site/assets/themes/twitter/css/main.css', 'utf8');
 			return '<style>\n' + style + '\n</style>';
         }))
         .pipe(gulp.dest('_site/'));
