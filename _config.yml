@@ -10,7 +10,7 @@ defaults:
       permalink: /:categories/:year/:month/:day/:title/
       post_dirs: false
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "vendor"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "vendor", "node_modules"]
 highlighter: rouge
 markdown: kramdown
 

@@ -23,7 +23,7 @@ gulp.task('jekyll', function() {
 });
     
 gulp.task('html-proofer', function() {
-    return gulp.src('_site/**/*.html')
+    return gulp.src('index.html', { read: false })
         .pipe(shell([
             'bundle exec htmlproofer ./_site --disable-external'
         ]));
