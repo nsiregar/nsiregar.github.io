@@ -3,9 +3,9 @@
   _gaq.push(['_setAccount', '{{ site.JB.analytics.google.tracking_id }}']);
   _gaq.push(['_trackPageview']);
 
-  /* (function() {
+  (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
     ga.src = '{{ ASSET_PATH }}/js/analytics.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();*/
+  })();
 </script>

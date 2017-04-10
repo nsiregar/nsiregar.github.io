@@ -76,7 +76,7 @@ gulp.task('optimize-css', function() {
 });
 
 gulp.task('optimize-js', function() {
-    return gulp.src('_site/**/*.js')
+    return gulp.src(['_site/assets/themes/twitter/js/main.js', '_site/assets/themes/twitter/js/adsbygoogle.js', '_site/assets/themes/twitter/js/capub.js'])
         .pipe(concat('bundle.js'))
         .pipe(rename('bundle.min.js'))
         .pipe(uglify())
