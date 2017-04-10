@@ -114,6 +114,7 @@ gulp.task('deploy', function(callback) {
         'optimize-css',
         'optimize-js',
         'optimize-html',
+        'algolia-index',
         'html-proofer',
         callback
     );
