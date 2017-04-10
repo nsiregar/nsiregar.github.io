@@ -1,7 +1,7 @@
 var gulp = require('gulp'),
     shell = require('gulp-shell'),
     minifyHTML = require('gulp-minify-html'),
-    minifyCSS = require('gulp-minify-css'),
+    minifyCSS = require('gulp-clean-css'),
     autoprefixer = require('gulp-autoprefixer'),
     uncss = require('gulp-uncss'),
     download = require('gulp-download'),
@@ -56,6 +56,7 @@ gulp.task('optimize-image', function() {
 
 gulp.task('optimize-css', function() {
     return gulp.src('_src/assets/themes/twitter/css/main.css')
+        .pipe(minifyCSS())
         .pipe(autoprefixer())
         .pipe(uncss({
             html: ['_site/**/*.html'],
@@ -67,7 +68,7 @@ gulp.task('optimize-css', function() {
 
 gulp.task('optimize-js', function() {
     return gulp.src('_site/assets/themes/twitter/js/*.js')
-        .pipe(concat('main.js'))
+        .pipe(concat('main.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest('_site/assets/themes/twitter/js/'));
 });
