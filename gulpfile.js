@@ -33,13 +33,11 @@ gulp.task('html-proofer', function() {
 
 gulp.task('fetch-analytics', function() {
     return download('https://www.google-analytics.com/analytics.js')
-        .pipe(rename('analytics.js'))
         .pipe(gulp.dest('_site/assets/themes/twitter/js/'));
 });
 
 gulp.task('fetch-pageads', function() {
     return download('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js')
-        .pipe(rename('adsbygoogle.js'))
         .pipe(gulp.dest('_site/assets/themes/twitter/js/'));
 });
 
@@ -72,7 +70,7 @@ gulp.task('optimize-css', function() {
 });
 
 gulp.task('optimize-js', function() {
-    return gulp.src('_site/assets/themes/twitter/js/*.js')
+    return gulp.src('_site/assets/themes/twitter/js/*.*')
         .pipe(concat('bundle.js'))
         .pipe(gulp.dest('_site/assets/themes/twitter/js/'))
         .pipe(rename('bundle.min.js'))
