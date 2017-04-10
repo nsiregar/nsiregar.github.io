@@ -13,6 +13,7 @@ var gulp = require('gulp'),
     fs = require('fs'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
+    minify = require('gulp-minify'),
     runSequence = require('run-sequence'),
     rename = require('gulp-rename');
 
@@ -56,7 +57,7 @@ gulp.task('optimize-image', function() {
 });
 
 gulp.task('optimize-css', function() {
-    return gulp.src('_src/assets/themes/twitter/css/*.css')
+    return gulp.src('_site/assets/themes/twitter/css/*.css')
         .pipe(concat('bundle.css'))
         .pipe(rename('bundle.min.css'))
         .pipe(autoprefixer())
@@ -65,7 +66,7 @@ gulp.task('optimize-css', function() {
             ignore: []
         }))
         .pipe(cleanCSS())
-        .pipe(gulp.dest('_src/assets/themes/twitter/css/'));
+        .pipe(gulp.dest('_site/assets/themes/twitter/css/'));
 });
 
 gulp.task('optimize-js', function() {
