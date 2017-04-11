@@ -97,8 +97,9 @@ gulp.task('optimize-html', function() {
 gulp.task('algolia-index', function() {
     let client = algoliasearch(algoliaAPPID, algoliaAPIKEY, { timeout: 4000 });
     let db = client.initIndex(algoliaINDEX);
+    let jsonFile = require('_site/algolia.json');
 
-    db.addObjects('_site/algolia.json', function(err, content) {
+    db.addObjects(jsonFile, function(err, content) {
         console.log(content);
     })
 });
