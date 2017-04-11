@@ -80,7 +80,7 @@
   </div>
 
   <form class="search">
-    <input type="text" class="search-box" id="search-input" /><input type="submit" class="search-button" value="Search" />
+    <input type="text" class="search-box" id="search-input" placeholder="Search ..." />
   </form>
 </footer>
     {% include JB/analytics %}
@@ -93,10 +93,10 @@
       autocomplete('#search-input', { hint: false }, [
         {
           source: autocomplete.sources.hits(index, { hitsPerPage: 5 }),
-          displayKey: 'my_attribute',
+          displayKey: 'title',
           templates: {
             suggestion: function(suggestion) {
-              return suggestion._highlightResult.my_attribute.value;
+              return suggestion._highlightResult.title.value;
             }
           }
         }
