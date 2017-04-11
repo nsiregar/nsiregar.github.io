@@ -97,7 +97,7 @@ gulp.task('algolia-index', function() {
     let client = algoliasearch(algoliaAPPID, algoliaAPIKEY, { timeout: 4000 });
     let index = client.initIndex(algoliaINDEX);
 
-    index.saveObjects('_site/algolia.json', function(err, content) {
+    index.addObjects('_site/algolia.json', function(err, content) {
         console.log(content);
     });
     return gulp.src('_site/algolia.json', {read: false})
