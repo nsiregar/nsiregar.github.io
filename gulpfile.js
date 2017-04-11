@@ -98,16 +98,9 @@ gulp.task('algolia-index', function() {
     let client = algoliasearch(algoliaAPPID, algoliaAPIKEY, { timeout: 4000 });
     let db = client.initIndex(algoliaINDEX);
 
-    return gulp.src('_site/algolia.json')
-        .pipe(data(function(file){
-            let jsonFile = new Buffer(JSON.stringify(file));
-            db.saveObjects(jsonFile, function(err, content) {
-                if(err){
-                    console.log(err);
-                }
-            })
-        }))
-        .pipe(gulp.dest('_site/'));
+    db.addObjects('_site/algolia.json', function(err, content) {
+        console.log(content);
+    })
 });
 
 gulp.task('deploy', function(callback) {
