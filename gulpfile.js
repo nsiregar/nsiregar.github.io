@@ -94,10 +94,10 @@ gulp.task('optimize-html', function() {
 });
 
 gulp.task('algolia-index', function() {
-    let client = algoliasearch(algoliaAPPID, algoliaAPIKEY);
+    let client = algoliasearch(algoliaAPPID, algoliaAPIKEY, { timeout: 4000 });
     let index = client.initIndex(algoliaINDEX);
     return gulp.src('_site/algolia.json')
-        .pipe(index.saveObjects())
+        .pipe(index.addObjects())
         .pipe(gulp.dest('_site/'));
 });
 
