@@ -101,7 +101,9 @@ gulp.task('algolia-index', function() {
     return gulp.src('_site/algolia.json')
         .pipe(data(function(file){
             db.saveObjects(file, function(err, content) {
-                console.log(content);
+                if(err){
+                    console.log(err);
+                }
             })
         }))
         .pipe(gulp.dest('_site/'));
