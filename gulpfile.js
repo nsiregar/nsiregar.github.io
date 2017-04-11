@@ -22,7 +22,7 @@ var gulp = require('gulp'),
     algoliaAPPID = process.env.ALGOLIA_APPLICATION_ID,
     algoliaAPIKEY = process.env.ALGOLIA_API_KEY,
     algoliaINDEX = process.env.ALGOLIA_INDEX,
-    algoliaJSON = require('./_site/algolia.json');
+    algoliaJSON = require('_site/algolia.json');
 
 gulp.task('jekyll', function() {
     return gulp.src('index.html', { read: false })
