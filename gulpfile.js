@@ -96,7 +96,7 @@ gulp.task('optimize-html', function() {
 gulp.task('algolia-index', function() {
     let client = algoliasearch(algoliaAPPID, algoliaAPIKEY);
     let index = client.initIndex(algoliaINDEX)
-    return gulp.src('_site/algolia.json')
+    gulp.src('_site/algolia.json')
         .pipe(index.saveObjects('algolia.json', function(err, content) {
             console.log(content);
         }))
