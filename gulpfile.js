@@ -96,8 +96,10 @@ gulp.task('optimize-html', function() {
 gulp.task('algolia-index', function() {
     let client = algoliasearch(algoliaAPPID, algoliaAPIKEY, { timeout: 4000 });
     let index = client.initIndex(algoliaINDEX);
-    return gulp.src('_site/algolia.json')
-        .pipe(index.addObjects())
+    return gulp.src('_site/algolia.json', {read: false})
+        .pipe(index.saveObjects('_site/algolia.json', function(err, content) {
+            console.log(content);
+        }))
         .pipe(gulp.dest('_site/'));
 });
 
