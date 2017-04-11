@@ -78,8 +78,31 @@
       <li><a href="https://t.me/wanperfeksyot" target="_blank">Telegram</a></li>
     </ul>
   </div>
+
+  <form class="search">
+    <input type="text" class="search-box" id="search-input" /><input type="submit" class="search-button" value="Search" />
+  </form>
 </footer>
     {% include JB/analytics %}
     <script async src="{{ ASSET_PATH }}/js/bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+    <script>
+      var client = algoliasearch('PXEGTSFMRH', '524b2e06b43c6b0574944e200c165c66')
+      var index = client.initIndex('prod_LINHUB');
+      autocomplete('#search-input', { hint: false }, [
+        {
+          source: autocomplete.sources.hits(index, { hitsPerPage: 5 }),
+          displayKey: 'my_attribute',
+          templates: {
+            suggestion: function(suggestion) {
+              return suggestion._highlightResult.my_attribute.value;
+            }
+          }
+        }
+      ]).on('autocomplete:selected', function(event, suggestion, dataset) {
+        console.log(suggestion, dataset);
+      });
+    </script>
   </body>
 </html>
