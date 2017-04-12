@@ -97,7 +97,8 @@ gulp.task('optimize-html', function() {
 gulp.task('json-proofer', function() {
     return gulp.src('_site/algolia.json')
         .pipe(jsonlint())
-        .pipe(jsonlint.reporter());
+        .pipe(jsonlint.reporter())
+        .pipe(gulp.dest('_site'));
 });
 
 gulp.task('algolia-index', function() {
