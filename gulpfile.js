@@ -21,7 +21,8 @@ var gulp = require('gulp'),
     algoliasearch = require('algoliasearch'),
     algoliaAPPID = process.env.ALGOLIA_APPLICATION_ID,
     algoliaAPIKEY = process.env.ALGOLIA_API_KEY,
-    algoliaINDEX = process.env.ALGOLIA_INDEX;
+    algoliaINDEX = process.env.ALGOLIA_INDEX,
+    jsonlint = require('gulp-jsonlint');
 
 gulp.task('jekyll', function() {
     return gulp.src('index.html', { read: false })
@@ -93,17 +94,23 @@ gulp.task('optimize-html', function() {
 
 });
 
+gulp.task('json-proofer', function() {
+    return gulp.src('_site/algolia.json')
+        .pipe(jsonlint())
+        .pipe(jsonlint.reporter());
+});
+
 gulp.task('algolia-index', function() {
     var algoliaJSON = require('./_site/algolia.json');
     return algoliasearch(algoliaAPPID, algoliaAPIKEY)
         .initIndex(algoliaINDEX)
-        .saveObject(algoliaJSON, function(err, content) {
+        .saveObjects(algoliaJSON, function(err, content) {
             if (err) {
                 console.log(err);
             } else {
                 console.log(content);
             }
-        })
+        });
 });
 
 gulp.task('deploy', function(callback) {
@@ -115,6 +122,7 @@ gulp.task('deploy', function(callback) {
         'optimize-js',
         'optimize-html',
         'html-proofer',
+        'json-proofer',
         'algolia-index',
         callback
     );
