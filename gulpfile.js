@@ -94,7 +94,7 @@ gulp.task('optimize-html', function() {
 });
 
 gulp.task('algolia-index', function() {
-    var algoliaJSON = require('_site/algolia.json');
+    var algoliaJSON = require('./_site/algolia.json');
     return algoliasearch(algoliaAPPID, algoliaAPIKEY)
         .initIndex(algoliaINDEX)
         .saveObject(algoliaJSON, function(err, content) {
