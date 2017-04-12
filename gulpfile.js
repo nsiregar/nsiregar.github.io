@@ -21,8 +21,7 @@ var gulp = require('gulp'),
     algoliasearch = require('algoliasearch'),
     algoliaAPPID = process.env.ALGOLIA_APPLICATION_ID,
     algoliaAPIKEY = process.env.ALGOLIA_API_KEY,
-    algoliaINDEX = process.env.ALGOLIA_INDEX,
-    data = require('gulp-data');
+    algoliaINDEX = process.env.ALGOLIA_INDEX;
 
 gulp.task('jekyll', function() {
     return gulp.src('index.html', { read: false })
@@ -95,12 +94,11 @@ gulp.task('optimize-html', function() {
 });
 
 gulp.task('algolia-index', function() {
-    let client = algoliasearch(algoliaAPPID, algoliaAPIKEY, { timeout: 4000 });
-    let db = client.initIndex(algoliaINDEX);
-
-    db.addObjects('_site/algolia.json', function(err, content) {
-        console.log(content);
-    })
+    return algoliasearch(algoliaAPPID, algoliaAPIKEY)
+        .initIndex(algoliaINDEX)
+        .saveObjects('./_site/algolia.json', function(err, content) {
+            console.log(content);
+        })
 });
 
 gulp.task('deploy', function(callback) {
@@ -111,6 +109,7 @@ gulp.task('deploy', function(callback) {
         'optimize-css',
         'optimize-js',
         'optimize-html',
+        'algolia-index',
         'html-proofer',
         callback
     );
