@@ -96,7 +96,7 @@ gulp.task('optimize-html', function() {
 gulp.task('algolia-index', function() {
     return algoliasearch(algoliaAPPID, algoliaAPIKEY)
         .initIndex(algoliaINDEX)
-        .saveObjects('./_site/algolia.json', function(err, content) {
+        .addObject('./_site/algolia.json', function(err, content) {
             console.log(content);
         })
 });
