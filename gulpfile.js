@@ -94,10 +94,15 @@ gulp.task('optimize-html', function() {
 });
 
 gulp.task('algolia-index', function() {
+    var algoliaJSON = require('_site/algolia.json');
     return algoliasearch(algoliaAPPID, algoliaAPIKEY)
         .initIndex(algoliaINDEX)
-        .saveObject('_site/algolia.json', function(err, content) {
-            console.log(content);
+        .saveObject(algoliaJSON, function(err, content) {
+            if (err) {
+                console.log(err);
+            } else {
+                console.log(content);
+            }
         })
 });
 
@@ -109,8 +114,8 @@ gulp.task('deploy', function(callback) {
         'optimize-css',
         'optimize-js',
         'optimize-html',
-        'algolia-index',
         'html-proofer',
+        'algolia-index',
         callback
     );
 });
