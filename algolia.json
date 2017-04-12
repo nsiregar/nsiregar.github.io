@@ -11,7 +11,7 @@ layout: null
       "category": "{{ post.category }}",
       "tags":"{{ post.tags | join: ',' }}",
       "url": "{{ post.url | prepend: site.url}}",
-      "description":"{{ post.content | strip_html | strip_newlines | xml_escape | truncatewords: 50 }}",
+      "description":"{{ post.content | strip_html | strip_newlines | xml_escape }}",
       "objectID":"{{ post.url }}"
     }
     {% unless forloop.last %},{% endunless %}
