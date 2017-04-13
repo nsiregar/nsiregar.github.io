@@ -28,6 +28,7 @@ Ketika sedang jalan-jalan di situs [Om Ali](https://situsali.com/) saya membaca 
 
 Bedasarkan hasil diatas, blog teman-teman saya malah pada kena _clickjacking_. Untuk mencegah hal ini terjadi pada [linhub](https://linhub.io/), saya menambahkan beberapa konfigurasi tambahan pada berkas `firebase.json` sebagai berikut
 
+{% raw %}
     {
     "hosting": {
         "public": "_site",
@@ -54,5 +55,6 @@ Bedasarkan hasil diatas, blog teman-teman saya malah pada kena _clickjacking_. U
         } ]
     }
     }
+{% endraw %}
 
 Dengan begitu akan melindungi situs yang di _hosting_ pada Firebase akan terlindungi dari serangan _clickjacking_, _xss_, dan juga _mime sniffing_. Buat teman-teman yang situsnya masih bisa kena _clickjacking_ mungkin bisa segera anuin biar anu ...
