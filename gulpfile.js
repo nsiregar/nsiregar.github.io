@@ -1,121 +1,119 @@
-var gulp = require('gulp'),
-    shell = require('gulp-shell'),
-    minifyHTML = require('gulp-minify-html'),
-    minifyInline = require('gulp-minify-inline'),
-    cleanCSS = require('gulp-clean-css'),
-    autoprefixer = require('gulp-autoprefixer'),
-    uncss = require('gulp-uncss'),
-    download = require('gulp-download'),
-    imagemin = require('gulp-imagemin'),
-    pngquant = require('imagemin-pngquant'),
-    jpegtran = require('imagemin-jpegtran'),
-    gifsicle = require('imagemin-gifsicle'),
-    replace = require('gulp-replace'),
-    fs = require('fs'),
-    concat = require('gulp-concat'),
-    uglify = require('gulp-uglify'),
-    minify = require('gulp-minify'),
-    runSequence = require('run-sequence'),
-    rename = require('gulp-rename'),
-    pixrem = require('gulp-pixrem'),
-    algoliasearch = require('algoliasearch'),
-    algoliaAPPID = process.env.ALGOLIA_APPLICATION_ID,
-    algoliaAPIKEY = process.env.ALGOLIA_API_KEY,
-    algoliaINDEX = process.env.ALGOLIA_INDEX,
-    jsonlint = require('gulp-jsonlint');
+var gulp = require('gulp')
+var shell = require('gulp-shell')
+var minifyHTML = require('gulp-minify-html')
+var minifyInline = require('gulp-minify-inline')
+var cleanCSS = require('gulp-clean-css')
+var autoprefixer = require('gulp-autoprefixer')
+var uncss = require('gulp-uncss')
+var download = require('gulp-download')
+var imagemin = require('gulp-imagemin')
+var pngquant = require('imagemin-pngquant')
+var jpegtran = require('imagemin-jpegtran')
+var gifsicle = require('imagemin-gifsicle')
+var replace = require('gulp-replace')
+var fs = require('fs')
+var concat = require('gulp-concat')
+var uglify = require('gulp-uglify')
+var runSequence = require('run-sequence')
+var rename = require('gulp-rename')
+var pixrem = require('gulp-pixrem')
+var algoliasearch = require('algoliasearch')
+var algoliaAPPID = process.env.ALGOLIA_APPLICATION_ID
+var algoliaAPIKEY = process.env.ALGOLIA_API_KEY
+var algoliaINDEX = process.env.ALGOLIA_INDEX
+var jsonlint = require('gulp-jsonlint')
 
-gulp.task('jekyll', function() {
-    return gulp.src('index.html', { read: false })
+gulp.task('jekyll', function () {
+  return gulp.src('index.html', { read: false })
         .pipe(shell([
-            'JEKYLL_ENV=production bundle exec jekyll build'
-        ]));
-});
-    
-gulp.task('html-proofer', function() {
-    return gulp.src('index.html', { read: false })
+          'JEKYLL_ENV=production bundle exec jekyll build'
+        ]))
+})
+
+gulp.task('html-proofer', function () {
+  return gulp.src('index.html', { read: false })
         .pipe(shell([
-            'bundle exec htmlproofer ./_site --disable-external'
-        ]));
-});
+          'bundle exec htmlproofer ./_site --disable-external'
+        ]))
+})
 
-gulp.task('fetch-analytics', function() {
-    return download('https://www.google-analytics.com/analytics.js')
-        .pipe(gulp.dest('_site/assets/themes/twitter/js/'));
-});
+gulp.task('fetch-analytics', function () {
+  return download('https://www.google-analytics.com/analytics.js')
+        .pipe(gulp.dest('_site/assets/themes/twitter/js/'))
+})
 
-gulp.task('optimize-image', function() {
-    return gulp.src([
-        '_site/img/*.jpg',
-        '_site/img/*.jpeg',
-        '_site/img/*.gif',
-        '_site/img/*.png'
-    ])
+gulp.task('optimize-image', function () {
+  return gulp.src([
+    '_site/img/*.jpg',
+    '_site/img/*.jpeg',
+    '_site/img/*.gif',
+    '_site/img/*.png'
+  ])
         .pipe(imagemin({
-            progressive: false,
-            svgoPlugins: [{ removeViewBox: false }],
-            use: [pngquant(), jpegtran(), gifsicle()]
+          progressive: false,
+          svgoPlugins: [{ removeViewBox: false }],
+          use: [pngquant(), jpegtran(), gifsicle()]
         }))
-        .pipe(gulp.dest('_site/img/'));
-});
+        .pipe(gulp.dest('_site/img/'))
+})
 
-gulp.task('optimize-css', function() {
-    return gulp.src('_site/assets/themes/twitter/css/*.css')
+gulp.task('optimize-css', function () {
+  return gulp.src('_site/assets/themes/twitter/css/*.css')
         .pipe(concat('bundle.css'))
         .pipe(rename('bundle.min.css'))
         .pipe(autoprefixer())
         .pipe(uncss({
-            html: ['_site/**/*.html'],
-            ignore: []
+          html: ['_site/**/*.html'],
+          ignore: []
         }))
         .pipe(pixrem())
         .pipe(cleanCSS())
-        .pipe(gulp.dest('_site/assets/themes/twitter/css/'));
-});
+        .pipe(gulp.dest('_site/assets/themes/twitter/css/'))
+})
 
-gulp.task('optimize-js', function() {
-    return gulp.src('_site/assets/themes/twitter/js/main.js')
+gulp.task('optimize-js', function () {
+  return gulp.src('_site/assets/themes/twitter/js/main.js')
         .pipe(concat('bundle.js'))
         .pipe(rename('bundle.min.js'))
         .pipe(uglify())
-        .pipe(gulp.dest('_site/assets/themes/twitter/js/'));
-});
+        .pipe(gulp.dest('_site/assets/themes/twitter/js/'))
+})
 
-gulp.task('optimize-html', function() {
-    return gulp.src('_site/**/*.html')
+gulp.task('optimize-html', function () {
+  return gulp.src('_site/**/*.html')
         .pipe(minifyHTML({
-            quotes: true
+          quotes: true
         }))
         .pipe(minifyInline())
-        .pipe(replace(/<link href=\"\/assets\/themes\/twitter\/css\/main.css\"[^>]*>/, function(s) {
-			var style = fs.readFileSync('_site/assets/themes/twitter/css/bundle.min.css', 'utf8');
-			return '<style>\n' + style + '\n</style>';
+        .pipe(replace(/<link href="\/assets\/themes\/twitter\/css\/main.css"[^>]*>/, function (s) {
+          var style = fs.readFileSync('_site/assets/themes/twitter/css/bundle.min.css', 'utf8')
+          return '<style>\n' + style + '\n</style>'
         }))
-        .pipe(gulp.dest('_site/'));
+        .pipe(gulp.dest('_site/'))
+})
 
-});
-
-gulp.task('json-proofer', function() {
-    return gulp.src('_site/algolia.json')
+gulp.task('json-proofer', function () {
+  return gulp.src('_site/algolia.json')
         .pipe(jsonlint())
         .pipe(jsonlint.reporter())
-        .pipe(gulp.dest('_site'));
-});
+        .pipe(gulp.dest('_site'))
+})
 
-gulp.task('algolia-index', function() {
-    var algoliaJSON = require('./_site/algolia.json');
-    return algoliasearch(algoliaAPPID, algoliaAPIKEY)
+gulp.task('algolia-index', function () {
+  var algoliaJSON = require('./_site/algolia.json')
+  return algoliasearch(algoliaAPPID, algoliaAPIKEY)
         .initIndex(algoliaINDEX)
-        .saveObjects(algoliaJSON, function(err, content) {
-            if (err) {
-                console.log(err);
-            } else {
-                console.log(content);
-            }
-        });
-});
+        .saveObjects(algoliaJSON, function (err, content) {
+          if (err) {
+            console.log(err)
+          } else {
+            console.log(content)
+          }
+        })
+})
 
-gulp.task('deploy', function(callback) {
-    runSequence(
+gulp.task('deploy', function (callback) {
+  runSequence(
         'fetch-analytics',
         'jekyll',
         'optimize-image',
@@ -126,5 +124,5 @@ gulp.task('deploy', function(callback) {
         'json-proofer',
         'algolia-index',
         callback
-    );
-});
+    )
+})
