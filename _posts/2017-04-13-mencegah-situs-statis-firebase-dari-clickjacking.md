@@ -26,7 +26,7 @@ Ketika sedang jalan-jalan di situs [Om Ali](https://situsali.com/) saya membaca 
 
 <img src="{{ site.baseurl }}/img/sty-clickjacking.png" class="img-responsive" alt="Uwaaaaaa ">
 
-Bedasarkan hasil diatas, blog teman-teman saya malah pada kena _clickjacking_. Untuk mencegah hal ini terjadi pada [linhub](https://linhub.io/), saya menambahkan beberapa konfigurasi tambahan pada berkas `firebase.json` sebagai berikut
+Berdasarkan hasil diatas, blog teman-teman saya malah pada kena _clickjacking_. Untuk mencegah hal ini terjadi pada [linhub](https://linhub.io/), saya menambahkan beberapa konfigurasi tambahan pada berkas `firebase.json` sebagai berikut
 
 {% raw %}
     {
