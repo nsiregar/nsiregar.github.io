@@ -51,6 +51,7 @@
         "key" : "X-XSS-Protection",
         "value" : "1"
       } ]
-    } ]
+    } ],
+    "cleanUrls": true
   }
 }
