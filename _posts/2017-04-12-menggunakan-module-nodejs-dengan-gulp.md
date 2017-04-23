@@ -12,31 +12,33 @@ Saat dalam proses menambahkan fitur _full text searching_ pada [linhub](https://
 
 Untuk menggunakan `module` NodeJS dengan Gulp sebenarnya cukup mudah, seperti menulis _Gulp Task_ pada umumnya. Namun tidak menghasilkan atau memproses _stream_, berikut adalah contoh _task_ yang saya gunakan untuk melakukan _indexing_ ke Algolia.
 
-    var algoliasearch = require('algoliasearch'),
-        algoliaAPPID = process.env.ALGOLIA_APPLICATION_ID,
-        algoliaAPIKEY = process.env.ALGOLIA_API_KEY,
-        algoliaINDEX = process.env.ALGOLIA_INDEX,
-        jsonlint = require('gulp-jsonlint');
+{% highlight javascript %}
+var algoliasearch = require('algoliasearch'),
+    algoliaAPPID = process.env.ALGOLIA_APPLICATION_ID,
+    algoliaAPIKEY = process.env.ALGOLIA_API_KEY,
+    algoliaINDEX = process.env.ALGOLIA_INDEX,
+    jsonlint = require('gulp-jsonlint');
 
-    gulp.task('json-proofer', function() {
-        return gulp.src('_site/algolia.json')
-            .pipe(jsonlint())
-            .pipe(jsonlint.reporter())
-            .pipe(gulp.dest('_site'));
-    });
+gulp.task('json-proofer', function() {
+    return gulp.src('_site/algolia.json')
+        .pipe(jsonlint())
+        .pipe(jsonlint.reporter())
+        .pipe(gulp.dest('_site'));
+});
 
-    gulp.task('algolia-index', function() {
-        var algoliaJSON = require('./_site/algolia.json');
-        return algoliasearch(algoliaAPPID, algoliaAPIKEY)
-            .initIndex(algoliaINDEX)
-            .saveObjects(algoliaJSON, function(err, content) {
-                if (err) {
-                    console.log(err);
-                } else {
-                    console.log(content);
-                }
-            });
-    });
+gulp.task('algolia-index', function() {
+    var algoliaJSON = require('./_site/algolia.json');
+    return algoliasearch(algoliaAPPID, algoliaAPIKEY)
+        .initIndex(algoliaINDEX)
+        .saveObjects(algoliaJSON, function(err, content) {
+            if (err) {
+                console.log(err);
+            } else {
+                console.log(content);
+            }
+        });
+});
+{% endhighlight %}
 
 Pada contoh diatas saya juga menambahkan _task_ `json-proofer`, hal ini dimaksudkan untuk memastikan bahwa JSON yang digunakan benar-benar _error free_. Pada _task_ `algolia-index` seperti yang sudah disebutkan, saya hanya memanggil fungsi pada umumnya tanpa harus melakukan _stream_. Berkas JSON yang saya gunakan adalah berkas yang dihasilkan dari Liquid, berikut adalah contoh JSON dari Liquid yang saya gunakan
 
