@@ -613,6 +613,7 @@ blockquote {
     display: block;
     margin-left: 5px;
     margin-top: 5px;
+    float: left;
     line-height: 19px;
     white-space: nowrap;
     font-size: 11px;
