@@ -20,8 +20,12 @@ Saya kan cuma pake satu _screen_ kok ini dibilang ga bisa ketemu, kemudian terli
     ;screen=1 ini adalah nilai default
     screen=0
 
-Karena kemungkinan pembacaan yang dimulai dari 0. _Well_ .. ternyata berjalan sesuai yang diharapkan, _but wait_ .. ini kok ngaco proses perpindahannya. Selidik punya selidik ternyata pada berkas `redshift.conf` pengaturan untuk `location-provider` diatur ke `manual`, dan pada section `[manual]` _lat_ serta _lon_ ga sesuai dengan lokasi saya saat ini. Kemudian saya menggunakan layanan daring untuk mencari _lat_ dan _lon_ untuk kota saya, hmmm .. sudah berjalan dengan harapan.
+Karena kemungkinan pembacaan yang dimulai dari 0. _Well_ .. ternyata berjalan sesuai yang diharapkan, _but wait_ .. ini kok ngaco proses perpindahannya. Selidik punya selidik ternyata pada berkas `redshift.conf` pengaturan untuk `location-provider` diatur ke `manual`, dan pada section `[manual]` _lat_ serta _lon_ ga sesuai dengan lokasi saya saat ini. Kemudian saya menggunakan layanan daring untuk mencari _lat_ dan _lon_ untuk kota saya dan merubah menjadi
 
-Namun masalah muncul kembali, ternyata `redshift` ini tidak secara otomatis dijalankan ketika _startup_. Saya pun membuat _entry startup_ baru dengan _command_ berisikan `/usr/bin/redshift`. Voila `redshift` akan dijalankan setelah saya menyalakan T430 kesayangan ini.
+    [manual]
+    lat=-4.4553220
+    lon=137.1362130
+
+Hmmm .. sudah berjalan dengan harapan. Namun masalah muncul kembali, ternyata `redshift` ini tidak secara otomatis dijalankan ketika _startup_. Saya pun membuat _entry startup_ baru dengan _command_ berisikan `/usr/bin/redshift`. Voila `redshift` akan dijalankan setelah saya menyalakan T430 kesayangan ini.
 
 <img src="{{ site.baseurl }}/img/sebatman.png" class="img-responsive" alt="Sebatman">
