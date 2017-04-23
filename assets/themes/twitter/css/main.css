@@ -611,13 +611,13 @@ blockquote {
 
 .tag_box a {
     display: block;
-    float: left;
-    height: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
     line-height: 19px;
     white-space: nowrap;
     font-size: 11px;
     padding: 0 10px 0 15px;
-    background: url(http://linhub.io/img/tag.png) no-repeat center left;
+    background: url(https://linhub.io/img/tag.png) no-repeat center left;
 }
 
 .tag_box a span {
