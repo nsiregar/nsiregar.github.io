@@ -610,10 +610,14 @@ blockquote {
 }
 
 .tag_box a {
-    padding: 3px 6px;
-    margin: 2px;
-    color: #005F6B;
-    border-radius: 3px
+    display: block;
+    float: left;
+    height: 20px;
+    line-height: 19px;
+    white-space: nowrap;
+    font-size: 11px;
+    padding: 0 10px 0 15px;
+    background: url(http://linhub.io/img/tag.png) no-repeat center left;
 }
 
 .tag_box a span {
