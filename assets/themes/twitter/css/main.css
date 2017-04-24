@@ -205,6 +205,13 @@ a:focus {
     border: 1px solid #268BD2
 }
 
+.img-sticker {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto
+}
+
 .sr-only {
     position: absolute;
     width: 1px;
