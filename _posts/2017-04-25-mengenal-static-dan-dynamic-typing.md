@@ -56,4 +56,3 @@ Dari contoh diatas dapat disimpulkan bahwa _dynamic typing_ adalah sebuah mekani
 
 _Well_ .. sekarang saya sedang belajar Python, Ruby, dan Javascript. Dan semuanya _dynamic typing_, akan tetapi tidak masalah dengan terus belajar nanti pasti akan menemukan jalan ninja yang tepat.
 
-<img src="{{ site.baseurl }}/img/sebatman.png" class="img-sticker" alt="Sebatman">

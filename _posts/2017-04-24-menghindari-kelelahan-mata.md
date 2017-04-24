@@ -12,8 +12,6 @@ Beberapa hari belakangan ini mata saya mulai mudah lelah, mungkin efek sehabis s
 
 > Muncul pesan "Screen 1 Could Not Be Found"
 
-<img src="{{ site.baseurl }}/img/lieur.png" class="img-sticker" alt="Lieur">
-
 Saya kan cuma pake satu _screen_ kok ini dibilang ga bisa ketemu, kemudian terlintas pada pikiran saya untuk merubah baris 
 
     [randr]
@@ -28,4 +26,3 @@ Karena kemungkinan pembacaan yang dimulai dari 0. _Well_ .. ternyata berjalan se
 
 Hmmm .. sudah berjalan dengan harapan. Namun masalah muncul kembali, ternyata `redshift` ini tidak secara otomatis dijalankan ketika _startup_. Saya pun membuat _entry startup_ baru dengan _command_ berisikan `/usr/bin/redshift`. Voila `redshift` akan dijalankan setelah saya menyalakan T430 kesayangan ini.
 
-<img src="{{ site.baseurl }}/img/sebatman.png" class="img-sticker" alt="Sebatman">
