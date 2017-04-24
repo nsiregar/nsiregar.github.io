@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Mengenal static dan Dynamic Typing"
-subtitle: ""
-description: ""
-category: 
-tags: []
+subtitle: "Static vs Dynamic"
+description: "Mengenal static dan dynamic typing"
+category: Others
+tags: [static, dynamic]
 ---
 {% include JB/setup %}
 
