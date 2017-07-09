@@ -41,7 +41,7 @@ author :
 production_url : https://linhub.io
 
 # remove jekyll-sitemap
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #

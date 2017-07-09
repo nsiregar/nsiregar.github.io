@@ -1,12 +1,12 @@
 language: node_js
 node_js: '7.8.0'
 
-cache:
-  - bundler: true
-  - directories:
-    - $HOME/.rvm
-    - $HOME/.nvm
-    - node_modules
+# cache:
+#   - bundler: true
+#   - directories:
+#     - $HOME/.rvm
+#     - $HOME/.nvm
+#     - node_modules
 
 before_install:
   - rvm install 2.1
