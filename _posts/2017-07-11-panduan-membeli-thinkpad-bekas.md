@@ -68,7 +68,7 @@ Beberapa hal yang harus kamu perhatikan ketika memboyong Thinkpad Bekas:
 #### Rekomendasi Penjual
 Sebagai pengalaman saya ketika berbelanja Thinkpad ini, ada dua penjual yang menurut saya _recommended seller_ mereka adalah:
 
-- (Agan Adien)[https://t.me/deannov] - ini adalah agan dimana saya memboyong T430, cukup _fast response_, ramah, dan biasa ada barang murah yang dijual.
-- (Toko Shoozay)[https://www.tokopedia.com/shoozay] - toko yang lumayan terkenal dikalangan Thinkpadders ID, barang yang dijual lumayan banyak dan cukup murah.
+- [Agan Adien](https://t.me/deannov) - ini adalah agan dimana saya memboyong T430, cukup _fast response_, ramah, dan biasa ada barang murah yang dijual.
+- [Toko Shoozay](https://www.tokopedia.com/shoozay) - toko yang lumayan terkenal dikalangan Thinkpadders ID, barang yang dijual lumayan banyak dan cukup murah.
 
-Jika berminat kamu juga bisa bergabung dengan grup Telegram Thinkpad untuk mendapat informasi baru atau siapa tau mendapat Thinkpad bekas yang dijual penghuni disini (https://t.me/pegelthinkpad)[https://t.me/pegelthinkpad].
+Jika berminat kamu juga bisa bergabung dengan grup Telegram Thinkpad untuk mendapat informasi baru atau siapa tau mendapat Thinkpad bekas yang dijual penghuni disini [https://t.me/pegelthinkpad](https://t.me/pegelthinkpad).
