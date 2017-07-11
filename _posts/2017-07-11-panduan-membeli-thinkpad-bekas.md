@@ -22,6 +22,7 @@ Sebagai **racun** pertama perlu kamu simak beberapa keuntungan membeli Thinkpad 
 - _Docking_, Thinkpad mendukung fitur _docking_ dimana memungkinkan kamu untuk mengubah menjadi semacam desktop.
 - Murah ... ya seperti yang sudah dibahas di atas, alasan utamanya ya murah. Dengan harga murah kamu dapat memasang sistem operasi terbaru, baik Windows maupun Linux.
 
+<img src="{{ site.baseurl }}/img/thinkpad.png" class="img-responsive" alt="Thinkpad ">
 
 #### Thinkpad Seri T
 Jika mengacu pada situs Lenovo, maka seri T bisa dibilang adalah seri High End untuk Bisnis.
