@@ -3,7 +3,7 @@ layout: post
 title: "Update Wireless Card Firmware in OpenBSD"
 subtitle: "Update Wireless Card secara Manual di OpenBSD"
 description: ""
-category: openbsd
+category: OpenBSD
 tags: [openbsd, firmware, wireless]
 ---
 {% include JB/setup %}
