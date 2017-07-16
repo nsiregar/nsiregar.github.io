@@ -25,16 +25,14 @@ In fact, yeah it is cool to use DVORAK layout, but not everyone use this layout 
 #### 3. It's More Comfortable
 There is a study that said the typist finger traveled 30 km in QWERTY layout, but only 1.5 km in DVORAK in a day. Yeah it is, I didn't feel pain in my little finger anymore. But it is not comfortable to always bringing your own keyboard to every meeting (tips: bring programmable mechanical keyboard, which programmed to DVORAK, to eliminate changing input source process). Notable things in here is, you cannot use your most common keyboard shortcut as usual. This is like copy and paste feature, which usually can be done with single hand now require two hands.
 
-After all, yes it is more comfortable using DVORAK layout than using QWERTY layout.
+After all, yes it is more comfortable using DVORAK layout rather than using QWERTY layout.
 
 #### 4. Increase Typing Speed
 Remember where my speed stopped when using QWERTY layout, about 40 WPM. By using DVORAK layout now my speed increased to about 70 WPM just in a few weeks. DVORAK designed to maximize utilization of home row about 70%; 22% on top row; 8% on the bottom. Also DVORAK placing all vowels at the left side of home row and most used consonant at the right of home row. This will guarantee your strokes alternate between your left and right hand.
 
 Faster at typing increase your productivity after all.
 
-That is what I've learned by using different keyboard layout for daily activities. Not all benefits from this layout became real benefits in real life after all. All the problem we facing here is because the standard.
-
-Dr. Dvorak created something great, but he died in vain.
+That is what I've learned by using different keyboard layout for daily activities. Not all benefits from this layout became real benefits in real life after all. All the problem we facing here is because the standard. Dr. Dvorak created something great, but he died in vain.
 
 “I’m tired of trying to do something worthwhile for the human race,” he said, realizing his failure to convince people to adopt his layout. “They simply don’t want to change!”
 
