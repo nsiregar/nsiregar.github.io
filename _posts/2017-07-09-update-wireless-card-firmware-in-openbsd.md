@@ -36,7 +36,7 @@ Untuk terhubung dengan _wifi_ di rumah saya menggunakan perintah beriku:
 ```
 # ifconfig iwn0 up
 # ifconfig iwn0 scan
-# ifconfig iwn0 nama_hotspot wpakey kata_sandi wpaprotos wpa1,wpa2
+# ifconfig iwn0 nwid nama_hotspot wpakey kata_sandi wpaprotos wpa1,wpa2
 # dhclient iwn0
 ```
 
