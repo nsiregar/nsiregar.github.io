@@ -21,7 +21,7 @@ Untuk percobaan pertama kita akan membuat sebuah program sederhana sebagai berik
 list_number = [1, 2, 3]
 list_alpha = [a, b, c]
 
-def loop_in_loop():
+def loops():
     for number in list_number:
         print(number)
         for alpha in list_alpha:
@@ -29,12 +29,12 @@ def loop_in_loop():
 
 
 if __name__ == 'main':
-    loop_in_loop()
+    loops()
 ```
 
-Simpan dengan nama `loop_in_loop.py`, kemudian jalankan perintah
+Simpan dengan nama `loops.py`, kemudian jalankan perintah
 
 ```
-$ python -m pdb loop_in_loop.py
+$ python -m pdb loops.py
 ```
 
