@@ -10,6 +10,7 @@ tags: [dns, dnscrypt, windows]
 
 Dari semalam saya masih bingung bagaimana memperbaiki instalasi Ubuntu saya yang rusak, untungnya tidak ada data penting hanya sistem. Saya juga telah mengunduh `.iso` terbaru dari Ubuntu 16.04.2 sebagai bahan jika memang instalasinya tidak bisa sembuh. Jadi sementara saya masih menggunakan Windows 10 sebagai sistem operasi utama, namun ada yang mengganjal hati saya ketika menggunakan sistem operasi ini. Yang mengganjal hati pertama kali adalah masalah _DNS Hijacking_ yang dilakukan operator seluler yang saya gunakan, Telkomsel, dimana hal tersebut mengakibatkan saya tidak bisa membaca sumber berita dari situs kesayangan [Reddit](https://reddit.com), membuka gambar dari [Imgur](https://imgur.com), dan lain sebagainya.
 
+<!--more-->
 Hal pertama yang saya lakukan untuk masalah ini adalah dengan mencoba trik seperti artikel [Menggunakan OpenDNS di Ubuntu 16.04](https://linhub.io/tips%20and%20trick/2017/03/24/menggunakan-opendns-di-ubuntu-1604), dengan mengubah setting DNS ke OpenDNS pada `IPv4 Properties` namun cara ini tidak membuahkan hasil seperti yang diinginkan. Windows 10 malah tidak bisa melakukan _resolve hostname_, meskipun sudah melakukan perintah `ipconfig /flushdns` dan `ipconfig /registerdns`.
 
 <img src="{{ site.baseurl }}/img/ip4-prop.png" class="img-responsive" alt="IPv4 Properties">

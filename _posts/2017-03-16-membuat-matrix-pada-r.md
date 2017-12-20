@@ -10,6 +10,7 @@ tags: [r, matrix]
 
 Pada R dikenal beberapa `data objects` salah satunya ya `matrix`, `matrix` merupakan array 2d yang terdiri dari tipe data yang sama (mis. semua numerik atau semua teks). Untuk membuat matrix dapat dilakukan dengan beberapa cara :
 
+<!--more-->
 - Menggunakan perintah `matrix()`, dimana langsung membagi `vector` dalam baris dan kolom.  
 - Perintah `rbind()` perintah ini akan menggabungkan beberapa item kedalam baris, selain digunakan untuk `vector` perintah ini juga dapat digunakan untuk menggabungkan antar `matrix`  
 - Lalu perintah `cbind()` yang mirip dengan `rbind()` namun digunakan untuk kolom  

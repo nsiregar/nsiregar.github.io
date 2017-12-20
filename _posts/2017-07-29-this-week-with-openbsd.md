@@ -12,6 +12,7 @@ tags: [openbsd, bsd]
 
 Itu adalah salah satu quote yang cukup saya suka dari seorang admin di grup Telegram yang saya ikuti, selama satu minggu terakhir ini ada banyak kejadian yang terjadi. Baik di dunia sosial melalui Telegram maupun di dunia nyata, tapi yang lebih mengejutkan adalah saya telah menggunakan OpenBSD sebagai sistem operasi _default_ pada laptop kesayangan saya selama satu minggu.
 
+<!--more-->
 Lalu apa saja yang telah saya pelajari selama satu minggu ini menggunakan OpenBSD sebagai sistem operasi _default_
 
 ### Terminal

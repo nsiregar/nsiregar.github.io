@@ -12,6 +12,7 @@ Baru teringat tentang postingan teman di [kabayankababayan](https://rizaumami.gi
 dalam linux. Namun metode ini ternyata tidak bisa dijalankan pada aplikasi Telegram Desktop dikarenakan Telegram dibangun dengan Qt, akan tetapi ada cara untuk menggunakan 
 kombinasi `CTRL`, `SHIFT`, dan `U`.  
 
+<!--more-->
 Disini saya menggunakan Ubuntu 16.04, mungkin akan sedikit berbeda jika menggunakan distro lain, pertama install paket `gnome-panel`  
 `$ sudo apt install --no-install-recommends gnome-panel`  
 

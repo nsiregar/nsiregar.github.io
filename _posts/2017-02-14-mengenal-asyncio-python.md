@@ -13,6 +13,7 @@ Beberapa saat lalu salah seorang teman membahas mengenai `asyncio` di group tele
 memperbolehkan terjadinya proses baru sebelum proses sebelumnya selesai. Pada python, module `asyncio` mulai ditambahkan sejak versi `3.4`, jika kamu menggunakan 
 python dengan versi dibawah itu mungkin kamu perlu `gevent` atau `twisted`.  
 
+<!--more-->
 Pada video [Rob Pike](https://www.youtube.com/watch?v=cN_DpYBzKso) dijelaskan bahwa memecah beberapa _task_ kedalam beberapa _subtask_ yang dijalankan secara bersamaan
 hanya mengakibatkan terjadinya **paralelisme**, hal ini dikarenakan penjadwalan dari _subtask_ itu sendiri. `asyncio` melakukan hal tersebut, dimana _subtask_ didefinisikan sebagai 
 _coroutines_ dan memperbolehkan penjadwalan simultan.  

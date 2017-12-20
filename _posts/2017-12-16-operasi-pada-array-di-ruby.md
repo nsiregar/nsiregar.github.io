@@ -10,6 +10,7 @@ tags: [ruby, array]
 
 _Array_ atau Larik merupakan salah satu bentuk struktur data pada Ruby yang dapat menyimpan banyak data, disebut dengan elemen,  dengan suatu nama yang sama dan menempati tempat di memori yang berurutan (kontigu) serta bertipe data sama. Pada Ruby _array_ dapat berisi berbagai macam tipe data seperti angka, _string_, dan _object_ Ruby lainnya. Ketika kita memiliki data dalam bentuk _array_, kita dapat melakukan beberapa operasi seperti mengurutkan, menghapus duplikasi, membalik urutan, mengambil sebagian dari _array_, melakukan transformasi data, dan menjadikan sebuah _array_ kedalam satu nilai tertentu.
 
+<!--more-->
 Pada kesempatan kali ini kita akan melakukan eksplorasi _method_ yang bisa kita gunakan dalam melakukan operasi pada _array_. Beberapa _method_ yang akan kita gunakan mungkin akan terasa baru, seperti _method_ yang menggunakan tanda seru (!) atau _method_ dengan tanda tanya(?). Untuk _method_ dengan tanda seru (!), berarti _method_ tersebut memiliki efek samping seperti merubah _array_ asli tanpa melakukan proses penyalinan atau memunculkan _exception_. Sedangkan _method_ dengan tanda tanya (?), menunjukkan bahwa _method_ tersebut mengembalikan nilai _boolean_.
 
 ### Akses Elemen pada _Array_

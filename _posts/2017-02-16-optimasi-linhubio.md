@@ -10,6 +10,7 @@ tags: [css, google, optimization]
 Jadi beberapa hari lalu saya membaca artikel teman mengenai Think With Google [di sini](https://www.afternewbie.com/analisa-kecepatan-website-anda-menggunakan-think-google/), _ngehe_ -nya 
 ternyata [Linhub](https://linhub.io) masih sangat jauh dari kata _responsive_ berikut adalah skor menurut [Think With Google](https://testmysite.thinkwithgoogle.com/)  
 
+<!--more-->
 <img src="{{ site.baseurl }}/img/thinkwithgoogle-linhub.png" class="img-responsive" alt="linhub sebelum optimasi">  
 
 Kemudian saya penasaran apakah situs teman-teman saya yang lain juga memiliki skor yang tinggi, alhasil saya mencoba beberapa situs milik teman  

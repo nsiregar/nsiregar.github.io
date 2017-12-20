@@ -15,6 +15,7 @@ And if we have to fall, we'll fall together
 
 Lirik di atas adalah lirik dari _Fall Together_ lagu dari band Temper Trap yang selalu saya dengarkan setiap pagi selama 2 bulan terakhir. Lagunya cukup menarik apalagi ada versi akustik yang memang lumayan asik untuk didengar ...
 
+<!--more-->
 Kali ini saya ingin bercerita tentang bagaimana akhirnya saya menggunakan Ubuntu GNOME 16.04, seperti yang kalian ketahui instalasi Ubuntu saya sebelumnya mengalami galat. Eh .. lagi nyari solasi si _Mark Shuttleworth_ ngumumin mau matiin Unity .. _Shit_. Akhirnya saya pun memasang Ubuntu GNOME ini, pertama kali menggunakan DE ini rasanya sangat sangat **ngehe**. Bayangkan bagi kamu yang terbiasa dengan Global Menu, HUD, App Spread, dan lain sebagainya sekarang terasa beda ditambah lagi ini _title bar_ di GNOME kerasa ngabisin _space_. Dengan berkonsultasi dengan beberapa teman di grup Pegelinux, akhirnya dapat juga solasi untuk memodifikasi GNOME.
 
 ### Memasang GNOME Extension

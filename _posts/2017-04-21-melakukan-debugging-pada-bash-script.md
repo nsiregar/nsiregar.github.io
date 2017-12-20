@@ -10,6 +10,7 @@ tags: [shell, debug]
 
 Hari ini saya sudah sedikit enakan, karena suddah beristirahat selama beberapa hari kemarin. Ketika sedang membaca di situs [Pak Haji](https://rizaumami.github.io/2017/02/28/memeriksa-script-bash-menggunakan-shellcheck/) dan dilanjutkan ke situs [Om Ali](https://situsali.com/pemrograman/2017/04/20/belajar-bash-script-mengenal-shebang/) saya menjadi teringat akan bagaimana melakukan debug pada _shell script_ yang kita buat. Sebenarnya langkah ini hanya diperlukan bila _script_ yang kita buat cukup panjang. 
 
+<!--more-->
 ### Membuat Executable Script
 Untuk langkah ini kalian bisa mengikuti tutorial dari [Om Ali](https://situsali.com/pemrograman/2017/04/20/belajar-bash-script-mengenal-shebang/).
 

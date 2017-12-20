@@ -10,6 +10,7 @@ tags: [emoji, emojione, linux]
 
 Pada zaman yang modern ini sudah sangat umum sekali untuk menggunakan emoji sebagai pengganti dari emoticon umumnya, hal ini pula yang mengganggu pikiran saya tentang bagaimana menulis karakter emoji pada Ubuntu 16.04 yang sedang saya gunakan. Setelah menjelajah ke berbagai sumber akhirnya saya menemukan sebuah _applet_ untuk Ubuntu yang dapat dengan mudah memenuhi keinginan hati ini. _Applet_ ini dikembangkan oleh [Jorge S. de Lis](https://twitter.com/gentakojima) yang bernama [EmojiOne Picker](https://github.com/gentakojima/emojione-picker-ubuntu).
 
+<!--more-->
 Untuk menggunakan EmojiOne Picker ini terdapat tiga cara yaitu:
 
 - Melakukan Kompilasi - _cukup ribet menurut saya_

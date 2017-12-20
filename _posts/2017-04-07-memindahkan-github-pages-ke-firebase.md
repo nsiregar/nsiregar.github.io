@@ -10,6 +10,7 @@ tags: [firebase, jekyll]
 
 Jadi semalam teman-teman di Pegelinux sedang ramai membicarakan masalah `static web`. Sebagian besar member menggunakan Github Pages sebagai layanan hostingnya, karena pada artikel [Firebase Project Deployment from Github](https://linhub.io/firebase/2017/04/03/firebase-project-deployment-from-github) memungkinkan kita untuk melakukan _deploy_ ke Firebase melalui Travis-CI maka pada kesempatan ini kita akan coba memindahkan [blog ini](https://linhub.io) ke Firebase.
 
+<!--more-->
 Kurang lebih cara yang akan kita lakukan sama dengan artikel [Firebase Project Deployment from Github](https://linhub.io/firebase/2017/04/03/firebase-project-deployment-from-github), namun ada beberapa perubahan pada `.travis.yml`. 
 
 > Penting!!! jekyll menggunakan folder `_site` ketika melakukan build, gunakan folder tersebut sebagai _public directory_ dari proyek Firebase kita.

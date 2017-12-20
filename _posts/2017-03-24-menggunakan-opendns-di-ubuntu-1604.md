@@ -10,6 +10,7 @@ tags: [dns, ubuntu, telkomsel, opendns]
 
 Beberapa saat lalu saya membaca artikel teman saya Ali mengenai penggunaan DNSCryt di [sini](https://situsali.com/mengakses-situs-terblokir-dengan-dnscrypt-di-arch-linux/), akhirnya saya penasaran ingin mencoba. Namun alih-alih ingin menggunakan DNSCrypt saya cuma ingin mengubah DNS bawaan dari Telkomsel ke OpenDNS, operator yang saya gunakan Telkomsel. Mulailah saya membaca petunjuk tentang bagaimana [menggunakan OpenDNS di Ubuntu](https://support.opendns.com/hc/en-us/articles/228007087-Ubuntu), namun sungguh tak dinyana dengan hanya mengikuti petunjuk tersebut tidak bisa mnegubah DNS Telkomsel menjadi DNS OpenDNS. Ketika melakukan pengecekan di [https://www.opendns.com/welcome/](https://www.opendns.com/welcome/) hasilnya
 
+<!--more-->
 <img src="{{ site.baseurl }}/img/opendns-fail.png" class="img-responsive" alt="OpenDNS Fail">
 
 Akhirnya saya pun berkonsultasi dengan beberapa teman di grup Telegram untuk memecahkan masalah ini, dan berikut kesimpulannya :

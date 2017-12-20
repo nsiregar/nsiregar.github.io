@@ -10,6 +10,7 @@ tags: [shell, linux, man, apropos]
 
 Sering kali ketika sedang menghadapi persoalan pada program yang berjalan diatas terminal kita akan mencari bantuan dengan bertanya kepada teman-teman atau bertanya pada forum di internet. Namun ada beberapa cara yang cukup mudah dilakukan ketika kita memerlukan bantuan _shell_ linux.
 
+<!--more-->
 ### Menggunakan `man`
 Dengan menggunakan `man` maka akan memberikan bantuan berupa dokumentasi, konfigurasi, dan lainnya untuk program yang kita jalankan. Perintah ini cukup membantu ketika kita sedang tidak terhubung dengan internet.
 

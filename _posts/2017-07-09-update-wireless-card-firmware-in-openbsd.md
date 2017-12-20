@@ -10,6 +10,7 @@ tags: [openbsd, firmware, wireless]
 
 Beberapa saat yang lalu saya melakukan instalasi OpenBSD pada Thinkpad T430 kesayangan yang saya gunakan, kenapa OpenBSD? Sebenarnya tidak ada alasan spesifik, alasan kenapa saya mencoba OpenBSD lebih dikarenakan `racun` yang sering saya dapat ketika membaca subreddit OpenBSD. Kesan pertama ketika melakukan instalasi OpenBSD adalah `ini bukan sembarangan` kenapa? Karena memang memasang OpenBSD tidak semudah ketika saya memasang Ubuntu di laptop kesayangan ini.
 
+<!--more-->
 Hal pertama yang cukup membuat saya tercengang adalah OpenBSD tidak memasang DE secara default, _it's all black screen and white text_. Dan yang cukup membuat saya kaget untuk kali kedua adalah karena ternyata _wireless card_ yang saya gunakan tidak terdeteksi di OpenBSD, dan ternyata membutuhkan _firmware update_.
 
 Masalah _firmware update_ ini sebenarnya tidak akan merembet terlalu jauh jika saya memiliki koneksi dengan menggunakan kabel, _well_ saya juga tidak yakin akan hal ini karena belum tentu tidak membutuhkan _firmware update_.

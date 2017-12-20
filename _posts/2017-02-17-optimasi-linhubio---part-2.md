@@ -9,6 +9,7 @@ tags: [css, google, optimization]
 {% include JB/setup %}  
 Masih lanjut dari artikel [optimasi](https://linhub.io/2017/02/16/optimasi-linhubio) sebelumnya, dimana saya melihat skor teman di [blognya](https://nsetyo.com) dengan skor  
 
+<!--more-->
 <img src="{{ site.baseurl }}/img/nsetyo.png" class="img-responsive" alt="situs sty">  
 
 dimana cukup tinggi dengan skor sempurna pada _mobile friendliness_, akhirnya saya memutuskan untuk sedikit mengubah tampilan dengan tetap mempertahankan performa hal yang saya lakukan 

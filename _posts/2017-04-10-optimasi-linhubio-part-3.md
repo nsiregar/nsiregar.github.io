@@ -10,6 +10,7 @@ tags: [css, google, optimization]
 
 Tiba-tiba pagi ini saya dapat ide, karena sedang asyik bermain menggunakan Travis-CI saya mendapat ide tentang melakukan optimasi dengan seluruh _asset_ pada [linhub](https://linhub.io/). Jika pada posting [optimasi](https://linhub.io/2017/02/17/optimasi-linhubio-part-2/) sebelumnya, saya menggunakan layanan _online_ untuk melakukan proses _minification_ kali ini saya ingin semua dilakukan ketika proses _deploy_.
 
+<!--more-->
 Untuk mencapai tujuan ini, saya menggunakan [Gulp](http://gulpjs.com/) untuk proses optimasi gambar, optimasi css, optimasi js, dan juga optimasi html itu sendiri. Proses yang saya jalankan adalah memberi perintah untuk _build_ dengan `bundle exec jekyll build` kemudian dilanjutkan semua proses optimasi hingga pengecekan html dengan `html-proofer`.
 
 ### Optimasi Gambar

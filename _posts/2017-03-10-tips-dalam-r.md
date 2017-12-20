@@ -12,6 +12,7 @@ Berikut adalah beberapa tips yang saya pelajari ketika belajar menggunakan R
 
 ### Menambahkan Komentar pada Objek R
 Jadi ketika sudah bermain dengan data yang cukup kompleks biasanya kita akan bingung, kebiasaan saya hanya menyingkat nama menjadi beberapa karakter. Untunglah pada R semua objek memiliki atribut - salah satunya adalah komentar. Untuk menampilkan atau menulis komentar pada objek dapat menggunakan perintah `comment()`.
+<!--more-->
 
     > x <- c(2, 3, 5, 4, 3, 6)
     > comment(x)

@@ -9,6 +9,7 @@ tags: [tempel, cli]
 {% include JB/setup %}
 
 Mungkin beberapa dari kalian sudah membaca post saya [berikut](https://linhub.io/shell/2017/04/17/akses-clipboard-dari-terminal/) dimana saya _mention_ tentang aplikasi tempel dari Blankon Linux. Meskipun secara _default_ tempel ini hanya ada di Blankon namun kita bisa memasang pada distro yang kita gunakan. Untuk menggunakan tempel pada distro kesayangan kita cukup _clone_ dari repo tempel dengan perintah
+<!--more-->
 
     $ git clone https://github.com/BlankOn/tempel-cli-py.git
 

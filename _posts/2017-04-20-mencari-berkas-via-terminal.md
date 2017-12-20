@@ -10,6 +10,7 @@ tags: [shell, locate]
 
 Hari ke-3 dalam proses penyembuhan dari malaria, 9 butir obat utama sudah habis sisa 11 butir obat tambahan yang harus dihabiskan dalam 11 hari kedepan.
 
+<!--more-->
 > Doakan saya pemirsa
 
 Hari ini saya masih akan membagikan tips sederhana, tips kali ini adalah untuk mencari berkas dengan menggunakan perintah `locate`. Perintah ini dijalankan seperti berikut

@@ -10,6 +10,7 @@ tags: [ssh, macos]
 
 Jadi saya ingin memiliki sebuah laptop baru yang bisa saya bawa kemana-mana, karena T430 ini sekarang sudah cukup nyaman saya gunakan sebagai pengganti desktop dan juga sebagai _procrastinator station_ bagi saya dirumah. Sebenarnya saya ingin mengambil satu Thinkpad X220 sebagai pengganti Thinkpad X201 saya yang memang sudah tak terselamatkan lagi (untuk X201 ini bangkainya masih ada, jika ada yang minat untuk pritilannya bisa kontak saya). Namun saya mendapat berita yang tidak disangka, seorang teman berniat melepas MacBookPro tahun 2015 miliknya dengan harga murah dan juga bisa dicicil. Namanya penggemar barang murah saya pun langsung mengiyakan tawaran teman tersebut, alhasil saat ini saya memiliki MacBookPro tahun 2015 sebagai _daily driver_.
 
+<!--more-->
 Karena akan saya gunakan sebagai _mobile daily driver_, maka saya perlu melakukan beberapa _setup_ agar tidak mengganggu kegiatan saya sehari-hari. Salah satu yang akan saya lakukan adalah **mengatur ssh key** untuk bisa digunakan dengan akun github saya.
 
 #### Melakukan Generate SSH Key

@@ -10,6 +10,7 @@ tags: [redshift]
 
 Beberapa hari belakangan ini mata saya mulai mudah lelah, mungkin efek sehabis sakit atau efek lainnya. Untuk sedikit mengurangi kelelahan mata ini saya menemukan artikel menarik pada blog teman [disini](https://yogayudistira.id/linux/2016/11/14/menghindari-kelelahan-mata-menggunakan-redshift.html). Sehingga saya pun tertarik menggunakan [redshift](https://github.com/jonls/redshift/releases/) ini. Setelah melakukan instalasi ternyata konfigurasi default dari redshift yang harus kita buat manual tidak bekerja dengan baik.
 
+<!--more-->
 > Muncul pesan "Screen 1 Could Not Be Found"
 
 Saya kan cuma pake satu _screen_ kok ini dibilang ga bisa ketemu, kemudian terlintas pada pikiran saya untuk merubah baris 

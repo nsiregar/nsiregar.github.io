@@ -9,6 +9,7 @@ tags: [python, odoo]
 {% include JB/setup %}  
 Apparently installing odoo 10 from source require additional command to make sure odoo installation running smooth. Before execute command
 
+<!--more-->
 `$ pip install -r requirements.txt`
 
 Ensure to run these command to prevent error

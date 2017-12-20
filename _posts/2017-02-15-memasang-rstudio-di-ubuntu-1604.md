@@ -13,6 +13,7 @@ Beberapa saat lalu saat mulai belajar tentang [R](https://www.r-project.org/abou
 - RStudio Desktop, dimana program dijalankan secara lokal sebagai aplikasi destop pada umumnya  
 - RStudio Server, dimana penggunaan RStudio diizinkan melalui peramban web  
 
+<!--more-->
 Disini saya menggunakan [RStudio Desktop 64-bit](https://download1.rstudio.org/rstudio-1.0.136-amd64.deb) berikut adalah proses instalasi RStudio di Ubuntu 16.04.  
 
 ### Memasang R-Base  

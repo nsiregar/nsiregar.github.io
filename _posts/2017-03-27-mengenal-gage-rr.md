@@ -12,6 +12,7 @@ tags: [statistic, repeatable, reproducible, gage, measurement]
 
 Sebelum menganalisa data untuk sebuah _improvement_, yang pertama harus dikonfirmasi adalah kita telah melakukan pengukuran yang tepat. Hal ini dikarenakan ketika kita melakukan _improvement_ pada pengukuran yang kurang tepat memberikan biaya yang mahal. Jadi, bagaimana kita mengetahui apakah sebuah _improvement_ yang dilakukan valid dan tidak hanya produk dari suatu sistem pengukuran kinerja yang salah? Jika tidak dapat mempercayai sistem pengukuran , maka kita tidak bisa mempercayai data dari hasil pengukuran tersebut. 
 
+<!--more-->
 Dengan menjalankan sebuah studi Gage R&R, maka akan memberikan informasi untuk mengidentifikasi masalah pada sistem pengukuran dan keandalannya. Selain itu studi ini juga akan membantu dalam membuat pengambilan keputusan berdasar pada data. 
 
 ### Apakah Gage R&R?

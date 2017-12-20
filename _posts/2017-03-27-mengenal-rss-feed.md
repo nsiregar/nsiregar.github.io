@@ -10,6 +10,7 @@ tags: [rss, tag]
 
 Bagi para blogger mungkin sudah tidak asing tentang RSS, sebuah teknologi yang memungkinkan kita untuk berlangganan artikel pada sebuah situs web tertentu. Pada Jekyll untuk menghasilkan sebuah RSS Feed dapat menggunakan dua buah cara yaitu :
 
+<!--more-->
 - Menggunakan Plugin Jekyll - `jekyll-feed`  
 
 - Menggunakan Liquid

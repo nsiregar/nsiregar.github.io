@@ -10,6 +10,7 @@ tags: [firebase, travis, continuous integration]
 
 Jadi beberapa saat yang lalu lagi maen-maen sama anak-anak Pegelinux, karena dapat domain gratisan dari [Freenom](https://freenom.com) dengan akhiran `.ga`, `.ml`, dan `.tk`. Yang paling asik adalah domain dengan akhiran `.ga`, karena bisa dibuat bermacam-macam seperti domain [`pernah.ditinggalpaslagisayangsayangnya.ga`](https://pernah.ditinggalpaslagisayangsayangnya.ga/) yang di redirect ke domain teman. Dari sinilah muncul ide bagaimana jika saya membuat sebuah halaman statis yang di host di Google Firebase dengan domain `.ga`. Saya pun mendaftarkan beberapa domain `.ga` untuk persiapan nantinya.
 
+<!--more-->
 Untuk proyek ini saya ingin repo berada di github, namun deployment ke Google Firebase. Karena keperluan tersebut saya menggunakan [Travis-CI](https://travis-ci.org) untuk melakukan deployment ke Google Firebase. Langkah yang saya lakukan adalah
 
 ### Membuat repo project di github dan Firebase project

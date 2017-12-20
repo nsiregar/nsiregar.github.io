@@ -10,6 +10,7 @@ tags: [tmux, shell]
 
 Semalam ketika saya sedang belajar mengenai pair programming, saya berkenalan dengan `tmux` _teminal multiplexer_. `tmux` ini berguna untuk melakukan _pair programming_ secara _remote_, disini karena say amsih baru dengan `tmux` saya hanya ingin bebagi tentang `tmux` saja belum ke _pair programming_ karena jadwal sore ini ternyata ditunda.
 
+<!--more-->
 ### Memasang `tmux`
 untuk memasang `tmux` pada Ubuntu 16.04 cukup dilakukan dengan perintah
 

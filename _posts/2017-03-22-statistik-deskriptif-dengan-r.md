@@ -10,6 +10,7 @@ tags: [r, statistic, decriptive]
 
 Dalam sebuah penelitian deskripsi data diperlukan untuk memberikan gambaran data, sehingga mempermudah pembaca untuk mengetahui paparan data secara jelas. Di dalam R ada beberapa cara untuk mendapatkan statistik deskriptif ini, salah satunya adalah dengan menggunakan fungsi `sapply()`.
 
+<!--more-->
     > sapply(list_or_vector, mean, na.rm = TRUE)
 
 Perintah diatas untuk mendapatkan `mean` dari `list` atau `vector` data dengan mengesampingkan nilai data yang hilang.

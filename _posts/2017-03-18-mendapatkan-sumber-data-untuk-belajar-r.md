@@ -12,6 +12,7 @@ tags: [r, data, source, dataset]
 
 Ketika pertama kali mempelajari R biasanya kita akan bingung tentang data apa yang akan kita gunakan. Jika bekerja sebagai data analyst atau data scientist mungkin tidak terlalu sulit mendapatkannya lalu bagaimana nasib yang belom bekerja?. Tidak perlu gundah gulana memikirkan hal tersebut, di dalam R tersedia berbagai macam dataset yang bisa kita gunakan untuk belajar.
 
+<!--more-->
 Untuk menampilkan seluruh dataset bawaan R dapat menggunakan fungsi `data()`
 
 <img src="{{ site.baseurl }}/img/r-dataset.png" class="img-responsive" alt="r dataset">

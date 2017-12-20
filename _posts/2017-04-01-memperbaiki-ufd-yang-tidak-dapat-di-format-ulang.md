@@ -10,6 +10,7 @@ tags: [diskpart, ufd, windows]
 
 Beberapa saat yang lalu laptop kesayangan saya sedang mengalami masalah, sehingga saya melakukan pemasangan Windows 10 pada Thinkpad yang saya gunakan. Dengan berbekal Windows 10 saya mulai mengunduh beberapa berkas `.iso` linux untuk dapat memperbaiki laptop. Ketika menggunakan [UnetBootin](https://unetbootin.github.io/) untuk membuat media instalasi dengan USB terjadi kegagalan, hal ini menyebabkan UFD yang saya gunakan tidak dapat terbaca pada sistem operasi Windows 10. 
 
+<!--more-->
 Akhirnya saya membuka `Computer Management -> Storage -> Disk Management` untuk melakukan format UFD yang saya gunakan, namun ketika melakukan aksi untuk 
 
 1. Mengubah `Drive Letter and Path`

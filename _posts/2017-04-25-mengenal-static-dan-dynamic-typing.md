@@ -15,6 +15,7 @@ I know the sound, of your heart
 
 Lirik di atas adalah lirik lagu The Sound oleh 1975, ceritanya ini lagi _ngahaleuang_ gegara sering didenger lagunya. Lagunya enak sih ...
 
+<!--more-->
 Di kesempatan kali ini saya ingin bercerita, jadi pada suatu hari seperti biasa obrolan di Pegelinux membahas masalah sehari-hari kemudian mencuatlah istilah _static typing_. Ketika saya belajar pemrograman pertama kali bahasa yang saya pelajari tidak mengharuskan deklarasi variabel, semua bebas sehingga saya pun terbiasa dengan kebebasan ini.
 
 Namun sebuah pernyataan teman "Enjoy your `TypeError: undefined is not a function`" menyadarkan saya. Saya pun mulai meragukan kebebasan deklarasi variabel yang sering saya lakukan.

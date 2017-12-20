@@ -10,6 +10,7 @@ tags: [xclip, shell]
 
 Mungkin beberapa dari kalian pernah menggunakan program `tempel` dari [Blankon Linux](https://github.com/BlankOn/tempel-cli-py) dimana program tersebut dapat melakukan _piping_ dari output yang kita inginkan ke layanan [Blankon Tempel](https://tempel.blankon.in/). Lalu bagaimana jika kita ingin agar output dapat kita _paste_ ke tempat lain, misalnya sebuah _text editor_.
 
+<!--more-->
 Dengan menggunakan program bernama `xclip` kita dapat melakukan hal tersebut, yang harus kita lakukan pertama kali adalah memasang `xclip` pada sistem dengan perintah
 
     $ sudo apt install xclip

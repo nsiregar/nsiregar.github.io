@@ -10,6 +10,7 @@ tags: [gulp, nodejs]
 
 Ketika sedang bermain dengan Gulp, terkadang plugin yang digunakan tidak memberikan pesan galat, proses berjalan namun hasil tidak sesuai dengan apa yang kita harapkan. Umumnya _plugin_ gulp melakukan prosesnya dengan _piping_ pada _stream_ yang diberikan, untuk itu kita dapat menggunakan _method_ `.on()`. Dengan _method_ `.on()` ini kita dapat menangkap galat yang terjadi pada _stream_ yang sedang diproses.
 
+<!--more-->
 {% highlight javascript %}
 var gulp = require('gulp')
 

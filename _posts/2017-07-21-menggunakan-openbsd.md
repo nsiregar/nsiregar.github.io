@@ -10,6 +10,7 @@ tags: [openbsd, bsd]
 
 Setelah beberapa hari lalu saya berhasil melakukan update _firmware_ pada OpenBSD di Thinkpad kesayangan saya, kali ini saya berencana untuk menggunakan OpenBSD sebagai sistem operasi _default_ saya dalam kegiatan sehari-hari. Alasan kenapa saya ingin menggunakan OpenBSD sebagai sistem operasi sehari-hari tidak lain dan tidak bukan adalah karena saya sedang meneliti seberapa _greget_ sistem operasi ini dibandingkan dengan sistem operasi GNU/Linux yang biasa saya gunakan. Beberapa _thread_ yang membahas mengenai penggunaan OpenBSD menyebutkan bahwa sistem operasi ini memiliki banyak kelebihan.
 
+<!--more-->
 #### Memasang OpenBSD Menggantikan Ubuntu
 Seperti yang sudah saya tulis sebelumnya saya telah melakukan instalasi OpenBSD pada Thinkpad kesayangan, namun jika sebelumnya saya masih memasang Ubuntu sebagai alternatif maka kali ini saya hanya memasang OpenBSD sebagai sistem operasi saya. Perlu dicatat, pada pengalaman kali ini saya menggunakan hanya satu partisi yang di _mount_ pada /. Untuk melakukan hal ini ketika _installer_ OpenBSD memberikan pertanyaan terkait pemilihan penggunaan _disk_ saya memilih opsi `C` untuk konfigurasi kustom. Detail dari langkah yang saya lakukan dapat dilihat pada keluaran berikut
 

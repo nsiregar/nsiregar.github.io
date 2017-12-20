@@ -11,6 +11,7 @@ tags: [bahasa, interpreter, compiler]
 Beberapa hari lalu teman-teman membahas mengenai bahasa pemrograman yang _compiled_ dan juga _interpreted_, bahasan ini sebenarnya mengacu pada performa yang ditimbulkan 
 ketika mengeksekusi sebuah _script_ atau program. Lalu dimanakah perbedaanya?  
 
+<!--more-->
 ### Interpreter dan Compiler  
 Agak kurang tepat jika mengatakan sebuah bahasa diterjemahkan atau dikompilasi karena keduanya merupakan sebuah properti dari implementasi bahasa pemrograman tersebut, 
 dan *bukan* properti dari bahasa tersebut. Jadi, secara teori sebuah bahasa dapat dikompilasi atau diterjemahkan - tergantung pada implementasi yang digunakan.  

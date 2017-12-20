@@ -10,6 +10,7 @@ tags: [proxy, shell]
 
 Sebenarnya ketika bekerja di kantor, saya menggunakan Windows 7 sebagai sistem operasi wajib (belum dapat giliran upgrade ke Windows 10). Selain itu ketika bekerja saya harus menggunakan proxy untuk akses internet, agar dapat bekerja dengan baik berikut adalah hal yang saya lakukan
 
+<!--more-->
 ## Setup Proxy Visual Studio Code
 Untuk mengubah proxy pada visual studio code lakukan dengan mengubah berkas `settings.json` yang dapat diakses melalui `File -> Preferences -> Settings` dan tambahkan baris berikut
 

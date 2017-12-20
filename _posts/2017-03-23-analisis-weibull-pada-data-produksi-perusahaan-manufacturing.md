@@ -10,6 +10,7 @@ tags: [statistic, weibull, intro]
 
 Analisa Weibull merupakan sebuah metode untuk memperkirakan reliabilitas yang mengeneralisasi aplikasi distribusi, umumnya banyak digunakan dalam menganalisa reliabilitas yang berkaitan dengan rentang waktu (mis. rentang waktu kemungkinan sebuah _equipment_ akan _down_). Dalam proses manufacturing, tehnik ini dapat membantu dalam menjawab pertanyaan seperti 
 
+<!--more-->
 - Apakah ini masalah produksi atau masalah reliabilitas?  
 - Seberapa besar reliabilitas proses di plant saya?  
 - Apa saja proses utilisasi/efisiensi yang membebani plant saya?  

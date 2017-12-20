@@ -12,6 +12,7 @@ Umumnya _spreadsheet_ Excel paling sering digunakan pada kehidupan sehari-hari, 
 yang paling mudah untuk melakukan penyimpanan dan analisa data pada berbagai aplikasi di dunia kerja. Untuk melakukan _import_ data 
 dari Excel ke dalam R ada beberapa hal yang perlu kita perhatikan.  
 
+<!--more-->
 ## Langkah 1  
 Sebelum mulai melakukan _import_ data ke R, kita perlu melakukan _formatting_ pada data kita, berikut adalah beberapa hal yang 
 perlu kita perhatikan dalam melakukan _formatting_ berkas Excel kita.  

@@ -8,6 +8,7 @@ tags: [r, six sigma, ishikawa, chart]
 {% include JB/setup %}
 
 Ketika melakukan sebuah _improvement_ salah satu _tools_ yang kita gunakan adalah Diagram Ishikawa, diagram ini merupakan salah satu dari _7 Basic Quality Tools_ yang digunakan untuk menemukan akar permasalahan. Untuk membuat diagram Ishikawa, kita perlu menentukan _Root Cause Category_ antara lain
+<!--more-->
 
 | 6M | 8P | 5S |
 |----|----|----|

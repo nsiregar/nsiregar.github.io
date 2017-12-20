@@ -10,6 +10,7 @@ tags: [ruby, array]
 
 Ketika sedang belajar ruby semalam, saya menemukan sedikit permasalahan untuk menentukan jika sebuah _array_ dalam ruby berisi nilai dari _array_ lain. Untuk lebih mudahnya ini seperti menentukan apakah _array_ `[1, 2, 3]` memiliki elemen dari _array_ `[3, 2, 4]`. Berikut adalah beberapa cara yang dapat dilakukan
 
+<!--more-->
 {% highlight ruby %}
 array_1 = [1, 2, 3, 5, 6, 10, 15, 30]
 array_2 = [3, 5, 7]

@@ -10,6 +10,7 @@ tags: [trik, shortcut, ubuntu]
 
 Hari ini, setelah bersepeda keliling kota Timika saya mengirim sepeda fixie kesayangan untuk _check up_ pada bengkel sepeda langganan saya. Ternyata prosesnya lumayan lama hingga harus menginap, hal ini menggagalkan rencana saya untuk bersepeda pada sore harinya. Setelah sampai dirumah saya mengalami rasa **mager** yang luar biasa, mo ngapa-ngapain males.
 
+<!--more-->
 Baru malam ini saya _keinget_ akan janji _One Day One Article_, karena lagi males kali ini saya ingin membagi trik yang sering saya gunakan ketika menggunakan terminal pada Ubuntu 16.04
 
 ### _Copy_ dan _Paste_ pada Terminal

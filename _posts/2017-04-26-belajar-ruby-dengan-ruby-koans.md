@@ -20,6 +20,7 @@ Then you lit the wrong end of your cigarette
 
 Lirik diatas adalah lagu kedua yang saya suka dari The 1975, A Change of Heart. Saya sangat suka bagian _instrumental interlude_ dimana musiknya asik bet lah, kalian musti dengar lagu yang satu ini.
 
+<!--more-->
 Lanjut lagi .. Jadi sekarang saya ceritanya pengen belajar Ruby, sekilas kalau saya lihat code Ruby sepertinya mirip dengan Python, tanpa `;` tanpa pembukaan `{` untuk fungsi dan _dynamic typing_ .. _Kek .._.
 
 Ketika sedang mencari bahan belajar, seorang teman menyarankan untuk belajar Ruby dengan Ruby Koans. Ruby Koans sendiri merupakan sebuah alat pembelajaran yang diciptakan dengan metode TDD, jika kalian belum mengerti TDD mungkin artikel teman [ini](https://prehistoric.me/tdd-jasmine-intro/) bisa sedikit memberi pencerahan.

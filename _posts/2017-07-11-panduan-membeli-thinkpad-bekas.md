@@ -10,6 +10,7 @@ tags: [thinkpad, bekas, bukalapak, tokopedia, pegelthinkpad]
 
 Saya bisa dibilang adalah penggemar Thinkpad, kenapa? Meskipun laptop pertama yang saya gunakan adalah Compaq namun sejak dicuri orang beberapa tahun silam, sebagai pengganti hati saya tertambat pada Thinkpad X201. Alasan lain yang membuat saya jatuh hati adalah warna hitamnya yang memikat siapapun yang melihat (menurut saya), Thinkpad ini juga bisa dibilang tahan banting, mudah perawatan dan **murah**. Untuk **murah** ini mungkin relatif, namun hampir setiap Thinkpad bekas yang dijual di Tokopedia maupun Bukalapak harganya benar-benar turun dari harga awal mereka dikeluarkan.
 
+<!--more-->
 Jika anda bertanya kenapa bekas? Kenapa bukan beli Thinkpad baru saja? _Well_ memang ini adalah selera masing-masing, namun yang perlu diingat adalah Thinkpad umumnya digunakan dalam skala bisnis, sehingga ketika masa bisnisnya telah habis bisa dibilang perusahaan yang menggunakannya akan menjual secara massal dan **murah**. Jika dibandingkan dengan harga barunya akan sangat jauh sekali, bahkan bisa dibilang untuk Thinkpad seri baru _overpriced_.
 
 Pada postingan kali ini saya ingin membahas mengenai "Panduan Membeli Thinkpad Bekas", panduan ini berdasarkan harga di Tokopedia saja. Dengan harga mulai dari 2,4 juta rupiah maka kamu bisa memboyong Thinkpad untuk digunakan dirumah.

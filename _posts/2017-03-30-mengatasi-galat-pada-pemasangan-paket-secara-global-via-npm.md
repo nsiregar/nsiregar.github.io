@@ -9,6 +9,7 @@ tags: [npm, nodejs, firebase]
 {% include JB/setup %}
 
 Ketika sedang mencoba [Firebase](https://firebase.google.com/) diperlukan pemasangan paket `firebase-tools` secara global. Namun ketika saya menjalankan perintah
+<!--more-->
 
     $ npm install -g firebase-tools
 

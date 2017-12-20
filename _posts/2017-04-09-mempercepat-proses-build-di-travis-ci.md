@@ -10,6 +10,7 @@ tags: []
 
 Seperti yang sudah saya tulis sebelumnya, [linhub](https://linhub.io/) telah menggunakan CI dengan memanfaatkan layanan dari Travis-CI. Ketika pertama kali menggunakan layanan ini proses _build_ untuk berkas statis terasa begitu lama, dimana memerlukan waktu sekitar **2 menit**. Dengan 2 menit kita bisa melakukan hal-hal lain daripada hanya duduk bengong menunggu hasil build.
 
+<!--more-->
 <img src="{{ site.baseurl }}/img/caching-travis.png" class="img-responsive" alt="Caching Travis">
 
 Untuk mencoba mengurangi waktu ini, saya melakukan metode _caching_ pada berkas-berkas yang sering digunakan

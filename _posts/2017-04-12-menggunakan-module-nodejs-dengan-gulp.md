@@ -10,6 +10,7 @@ tags: [gulp, index, nodejs, algolia]
 
 Saat dalam proses menambahkan fitur _full text searching_ pada [linhub](https://linhub.io/), saya menggunakan Algolia untuk melakukan _indexing_. Proses _indexing_ sendiri saya lebih memilih melakukan secara _batch update_, ketika membuat task untuk Gulp saya mengalami beberapa kali kegagalan. Hal ini dikarenakan saya menggunakan fungsi dari `algoliasearch` seperti saya menggunakan fitur dari Gulp. Gulp pada dasarnya adalah sebuah _task runner_ yang melakukan tugasnya dengan _stream_, hal ini yang memungkinkan kita dapat melakukan _piping_ dengan fungsi `.pipe()` pada _stream_ yang dihasilkan.
 
+<!--more-->
 Untuk menggunakan `module` NodeJS dengan Gulp sebenarnya cukup mudah, seperti menulis _Gulp Task_ pada umumnya. Namun tidak menghasilkan atau memproses _stream_, berikut adalah contoh _task_ yang saya gunakan untuk melakukan _indexing_ ke Algolia.
 
 {% highlight javascript %}

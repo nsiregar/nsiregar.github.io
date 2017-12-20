@@ -10,6 +10,7 @@ tags: [mpv, media player, ubuntu]
 
 Kalo kalian penggemar berat _idol_ Korea seperti [Pak Haji Mimin](https://rizaumami.github.io/), kalian pasti sering memutar _video clip_ artis kesayangan kalian. Mungkin ada yang menggunakan player [VLC](https://videolan.org/) atau player lainnya, tapi untuk masalah player ini saya lebih suka menggunakan [mpv](https://mpv.io/). Namun pertama kali menggunakan saya merasa aneh, ini kok gini-gini amat player, ga ada menu buat _config_ dan sebagainya.
 
+<!--more-->
 Setelah beberapa saat tetap setia menggunakan `mpv` ini, akhirnya saya mendapat beberapa ilmu baru yang bisa digunakan. Balik lagi ke masalah nonton _video clip_ idol tadi, kalau kalian penggemar berat pasti simpanan _video clip_ udah banyak, terus gimana cara mainin video yang banyak sekaligus di `mpv`?
 
 ### Shuffle Video

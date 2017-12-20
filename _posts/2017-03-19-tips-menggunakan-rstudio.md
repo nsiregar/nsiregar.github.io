@@ -10,6 +10,7 @@ tags: [r, rstudio, tips]
 
 Setelah menggunakan RStudio selama mempelajari R, ada beberapa tips untuk mempermudah kita menggunakannya.
 
+<!--more-->
 #### Menampilkan data view pada jendela baru
 Fitur ini terletak pada panel data view, dengan fitur ini akan sedikit merepotkan karena data view akan menjadi terpisah dengan `window` utama. Namun fitur ini cukup berguna jika menggunakan layar multiple.
 

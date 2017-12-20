@@ -10,6 +10,7 @@ tags: [shadowsocks, internet]
 
 Baru beberapa saat tadi tersebar berita bahwasanya [Telegram](https://telegram.org) mulai diblokir oleh Pemerintah Indonesia. Hal ini menyebabkan berinternet di Indonesia semakin kurang menyenangkan, ditambah dengan penyedia layanan yang memang [menolak internet netral](https://internetnetral.org) di Indonesia. Ditambah lagi dengan praktek menjijikkan dari beberapa provider yang memang melakukan _intrusive content modifying_ secara terang-terangan. Mungkin beberapa dari kamu sudah mengerti tentang bagaimana menghindari praktek semacam ini dengan menggunakan `vpn` atau `ssh proxy`, kesempatan kali ini saya ingin menulis tentang menggunakan `shadowsocks` untuk menjaga privasi kamu ketika sedang online.
 
+<!--more-->
 #### Antara Shadowsocks dan VPN
 Seperti yang (mungkin) sudah kita ketahui bersama, kita bisa menggunakan `vpn` untuk melakukan _bypass_ pada _firewall_ dan melindungi privasi selama berselancar di dunia maya. Namun dengan menggunakan `vpn` bisa dikatakan akan memperlambat kecepatan internet kita, kenapa? Karena dengan menggunakan `vpn` semua _traffic_ internet kita akan diarahkan ke server `vpn` yang kemungkinan besar ada di luar negeri.
 

@@ -10,6 +10,7 @@ tags: [clickjacking, firebase, config]
 
 Ketika sedang jalan-jalan di situs [Om Ali](https://situsali.com/) saya membaca artikel menarik tentang _clickjacking_, dimana ternyata kasus tersebut juga menimpa sobat kita dari [Kabar Linux](https://kabarlinux.web.id). Dengan rasa penasaran saya mencoba beberapa situs teman melalui [alat ini](http://online.attacker-site.com/html5/ClickjackingTester/), dan alangkah _terkedjoetnya_ saya ketika melihat hasil berikut
 
+<!--more-->
 ## [Blog Pak Haji Mimin](https://rizaumami.github.io/)
 
 <img src="{{ site.baseurl }}/img/mimin-clickjacking.png" class="img-responsive" alt="Uwaaaaaa ">

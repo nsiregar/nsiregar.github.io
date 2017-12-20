@@ -10,6 +10,7 @@ tags: [keyboard, touch typing, dvorak]
 
 A few months ago, I've set some resolution to learn touch typing by using Klavaro in my Ubuntu. For about 2-3 weeks I persisted to use QWERTY layout to learn, started with home row as usual then move to another row. Apparently using QWERTY layout hurts my fingers, especially my little finger (both of them). I was able to touch typing, but my speed not increased at all. Day by day I skip my Klavaro practice and using [https://10fastfingers.com/](https://10fastfingers.com/) to increase my typing speed, and it is not working at all (stopped at about 40 WPM).
 
+<!--more-->
 During my quest to increase my typing speed, I found some old quotes from Albert Einstein saying: **"Insanity is doing the same thing over and over again and expecting different results"**. Because of that quote, I start to thinking about change my layout. Then I found [this](https://t.me/DvorakIndonesia) Telegram group, and start to think change my keyboard layout to DVORAK. Member of this Telegram group show me the benefits by using DVORAK layout for everyday usage, such as reduce repetitive strain injuries (which i have during my quest), increase typing speed and the others. So I decided switching to DVORAK layout, to learn this layout I did spent some money to buy Logitech MK240 and then re-layout the keyboard layout to DVORAK. Here is what I've learned during my quest to increase my typing speed with DVORAK.
 
 #### 1. It's Easy, Is it?

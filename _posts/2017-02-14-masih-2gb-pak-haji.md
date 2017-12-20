@@ -13,6 +13,7 @@ berkunjung ke [Tokopedia](https://tokopedia.com) memang banyak RAM yang dijual d
 Pada blog tersebut, teman saya menggunakan [Linux Mint](https://linuxmint.com) dengan DE Cinnamon. Sangat disayangkan karena masih banyak distribusi linux yang cukup dengan hanya 2GB, 
 berikut adalah beberapa distribusi yang cukup ringan untuk berjalan diatas RAM 2GB :  
 
+<!--more-->
 - [Linux Lite](https://www.linuxliteos.com)  
     Distribusi ini berdasarkan Ubuntu LTS dengan rekomendasi minimum :  
     CPU: 700 MHz  

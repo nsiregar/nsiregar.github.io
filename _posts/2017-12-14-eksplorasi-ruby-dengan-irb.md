@@ -10,6 +10,7 @@ tags: [ruby, tips]
 
 IRB merupakan singkatan dari _Interactive Ruby_, sebuah perkakas _REPL_ (Read, Evaluate, Print, Loop) yang memungkinkan kita untuk mencoba kode Ruby tanpa harus membuat berkas `.rb`. Untuk menggunakan IRB sendiri cukup mudah, cukup dengan menjalankan perintah `$ irb` pada terminal dan mulai menulis baris kode pada _prompt_ IRB. Secara langsung IRB akan mengevaluasi kode dan menampilkan hasilnya.
 
+<!--more-->
 IRB sendiri memberikan akses langsung kepada semua fitur _built-in_ Ruby, termasuk juga `gem` yang telah kita _install_. Sebagai tambahan, kita dapat melakukan konfigurasi pada IRB untuk menyimpan _history command_ kita, mengaktifkan _auto-completion_ dan beberapa hal lainnya.
 
 Pada kesempatan ini kita akan mencoba menggunakan IRB untuk menjalankan kode program, menggunakan _library_ via IRB, dan melakukan kustomisasi pada sesi IRB.

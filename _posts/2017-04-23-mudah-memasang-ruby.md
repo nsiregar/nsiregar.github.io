@@ -10,6 +10,7 @@ tags: [ruby, rvm]
 
 Pada kesempatan kali ini saya ingin berbagi tentang bagaimana saya menggunakan Jekyll sebagai _platform_ blogging saya. Jekyll menggunakan bahasa pemrograman Ruby, dan seperti yang dilansir oleh beberapa teman pemasangan Ruby pada sistem operasi linux dianggap ribet, oleh karena itulah tercipta [RVM](https://rvm.io/). Saat ini saya selalu menggunakan ruby dengan RVM.
 
+<!--more-->
 ### Memasang RVM dan Ruby
 Hal pertama yang perlu kita lakukan sebelum memasang `rvm` dan `ruby` adalah melakukan import `gpg` key, lakukan dengan perintah
 

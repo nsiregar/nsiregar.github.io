@@ -158,7 +158,7 @@ compress_html:
   endings:   all
 
 # page excerpt
-excerpt_separator: \n\n
+excerpt_separator: <!--more-->
 
 # baseURL
 url: https://linhub.io

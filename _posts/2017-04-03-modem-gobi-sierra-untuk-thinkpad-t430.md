@@ -10,6 +10,7 @@ tags: [gobi, thinkpad, modem]
 
 Beberapa hari lalu saya mendapat modem Sierra Gobi 3000 untuk dipasang pada laptop kesayangan bentuknya kurang lebih seperti ini
 
+<!--more-->
 <img src="{{ site.baseurl }}/img/modem-gobi.jpg" class="img-responsive" alt="Modem Gobi">
 
 Dengan begitu semangat saya langsung coba pasang, dan ketika boot ke Ubuntu 16.04 jreng .. jreng .. . Modem sih kedetek tapi ya gitu sinyalnya kok CDMA, baca-baca dan juga curhat ama anak-anak Pegelinux katanya musti diaktivasi pakai Windows. Kan Thinkpad ini ga ada Windowsnya gimana dong ...

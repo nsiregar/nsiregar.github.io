@@ -10,6 +10,7 @@ tags: [travis, continuous integration]
 
 Beberapa hari lalu saya membuat artikel [Firebase Project Deployment from Github](https://linhub.io/firebase/2017/04/03/firebase-project-deployment-from-github), pada artikel tersebut kita memanfaatkan layanan dari [Travis-CI](https://travis-ci.org) untuk proses _continuous integration_ pada repo yang berada di [Github](https://github.com). Lalu bagaimana jika kita ingin menjalankan Travis-Ci ini secara lokal? Dan perlu diingat bahwa saya masih menggunakan Windows 10.
 
+<!--more-->
 Karena masih menggunakan Windows 10 dan saya berniat mencoba instalasi Travis-CI secara lokal maka berikut adalah hal yang harus dipersiapkan
 
 1. [Docker](https://docker.com)  

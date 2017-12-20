@@ -10,6 +10,7 @@ tags: [telegram, call, ios]
 
 Jadi semalam dapat kabar resmi bila Telegram sudah bisa digunakan untuk melakukan panggilan, segera setelah melakukan update di AppStore saya ingin mencoba. Namun ternyata tampilannya sekilas tidak ada perbedaan dari sebelumnya
 
+<!--more-->
 <img src="{{ site.baseurl }}/img/1-call-ios.jpg" class="img-responsive" alt="ios telegram">
 
 Sebenarnya fitur ini dapat digunakan dengan membuka kontak, dan memilih tombol _call_.

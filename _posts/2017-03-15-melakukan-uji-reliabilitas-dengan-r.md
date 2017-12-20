@@ -15,6 +15,7 @@ Jadi udah beberapa hari ini tidak melakukan _update post_, sebelumnya ada ide te
 - Angoff  
 - Rullon  
 
+<!--more-->
 Umumnya uji reliabilitas ini menggunakan kuesioner untuk mengukur konsistensi responden dalam menjawab, uji ini dapat dilakukan bersama terhadap seluruh pertanyaan yang diajukan. Seperti yang sudah disampaikan sebelumnya uji ini hanya dilakukan pada butir pertanyaan yang telah melalui uji validitas, pengukuran pada dasarnya bisa dilakukan dengan cara :  
 
 - Repeated Measure  
