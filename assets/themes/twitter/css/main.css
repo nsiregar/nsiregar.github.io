@@ -232,10 +232,6 @@ a:focus {
     position: relative
 }
 
-.navbar {
-    background-color: #E2F5F8;
-}
-
 h1,
 ul {
     margin-bottom: 10px
@@ -376,7 +372,8 @@ pre code {
 .navbar {
     min-height: 50px;
     margin-bottom: 20px;
-    border: 1px solid transparent
+    /* border: 1px solid transparent; */
+    border: 1px solid #ECEEF1;
 }
 
 .navbar-collapse {
