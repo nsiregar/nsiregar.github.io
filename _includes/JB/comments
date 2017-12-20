@@ -12,7 +12,7 @@
 {% when "duoshuo" %}
   {% include JB/comments-providers/duoshuo %}
 {% when "custom" %}
-  {% include custom/comments %}
+  {% include JB/comments-providers/custom %}
 {% endcase %}
 
 {% endif %}
