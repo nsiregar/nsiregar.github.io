@@ -374,7 +374,7 @@ pre code {
     margin-bottom: 20px;
     background-color: #FAFCFF;
     /* border: 1px solid transparent; */
-    border: 1px solid #ECEEF1;
+    border-bottom: 1px solid #ECEEF1;
     width: 100%;
     position: fixed;
     top: 0;
