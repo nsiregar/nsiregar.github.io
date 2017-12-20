@@ -184,7 +184,7 @@ a {
 
 body {
     margin: 0;
-    font-family: 'Open Sans',Arial,serif;
+    font-family: sans-serif;
     line-height: 1.5;
 }
 
@@ -565,8 +565,8 @@ body {
 
 body,
 html {
-    font-size: 14px;
-    line-height: 1.25rem;
+    font-size: 10.5pt;
+    line-height: 1.45rem;
     -webkit-font-smoothing: antialiased
 }
 
