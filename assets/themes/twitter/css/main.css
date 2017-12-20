@@ -232,6 +232,10 @@ a:focus {
     position: relative
 }
 
+.navbar {
+    background-color: #E2F5F8;
+}
+
 h1,
 ul {
     margin-bottom: 10px
@@ -274,7 +278,7 @@ ul {
 
 blockquote {
     margin: 0 0 20px;
-    font-size: 17.5px
+    font-size: 16.5px
 }
 
 .nav,
@@ -574,7 +578,9 @@ body * {
 
 .content {
     padding: 20px;
-    margin: 0 -20px;
+    /* margin: 0 -20px; */
+    margin: 0 auto;
+    max-width: 992px;
     -webkit-border-radius: 0 0 6px 6px;
     -moz-border-radius: 0 0 6px 6px;
     border-radius: 0 0 6px 6px;
