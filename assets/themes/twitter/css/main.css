@@ -377,6 +377,10 @@ pre code {
     border: 1px solid #ECEEF1;
     width: 100%;
     position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }
 
 .navbar-collapse {
