@@ -857,6 +857,14 @@ footer form .subscribe-box {
     box-shadow: 0 3px 0 #eee
 }
 
+form input {
+    background: white;
+    border: 1px solid #ccc;
+    padding: .5rem;
+    border-radius: 5px;
+    background-clip: padding-box;
+}
+
 @media screen and (max-width:768px) {
     footer form {
         float: left
