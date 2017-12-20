@@ -80,6 +80,12 @@
       <li><a href="{{ site.url }}/tos.html">ToS</a></li>
     </ul>
   </div>
+  <form class="subscribe" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=linhub', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+    <input id="subscribe" class="subscribe-box" type="text">
+    <input type="hidden" value="linhub" name="uri">
+    <input type="hidden" name="loc" value="en_US">
+    <input class="subscribe-button" value="Subscribe" type="submit">
+  </form>
 </footer>
     {% include JB/analytics %}
     <script async src="{{ ASSET_PATH }}/js/bundle.min.js"></script>

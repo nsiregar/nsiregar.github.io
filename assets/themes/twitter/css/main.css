@@ -850,6 +850,13 @@ footer form .search-box {
     box-shadow: 0 3px 0 #eee
 }
 
+footer form .subscribe-box {
+    margin-right: .25rem;
+    -webkit-box-shadow: 0 3px 0 #eee;
+    -moz-box-shadow: 0 3px 0 #eee;
+    box-shadow: 0 3px 0 #eee
+}
+
 @media screen and (max-width:768px) {
     footer form {
         float: left
