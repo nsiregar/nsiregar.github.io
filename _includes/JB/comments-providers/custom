@@ -5,5 +5,6 @@ font-style: italic; color: #888; margin-top: 3em;">
     Twitter
     </a>
     or
-    <a href="mailto:ngalim.siregar@gmail.com">e-mail</a>.
+    <a href="mailto:ngalim.siregar@gmail.com">e-mail</a>.<br/>
+    Like this article? Share at <a href="https://t.me/share/url?url={{ page.url | prepend: site.url }}">Telegram</a>
 </div>
