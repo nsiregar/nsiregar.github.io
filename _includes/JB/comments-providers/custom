@@ -2,9 +2,7 @@
 font-style: italic; color: #888; margin-top: 3em;">
     Comments?  Contact me via
     <a href="https://twitter.com/share"
-        data-text="{{ page.title }}"
         data-url="{{site.url}}{{page.url}}"
-        data-via="ngalim_siregar"
         >Twitter</a>
     or
     <a href="mailto:ngalim.siregar@gmail.com">e-mail</a>.
