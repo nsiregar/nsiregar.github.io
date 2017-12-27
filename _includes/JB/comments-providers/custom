@@ -1,10 +1,7 @@
 <div class="itembottomcontact" style="text-align: center;
 font-style: italic; color: #888; margin-top: 3em;">
     Comments?  Contact me via
-    <a href="https://twitter.com/share?
-        url={{ page.url | prepend: site.url}}&
-        via=ngalim_siregar&
-        text={{ page.title }}">
+    <a href="https://twitter.com/share?url={{ page.url | prepend: site.url}}&via=ngalim_siregar&text={{ page.title }}">
     Twitter
     </a>
     or
