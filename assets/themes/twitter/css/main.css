@@ -25,7 +25,7 @@ pre code {
 }
 
 html {
-    font-family: Ubuntu, sans-serif;
+    font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent
@@ -747,7 +747,7 @@ header hgroup h5 {
 }
 
 header hgroup h5 {
-    color: #888
+    color: #bbb
 }
 
 table {
