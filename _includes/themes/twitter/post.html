@@ -3,7 +3,6 @@
       <h1>{{ page.title }}</h1>
       <h1><small>{{ page.subtitle }}</small></h1>
       <h5>{{ page.date | date_to_long_string }}</h5>
-      <div><a href="https://twitter.com/intent/tweet?screen_name=ngalim_siregar&text=Pair%20With%20Me%21" target="_blank">Pair With Me!</a></div>
       {% unless page.tags == empty %}
         <ul class="tag_box inline">
         {% assign tags_list = page.tags %}
@@ -17,10 +16,11 @@
   <div class="span16">
     {{ content }}
     <hr>
-    <div>
+    <div style="text-align: center;">
       {% if page.previous.url %}
       <a href="{{ page.previous.url }}" style="float: left;">&larr;</a>
       {% endif %}
+      <a href="https://twitter.com/intent/tweet?screen_name=ngalim_siregar&text=Pair%20With%20Me%21" target="_blank">Pair With Me!</a>
       {% if page.next.url %}
       <a href="{{ page.next.url }}" style="float: right;">&rarr;</a>
       {% endif %}
