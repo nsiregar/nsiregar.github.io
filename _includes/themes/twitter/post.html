@@ -17,6 +17,14 @@
   <div class="span16">
     {{ content }}
     <hr>
+    <div>
+      {% if page.previous.url %}
+      <a href="{{ page.previous.url }}" style="float: left;">&larr;</a>
+      {% endif %}
+      {% if page.next.url %}
+      <a href="{{ page.next.url }}" style="float: right;">&rarr;</a>
+      {% endif %}
+    </div>
     {% include JB/comments %}
   </div>
 </div>
