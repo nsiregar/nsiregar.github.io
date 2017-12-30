@@ -26,7 +26,7 @@ Dan tidak semua orang suka menggunakannya.
 
 Saya mengganti sistem komentar saya menggunakan surel dan [twitter](https://twitter.com/ngalim_siregar). Kenapa? Karena dengan menggunakan dua platform tersebut saya berharap dapat berinteraksi lebih dekat para pembaca setia blog ini. Ini juga akan menghindari komentar-komentar yang _out of topic_ dari artikel yang saya tulis.
 
-### Subsriber
+### Subscriber
 Sebelumnya memang belum terpikir untuk mencari subscriber yang akan membaca blog ini, namun data berkata lain. Selama 2017, berapa banyak artikel yang telah saya tulis? Jumlah artikel yang saya tulis sedikit banyak karena saya pernah ikut event _One Day One Article_. Namun ketika event tersebut selesai, kembali seperti semula. Dimana saya hanya menulis artikel ketika memang hanya ingin. Bukan sebuah kebiasaan yang bagus.
 
 Karena hal tersebut saya pun menambahkan kolom untuk para pembaca mengikuti perkembangan blog ini. Dengan adanya orang yang mengikuti, harapannya saya akan lebih bersemangat untuk menulis hal bermanfaat.
