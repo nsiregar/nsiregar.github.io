@@ -1,10 +1,7 @@
 <div class="itembottomcontact" style="text-align: center;
 font-style: italic; color: #888; margin-top: 3em;">
     Comments?  Contact me via
-    <a href="https://twitter.com/intent/tweet?url={{ page.url | prepend: site.url}}&screen_name=ngalim_siregar&text={{ page.title }}" target="_blank">
-    Twitter
-    </a>
+    <a href="https://twitter.com/ngalim_siregar target="_blank">Twitter</a>
     or
-    <a href="mailto:ngalim.siregar@gmail.com">e-mail</a>.<br/>
-    Like this article? Share at <a href="https://t.me/share/url?url={{ page.url | prepend: site.url }}">Telegram</a>
+    <a href="mailto:ngalim.siregar@gmail.com">e-mail</a>.
 </div>
