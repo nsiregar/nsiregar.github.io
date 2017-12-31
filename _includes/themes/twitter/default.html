@@ -61,14 +61,6 @@
         </div>
     </nav>
     <div class="container">
-      {% if page.layout == 'post' %}
-      <div style="position: sticky; top: 36%; float: right; padding-left: 6rem;">
-          Share this via
-          <a href="https://twitter.com/intent/tweet?url={{ page.url | prepend: site.url}}&screen_name=ngalim_siregar&text={{ page.title }}" target="_blank">Twitter</a>
-          or
-          <a href="https://t.me/share/url?url={{ page.url | prepend: site.url }}">Telegram</a>
-      </div>
-      {% endif %}
       <div class="content">
         {{ content }}
       </div>

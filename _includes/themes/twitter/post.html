@@ -16,6 +16,12 @@
   <div class="span16">
     {{ content }}
     <hr>
+    <div class="share">
+        Share this via
+        <a href="https://twitter.com/intent/tweet?url={{ page.url | prepend: site.url}}&screen_name=ngalim_siregar&text={{ page.title }}" target="_blank">Twitter</a>
+        or
+        <a href="https://t.me/share/url?url={{ page.url | prepend: site.url }}">Telegram</a>
+    </div>
     <div style="text-align: center;">
       {% if page.previous.url %}
       <a href="{{ page.previous.url }}" style="float: left;">&xlarr;</a>
@@ -24,6 +30,12 @@
       {% if page.next.url %}
       <a href="{{ page.next.url }}" style="float: right;">&xrarr;</a>
       {% endif %}
+    </div>
+    <div class="share">
+        Share this via
+        <a href="https://twitter.com/intent/tweet?url={{ page.url | prepend: site.url}}&screen_name=ngalim_siregar&text={{ page.title }}" target="_blank">Twitter</a>
+        or
+        <a href="https://t.me/share/url?url={{ page.url | prepend: site.url }}">Telegram</a>
     </div>
     {% include JB/comments %}
   </div>
