@@ -896,7 +896,8 @@ footer input {
  * Syntax highlighting styles
  */
 .highlight {
-  background: #fff; }
+  background: #fff; 
+  margin: 0;}
   .highlight .c {
     color: #998;
     font-style: italic; }
