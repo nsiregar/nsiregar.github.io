@@ -61,12 +61,12 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get install -y git ruby autoconf bison gcc make zlib1g-dev libffi-dev libreadline-dev libgdbm-dev libssl-dev build-essential tzdata
 ```
- 
-
+  
 > You'll need `tzdata` to running timezone-related tests in `ruby` repository
 
 Before create compose file, some tests in `ruby` refer to `[::1]` as localhost, which makes us to enable `ipv6` in our container.
 Configure your `docker` to enable `ipv6` by editing `/etc/docker/daemon.json`
+
 ```
 {
     "ipv6": true,
@@ -77,6 +77,7 @@ Configure your `docker` to enable `ipv6` by editing `/etc/docker/daemon.json`
 Then reload docker with `$ sudo systemctl reload docker`
 
 Edit your `.containers/docker-compose.yml` with
+
 ```
 version: '3'
 
@@ -112,6 +113,7 @@ To build `ruby` we need to run several commands based on `README.md` files
 
 > These commands run in your docker container
 
+
 ```
 root@docker-hash-container:/workspace# autoconf
 root@docker-hash-container:/workspace# ./configure
@@ -119,6 +121,7 @@ root@docker-hash-container:/workspace# make
 ```
 
 To running tests
+
 ```
 root@docker-hash-container:/workspace# make test-all #running all tests
 root@docker-hash-container:/workspace# make test-all TESTS='test/ruby/test_time_tz.rb' #running single file test
@@ -127,3 +130,5 @@ root@docker-hash-container:/workspace# make test-all TESTS='test/ruby/test_time_
 ### What Next
 - You may want to create `alias` for `docker-compose` commands
 - Check some ruby bugs in [Ruby Issue Tracker](https://bugs.ruby-lang.org/projects/ruby-master/issues) to fix
+
+Now you can still use vim as editor, and have containerized development env.
