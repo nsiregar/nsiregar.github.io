@@ -127,8 +127,30 @@ root@docker-hash-container:/workspace# make test-all #running all tests
 root@docker-hash-container:/workspace# make test-all TESTS='test/ruby/test_time_tz.rb' #running single file test
 ```
 
+### Create shortcut
+If you want to connect container's shell via `vim`, you can add following lines to your `.vimrc`
+
+```
+nnoremap <silent> <leader>dev :terminal docker-compose -f .containers/docker-compose.yml exec dev bash<CR>
+```
+
+Now you can connect to container's shell with `<leader>dev`, but you should spawn your container first.
+I also create alias in my `.zshrc` for easier command
+
+```
+alias container='docker-compose -f .containers/docker-compose.yml'
+```
+
+Now you can spawn or kill container with
+
+```
+$ container build #for build container
+$ container up -d #for running container in background
+$ container exec dev bash #for connecting to container shell
+$ container down #for shutting down container
+```
+
 ### What Next
-- You may want to create `alias` for `docker-compose` commands
 - Check some ruby bugs in [Ruby Issue Tracker](https://bugs.ruby-lang.org/projects/ruby-master/issues) to fix
 
 Now you can still use vim as editor, and have containerized development env.
