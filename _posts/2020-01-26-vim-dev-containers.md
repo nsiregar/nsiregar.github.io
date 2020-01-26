@@ -61,13 +61,13 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get install -y git ruby autoconf bison gcc make zlib1g-dev libffi-dev libreadline-dev libgdbm-dev libssl-dev build-essential tzdata
 ```
+ 
 
 > You'll need `tzdata` to running timezone-related tests in `ruby` repository
 
 Before create compose file, some tests in `ruby` refer to `[::1]` as localhost, which makes us to enable `ipv6` in our container.
 Configure your `docker` to enable `ipv6` by editing `/etc/docker/daemon.json`
 ```
-
 {
     "ipv6": true,
     "fixed-cidr-v6": "2001:db8:1::/64"
@@ -78,7 +78,6 @@ Then reload docker with `$ sudo systemctl reload docker`
 
 Edit your `.containers/docker-compose.yml` with
 ```
-
 version: '3'
 
 services:
